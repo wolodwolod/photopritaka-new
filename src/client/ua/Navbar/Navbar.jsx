@@ -17,7 +17,7 @@ const Navbar = () => {
           <div class="row">
             <nav class="navbar navbar-expand-lg nav">
               <div class="container-fluid bold">
-                <a class="navbar-brand logo" 
+                <a class="navbar-brand logo" href="/"
                 ><img
                     src={camera}
                     alt="Logo"
@@ -49,17 +49,17 @@ const Navbar = () => {
                       >
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link text-uppercase" 
+                      <a class="nav-link text-uppercase" href="/"
                       >Фотограф</a
                       >
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="./contacts.html">Контакти</a>
+                      <a class="nav-link" href="/">Контакти</a>
                     </li>
                     <li class="nav-item mr-50 dropdown">
                       <a
                         class="nav-link dropdown-toggle"
-                        
+                        href="#"
                         role="button"
                         data-bs-toggle="dropdown"
                         aria-expanded="false"
@@ -68,22 +68,22 @@ const Navbar = () => {
                       </a>
                       <ul class="dropdown-menu">
                         <li>
-                          <a class="dropdown-item" 
+                          <a class="dropdown-item" href="/"
                           >Сімейне фото</a
                           >
                         </li>
                         <li>
-                          <a class="dropdown-item" 
+                          <a class="dropdown-item" href="/"
                           >Романтичне фото</a
                           >
                         </li>
                         <li>
-                          <a class="dropdown-item" 
+                          <a class="dropdown-item" href="/"
                           >Новонароджені</a
                           >
                         </li>
                         <li>
-                          <a class="dropdown-item" >Події</a>
+                          <a class="dropdown-item" href="/">Події</a>
                         </li>
                       </ul>
                     </li>
@@ -91,7 +91,7 @@ const Navbar = () => {
                       <div class="dropdown">
                         <a
                           class="dropdown-toggle"
-                          
+                          href="#"
                           role="button"
                           data-bs-toggle="dropdown"
                           aria-expanded="false"
@@ -105,7 +105,7 @@ const Navbar = () => {
 
                         <ul class="dropdown-menu fs-14">
                           <li>
-                            <a class="dropdown-item" 
+                            <a class="dropdown-item" href="/"
                             ><img
                                 src={iconsGB}
                                 alt="Logo"
@@ -116,7 +116,7 @@ const Navbar = () => {
                             >
                           </li>
                           <li>
-                            <a class="dropdown-item" 
+                            <a class="dropdown-item" href="/"
                             ><img
                                 src={iconsFR}
                                 alt="Logo"
