@@ -1,6 +1,6 @@
 // import { NavLink } from "react-router-dom";
 
-import s from "./navbar.module.scss"
+import "./navbar.scss"
 
 import camera from '../../../shared/icons/camera2.svg';
 import iconsUKR from '../../../shared/icons/icons-UKR.png';
@@ -17,14 +17,14 @@ const Navbar = () => {
           <div className="row">
             <nav className="navbar navbar-expand-lg nav">
               <div className="container-fluid bold">
-                <a className="navbar-brand s.logo" href="/"
+                <a className="navbar-brand logo" href="/"
                 ><img
                     src={camera}
                     alt="Logo"
                     width="38"
                     height="24"
                     className="d-inline-block align-text-top"
-                  />PRITAKA&nbsp;<span className={s.yellow}>PHOTO</span></a
+                  />PRITAKA&nbsp;<span className="yellow">PHOTO</span></a
                 >
 
                 <button
