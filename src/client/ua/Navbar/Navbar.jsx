@@ -147,7 +147,7 @@ const Navbar = () => {
         color: '#010101'
       }}
     >
-      React homework template
+      React template
     </div>
 
         // < nav className={s.navbar}>
