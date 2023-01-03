@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/react-photosite/static/css/main.3a825dbb.css",
-    "main.js": "/react-photosite/static/js/main.f280799c.js",
+    "main.js": "/react-photosite/static/js/main.87f43713.js",
     "index.html": "/react-photosite/index.html",
     "static/media/camera2.svg": "/react-photosite/static/media/camera2.1390cdbac85c1d868199dc1356413984.svg",
     "main.3a825dbb.css.map": "/react-photosite/static/css/main.3a825dbb.css.map",
-    "main.f280799c.js.map": "/react-photosite/static/js/main.f280799c.js.map"
+    "main.87f43713.js.map": "/react-photosite/static/js/main.87f43713.js.map"
   },
   "entrypoints": [
     "static/css/main.3a825dbb.css",
-    "static/js/main.f280799c.js"
+    "static/js/main.87f43713.js"
   ]
 }
