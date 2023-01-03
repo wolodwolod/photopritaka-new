@@ -1,6 +1,6 @@
 // import { lazy, Suspense } from 'react';
 // import { Routes, Route, Navigate } from 'react-router-dom';
-import Navbar from './client/ua/Navbar';
+import NavbarUA from './client/ua/NavbarUA';
 // import './shared/styles/style.scss';
 
 // const HomePage = lazy(() => import('./pages/HomePage'));
@@ -13,7 +13,7 @@ import Navbar from './client/ua/Navbar';
 function App() {
   return (
     <div>
-      <Navbar />
+      <NavbarUA />
     </div>
   );
 }
