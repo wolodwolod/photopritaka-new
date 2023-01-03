@@ -13,3 +13,52 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Цвет */
+:root {
+  --color1: #ebf3f9;
+
+  --color2: #fefeee;
+  --color3: rgb(107, 208, 251);
+  --color4: rgb(245, 249, 4);
+  --color5: #f7f7f7;
+}
+.color1 {
+  color: var(--color1);
+}
+.color2 {
+  color: var(--color2);
+}
+.bg1 {
+  background-color: var(--color1);
+}
+.bg2 {
+  background-color: var(--color2);
+}
+body {
+  font-family: sans-serif;
+}
+
+/* Common */
+section {
+  padding: 80px 0;
+}
+
+.fs-14 {
+  font-size: 14px;
+}
+.btn-itd {
+  display: block;
+  max-width: 250px;
+  /* margin: 0 auto; */
+  padding: 8px 30px;
+  /* color: var(--bs-white); */
+  background-color: var(--color1);
+  border: 3px solid var(--color3);
+  transition: all 0.2s ease;
+}
+.btn-itd:hover {
+  /* color: var(--bs-white); */
+  background-color: var(--color3);
+}
+
