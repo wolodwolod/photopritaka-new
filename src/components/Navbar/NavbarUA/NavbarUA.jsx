@@ -17,7 +17,7 @@ const NavbarUA = () => {
         <div className="row">
           <nav className="navbar navbar-expand-lg nav">
             <div className="container-fluid bold">
-              <NavLink to="/ua/contacts" className={getActiveClass}>
+              <NavLink to="/" className={getActiveClass}>
                 <a className="navbar-brand logo" href="/">              
                 <img
                   src={camera}
