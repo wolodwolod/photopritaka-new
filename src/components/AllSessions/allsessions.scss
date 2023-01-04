@@ -1,0 +1,21 @@
+
+/* ALL SESSION */
+
+.all-sessions a {
+    text-decoration: none;
+  }
+  
+  .session-box {
+    border: 3px solid var(--color1);
+    border-radius: 5px;
+    min-height: 200px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* .all-sessions h2 {
+    padding: 50px;
+   
+  } */
