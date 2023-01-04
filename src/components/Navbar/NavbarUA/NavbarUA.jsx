@@ -80,22 +80,30 @@ const NavbarUA = () => {
                     <ul className="dropdown-menu">
                       <li>
                         <a className="dropdown-item" href="/ua/family">
+                        <NavLink to="/ua/family" className={getActiveClass}>
                           Сімейне фото
+                          </NavLink>
                         </a>
                       </li>
                       <li>
                         <a className="dropdown-item" href="/ua/romantic">
+                        <NavLink to="/ua/romantic" className={getActiveClass}>
                           Романтичне фото
+                          </NavLink>
                         </a>
                       </li>
                       <li>
                         <a className="dropdown-item" href="/ua/newborns">
+                        <NavLink to="/ua/newborns" className={getActiveClass}>
                           Новонароджені
+                          </NavLink>
                         </a>
                       </li>
                       <li>
                         <a className="dropdown-item" href="/ua/events">
+                        <NavLink to="/ua/events" className={getActiveClass}>
                           Події
+                          </NavLink>
                         </a>
                       </li>
                     </ul>
