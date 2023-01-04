@@ -1,13 +1,14 @@
-// import { NavLink } from "react-router-dom";
+// import { NavLink } from 'react-router-dom';
 
-import './navbar.scss';
+import '../navbar.scss';
+// import styles from "./navbar.module.scss";
 
-import camera from '../../shared/icons/camera2.svg';
-import iconsUKR from '../../shared/icons/icons-UKR.png';
-import iconsGB from '../../shared/icons/icons-GB.png';
-import iconsFR from '../../shared/icons/icons-FR.png';
+import camera from '../../../shared/icons/camera2.svg';
+import iconsUKR from '../../../shared/icons/icons-UKR.png';
+import iconsGB from '../../../shared/icons/icons-GB.png';
+import iconsFR from '../../../shared/icons/icons-FR.png';
 
-// const getActiveClass = ({ isActive }) => isActive ? s.linkActive : s.link;
+// const getActiveClass = ({ isActive }) => (isActive ? styles.linkActive : styles.link);
 
 const NavbarUA = () => {
   return (
@@ -41,22 +42,29 @@ const NavbarUA = () => {
               <div className="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul className="navbar-nav nav text-uppercase">
                   <li className="nav-item">
-                    <a
-                      className="nav-link active"
-                      aria-current="page"
-                      href="./index.html"
-                    >
+                    <a className="nav-link" aria-current="page" href="/">
+                    {/* <NavLink to="/" className={getActiveClass}> */}
                       Головна
+                    {/* </NavLink> */}
                     </a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link text-uppercase" href="/">
-                      Фотограф
+                    <a
+                      className="nav-link text-uppercase"
+                      href="/ua/photographer"
+                    >
+                      {/* <NavLink to="/ua/photographer" className={getActiveClass}> */}
+                         Фотограф
+                      {/* </NavLink> */}
+                     
                     </a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="/">
+                    <a className="nav-link active" href="/ua/contacts">
+                    {/* <NavLink to="/ua/contacts" className={getActiveClass}> */}
                       Контакти
+                    {/* </NavLink> */}
+                      
                     </a>
                   </li>
                   <li className="nav-item mr-50 dropdown">
@@ -71,22 +79,22 @@ const NavbarUA = () => {
                     </a>
                     <ul className="dropdown-menu">
                       <li>
-                        <a className="dropdown-item" href="/">
+                        <a className="dropdown-item" href="/ua/family">
                           Сімейне фото
                         </a>
                       </li>
                       <li>
-                        <a className="dropdown-item" href="/">
+                        <a className="dropdown-item" href="/ua/romantic">
                           Романтичне фото
                         </a>
                       </li>
                       <li>
-                        <a className="dropdown-item" href="/">
+                        <a className="dropdown-item" href="/ua/newborns">
                           Новонароджені
                         </a>
                       </li>
                       <li>
-                        <a className="dropdown-item" href="/">
+                        <a className="dropdown-item" href="/ua/events">
                           Події
                         </a>
                       </li>

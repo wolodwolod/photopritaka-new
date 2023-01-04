@@ -12,24 +12,21 @@ const NewbornsUA = lazy(() => import('./pages/Newborns/NewbornsUA'));
 const EventsUA = lazy(() => import('./pages/Events/EventsUA'));
 const PortraitUA = lazy(() => import('./pages/Portrait/PortraitUA'));
 
-// import './shared/styles/style.scss';
-// import NotFoundPage from "pages/NotFoundPage";
 
 function App() {
   return (
     <div className="App">
-      
       <Suspense fallback={<p>...LOADING</p>}>
         <Routes>
           <Route path="/" element={<HomePageUA />} />
-          <Route path="/ua/photographer/" element={<PhotographerUA />} />
-          <Route path="/ua/contacts/" element={<ContactsUA />} />
-          <Route path="/ua/family/" element={<FamilyUA />} />
-          <Route path="/ua/romantic/" element={<RomanticUA />} />
-          <Route path="/ua/newborns/" element={<NewbornsUA />} />
-          <Route path="/ua/events/" element={<EventsUA />} />
-          <Route path="/ua/portrait/" element={<PortraitUA />} />
-          <Route path="*" element = {<Navigate to="/" replace />} />
+          <Route path="/ua/photographer" element={<PhotographerUA />} />
+          <Route path="/ua/contacts" element={<ContactsUA />} />
+          <Route path="/ua/family" element={<FamilyUA />} />
+          <Route path="/ua/romantic" element={<RomanticUA />} />
+          <Route path="/ua/newborns" element={<NewbornsUA />} />
+          <Route path="/ua/events" element={<EventsUA />} />
+          <Route path="/ua/portrait" element={<PortraitUA />} />
+          <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
       </Suspense>
     </div>

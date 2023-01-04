@@ -1,4 +1,4 @@
-import NavbarUA from 'components/Navbar/NavbarUA';
+import NavbarUA from 'components/Navbar/NavbarUA/NavbarUA';
 import AllSessionsUA from 'components/AllSessions/AllSessionsUA';
 
 const HomePageUA = () => {
