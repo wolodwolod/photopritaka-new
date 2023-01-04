@@ -1,6 +1,8 @@
 import { lazy, Suspense } from 'react';
 import { Routes, Route, Navigate } from 'react-router-dom';
 
+import NavbarUA from 'components/Navbar/NavbarUA/NavbarUA';
+
 const HomePageUA = lazy(() => import('./pages/HomePage/HomePageUA'));
 const PhotographerUA = lazy(() =>
   import('./pages/Photographer/PhotographerUA')
@@ -16,6 +18,8 @@ const PortraitUA = lazy(() => import('./pages/Portrait/PortraitUA'));
 function App() {
   return (
     <div className="App">
+      <NavbarUA />
+
       <Suspense fallback={<p>...LOADING</p>}>
         <Routes>
           <Route path="/" element={<HomePageUA />} />
