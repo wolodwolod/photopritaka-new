@@ -1,4 +1,4 @@
-import NavbarUA from "components/Navbar/NavbarUA/NavbarUAsess";
+import NavbarUA from "components/Navbar/NavbarUA/NavbarUA";
 
 const EventsUA = () => {
     return (
