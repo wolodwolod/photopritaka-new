@@ -1,12 +1,12 @@
 import { NavLink } from 'react-router-dom';
 
-import '../navbar.scss';
-import styles from "../navbar.module.scss";
+import './navbar.scss';
+import styles from "./navbar.module.scss";
 
-import camera from '../../../shared/icons/camera2.svg';
-import iconsUKR from '../../../shared/icons/icons-UKR.png';
-import iconsGB from '../../../shared/icons/icons-GB.png';
-import iconsFR from '../../../shared/icons/icons-FR.png';
+import camera from '../../shared/icons/camera2.svg';
+import iconsUKR from '../../shared/icons/icons-UKR.png';
+import iconsGB from '../../shared/icons/icons-GB.png';
+import iconsFR from '../../shared/icons/icons-FR.png';
 
 const getActiveClass = ({ isActive }) => (isActive ? styles.linkActive : styles.link);
 

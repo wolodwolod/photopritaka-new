@@ -1,7 +1,7 @@
 import { lazy, Suspense } from 'react';
 import { Routes, Route, Navigate } from 'react-router-dom';
 
-import NavbarUA from 'components/Navbar/NavbarUA/NavbarUA';
+import NavbarUA from 'components/Navbar/NavbarUA';
 
 const HomePageUA = lazy(() => import('./pages/HomePage/HomePageUA'));
 const PhotographerUA = lazy(() =>
