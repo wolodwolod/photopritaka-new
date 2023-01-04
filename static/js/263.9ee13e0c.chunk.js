@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkreact_photosite=self.webpackChunkreact_photosite||[]).push([[263],{3263:function(e,s,t){t.r(s);var n=t(1751),c=t(184);s.default=function(){return(0,c.jsx)("main",{children:(0,c.jsxs)("div",{children:[(0,c.jsx)(n.Z,{}),(0,c.jsx)("h2",{children:"\u041a\u043e\u043d\u0442\u0430\u043a\u0442\u0438"})]})})}}}]);
+//# sourceMappingURL=263.9ee13e0c.chunk.js.map
