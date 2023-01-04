@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/536.63e54810.chunk.js","mappings":"2IAaA,UAXmB,WACjB,OACE,2BACE,0BAEE,0EAIP,C","sources":["pages/Portrait/PortraitUA.jsx"],"sourcesContent":["\n\nconst PortraitUA = () => {\n  return (\n    <main>\n      <div>\n        \n        <h2>Портрет</h2>\n      </div>\n    </main>\n  );\n};\n\nexport default PortraitUA;\n"],"names":[],"sourceRoot":""}
