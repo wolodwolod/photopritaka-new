@@ -17,8 +17,9 @@ const NavbarUA = () => {
         <div className="row">
           <nav className="navbar navbar-expand-lg nav">
             <div className="container-fluid bold">
-              <NavLink to="/" className={getActiveClass}>
-                <a className="navbar-brand logo" href="/">              
+              
+                <a className="navbar-brand logo" href="/"> 
+                 <NavLink to="/" className={getActiveClass}>            
                 <img
                   src={camera}
                   alt="Logo"
@@ -27,8 +28,9 @@ const NavbarUA = () => {
                   className="d-inline-block align-text-top"
                 />
                 PRITAKA&nbsp;<span className="yello">PHOTO</span>
+                </NavLink>
               </a>
-              </NavLink>
+              
               
 
               <button
