@@ -2,14 +2,14 @@
 
 import "./navbar.scss"
 
-import camera from '../../../shared/icons/camera2.svg';
-import iconsUKR from '../../../shared/icons/icons-UKR.png';
-import iconsGB from '../../../shared/icons/icons-GB.png';
-import iconsFR from '../../../shared/icons/icons-FR.png';
+import camera from '../../shared/icons/camera2.svg';
+import iconsUKR from '../../shared/icons/icons-UKR.png';
+import iconsGB from '../../shared/icons/icons-GB.png';
+import iconsFR from '../../shared/icons/icons-FR.png';
 
 // const getActiveClass = ({ isActive }) => isActive ? s.linkActive : s.link;
 
-const Navbar = () => {
+const NavbarUA = () => {
     return (
 
       <header>
@@ -24,7 +24,7 @@ const Navbar = () => {
                     width="38"
                     height="24"
                     className="d-inline-block align-text-top"
-                  />PRITAKA&nbsp;<span className="yellow">PHOTO</span></a
+                  />PRITAKA&nbsp;<span className="yello">PHOTO</span></a
                 >
 
                 <button
@@ -142,4 +142,4 @@ const Navbar = () => {
 
 };
 
-export default Navbar;
+export default NavbarUA;

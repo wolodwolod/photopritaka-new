@@ -1,6 +1,6 @@
 // import { lazy, Suspense } from 'react';
 // import { Routes, Route, Navigate } from 'react-router-dom';
-import HomePageUA from './pages/ua/HomePageUA';
+import HomePageUA from './pages/HomePage/HomePageUA';
 // import './shared/styles/style.scss';
 
 // const HomePage = lazy(() => import('./pages/HomePage'));

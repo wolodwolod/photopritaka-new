@@ -1,9 +1,9 @@
-import NavbarUA from '../../../client/ua/NavbarUA';
+import NavbarUA from '../../components/Navbar/NavbarUA';
 
 const HomePageUA = () => {
   return (
     <main>
-      <div className="container">
+      <div>
         <NavbarUA />
       </div>
     </main>
