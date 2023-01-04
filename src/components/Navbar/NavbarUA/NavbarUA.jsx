@@ -1,14 +1,14 @@
-// import { NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 import '../navbar.scss';
-// import styles from "./navbar.module.scss";
+import styles from "../navbar.module.scss";
 
 import camera from '../../../shared/icons/camera2.svg';
 import iconsUKR from '../../../shared/icons/icons-UKR.png';
 import iconsGB from '../../../shared/icons/icons-GB.png';
 import iconsFR from '../../../shared/icons/icons-FR.png';
 
-// const getActiveClass = ({ isActive }) => (isActive ? styles.linkActive : styles.link);
+const getActiveClass = ({ isActive }) => (isActive ? styles.linkActive : styles.link);
 
 const NavbarUA = () => {
   return (
@@ -42,10 +42,10 @@ const NavbarUA = () => {
               <div className="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul className="navbar-nav nav text-uppercase">
                   <li className="nav-item">
-                    <a className="nav-link active" aria-current="page" href="/">
-                    {/* <NavLink to="/" className={getActiveClass}> */}
+                    <a className="nav-link" aria-current="page" href="/">
+                    <NavLink to="/" className={getActiveClass}>
                       Головна
-                    {/* </NavLink> */}
+                    </NavLink>
                     </a>
                   </li>
                   <li className="nav-item">
@@ -53,17 +53,17 @@ const NavbarUA = () => {
                       className="nav-link text-uppercase"
                       href="/ua/photographer"
                     >
-                      {/* <NavLink to="/ua/photographer" className={getActiveClass}> */}
+                      <NavLink to="/ua/photographer" className={getActiveClass}>
                          Фотограф
-                      {/* </NavLink> */}
+                      </NavLink>
                      
                     </a>
                   </li>
                   <li className="nav-item">
                     <a className="nav-link" href="/ua/contacts">
-                    {/* <NavLink to="/ua/contacts" className={getActiveClass}> */}
+                    <NavLink to="/ua/contacts" className={getActiveClass}>
                       Контакти
-                    {/* </NavLink> */}
+                    </NavLink>
                       
                     </a>
                   </li>

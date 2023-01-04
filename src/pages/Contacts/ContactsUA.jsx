@@ -1,4 +1,4 @@
-import NavbarUA from "components/Navbar/NavbarUA/NavbarUAcont";
+import NavbarUA from "components/Navbar/NavbarUA/NavbarUA";
 
 const СontactsUA = () => {
   return (

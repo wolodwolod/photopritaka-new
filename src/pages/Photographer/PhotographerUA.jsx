@@ -1,4 +1,4 @@
-import NavbarUA from 'components/Navbar/NavbarUA/NavbarUAphoto';
+import NavbarUA from 'components/Navbar/NavbarUA/NavbarUA';
 
 const PhotographerUA = () => {
   return (
