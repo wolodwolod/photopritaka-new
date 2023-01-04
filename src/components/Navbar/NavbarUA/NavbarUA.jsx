@@ -17,7 +17,8 @@ const NavbarUA = () => {
         <div className="row">
           <nav className="navbar navbar-expand-lg nav">
             <div className="container-fluid bold">
-              <a className="navbar-brand logo" href="/">
+              <NavLink to="/ua/contacts" className={getActiveClass}>
+                <a className="navbar-brand logo" href="/">              
                 <img
                   src={camera}
                   alt="Logo"
@@ -27,6 +28,8 @@ const NavbarUA = () => {
                 />
                 PRITAKA&nbsp;<span className="yello">PHOTO</span>
               </a>
+              </NavLink>
+              
 
               <button
                 className="navbar-toggler"
