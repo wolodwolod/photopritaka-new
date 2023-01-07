@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/react-photosite/static/css/main.ac92d46b.css",
-    "main.js": "/react-photosite/static/js/main.7baa0613.js",
-    "static/css/130.1835c0db.chunk.css": "/react-photosite/static/css/130.1835c0db.chunk.css",
-    "static/js/130.7f8f6191.chunk.js": "/react-photosite/static/js/130.7f8f6191.chunk.js",
+    "main.css": "/react-photosite/static/css/main.ccf3bc80.css",
+    "main.js": "/react-photosite/static/js/main.955b70a0.js",
+    "static/css/237.009798e1.chunk.css": "/react-photosite/static/css/237.009798e1.chunk.css",
+    "static/js/237.5a821588.chunk.js": "/react-photosite/static/js/237.5a821588.chunk.js",
     "static/js/391.501f4029.chunk.js": "/react-photosite/static/js/391.501f4029.chunk.js",
     "static/js/263.12f61fc3.chunk.js": "/react-photosite/static/js/263.12f61fc3.chunk.js",
     "static/js/951.7c53989a.chunk.js": "/react-photosite/static/js/951.7c53989a.chunk.js",
@@ -11,22 +11,25 @@
     "static/js/420.8097e1c8.chunk.js": "/react-photosite/static/js/420.8097e1c8.chunk.js",
     "static/js/803.16dc8d05.chunk.js": "/react-photosite/static/js/803.16dc8d05.chunk.js",
     "static/js/536.63e54810.chunk.js": "/react-photosite/static/js/536.63e54810.chunk.js",
+    "static/js/528.e5772c53.chunk.js": "/react-photosite/static/js/528.e5772c53.chunk.js",
     "index.html": "/react-photosite/index.html",
     "static/media/camera2.svg": "/react-photosite/static/media/camera2.1390cdbac85c1d868199dc1356413984.svg",
-    "main.ac92d46b.css.map": "/react-photosite/static/css/main.ac92d46b.css.map",
-    "main.7baa0613.js.map": "/react-photosite/static/js/main.7baa0613.js.map",
-    "130.1835c0db.chunk.css.map": "/react-photosite/static/css/130.1835c0db.chunk.css.map",
-    "130.7f8f6191.chunk.js.map": "/react-photosite/static/js/130.7f8f6191.chunk.js.map",
+    "static/media/envelope.svg": "/react-photosite/static/media/envelope.ceed57e9483391a79813f313693eb103.svg",
+    "main.ccf3bc80.css.map": "/react-photosite/static/css/main.ccf3bc80.css.map",
+    "main.955b70a0.js.map": "/react-photosite/static/js/main.955b70a0.js.map",
+    "237.009798e1.chunk.css.map": "/react-photosite/static/css/237.009798e1.chunk.css.map",
+    "237.5a821588.chunk.js.map": "/react-photosite/static/js/237.5a821588.chunk.js.map",
     "391.501f4029.chunk.js.map": "/react-photosite/static/js/391.501f4029.chunk.js.map",
     "263.12f61fc3.chunk.js.map": "/react-photosite/static/js/263.12f61fc3.chunk.js.map",
     "951.7c53989a.chunk.js.map": "/react-photosite/static/js/951.7c53989a.chunk.js.map",
     "125.0607da2b.chunk.js.map": "/react-photosite/static/js/125.0607da2b.chunk.js.map",
     "420.8097e1c8.chunk.js.map": "/react-photosite/static/js/420.8097e1c8.chunk.js.map",
     "803.16dc8d05.chunk.js.map": "/react-photosite/static/js/803.16dc8d05.chunk.js.map",
-    "536.63e54810.chunk.js.map": "/react-photosite/static/js/536.63e54810.chunk.js.map"
+    "536.63e54810.chunk.js.map": "/react-photosite/static/js/536.63e54810.chunk.js.map",
+    "528.e5772c53.chunk.js.map": "/react-photosite/static/js/528.e5772c53.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ac92d46b.css",
-    "static/js/main.7baa0613.js"
+    "static/css/main.ccf3bc80.css",
+    "static/js/main.955b70a0.js"
   ]
 }
