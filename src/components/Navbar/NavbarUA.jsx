@@ -18,7 +18,7 @@ const NavbarUA = () => {
           <nav className="navbar navbar-expand-lg nav">
             <div className="container-fluid bold">
               
-                <a className="navbar-brand logo" href="/"> 
+                <div className="navbar-brand logo"> 
                  <NavLink to="/" className={getActiveClass}>            
                 <img
                   src={camera}
@@ -29,7 +29,7 @@ const NavbarUA = () => {
                 />
                 PRITAKA&nbsp;<span className="yello">PHOTO</span>
                 </NavLink>
-              </a>
+              </div>
               
               
 
@@ -46,31 +46,31 @@ const NavbarUA = () => {
               </button>
               <div className="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul className="navbar-nav nav text-uppercase">
-                  <li className="nav-item">
-                    <a className="nav-link" aria-current="page" href="/">
+                  <li className="nav-item nav-link">
+                    {/* <a className="nav-link" aria-current="page" href="/"> */}
                     <NavLink to="/" className={getActiveClass}>
                       Головна
                     </NavLink>
-                    </a>
+                    {/* </a> */}
                   </li>
-                  <li className="nav-item">
-                    <a
-                      className="nav-link text-uppercase"
+                  <li className="nav-item nav-link">
+                    {/* <a
+                      className="nav-link"
                       href="/ua/photographer"
-                    >
+                    > */}
                       <NavLink to="/ua/photographer" className={getActiveClass}>
                          Фотограф
                       </NavLink>
                      
-                    </a>
+                    {/* </a> */}
                   </li>
-                  <li className="nav-item">
-                    <a className="nav-link" href="/ua/contacts">
+                  <li className="nav-item nav-link">
+                    {/* <a className="nav-link" href="/ua/contacts"> */}
                     <NavLink to="/ua/contacts" className={getActiveClass}>
                       Контакти
                     </NavLink>
                       
-                    </a>
+                    {/* </a> */}
                   </li>
                   <li className="nav-item mr-50 dropdown">
                     <a
@@ -83,33 +83,33 @@ const NavbarUA = () => {
                       Фотосесії
                     </a>
                     <ul className="dropdown-menu">
-                      <li>
-                        <a className="dropdown-item" href="/ua/family">
+                      <li className="dropdown-item">
+                        {/* <a  href="/ua/family"> */}
                         <NavLink to="/ua/family" className={getActiveClass}>
                           Сімейне фото
                           </NavLink>
-                        </a>
+                        {/* </a> */}
                       </li>
-                      <li>
-                        <a className="dropdown-item" href="/ua/romantic">
+                      <li className="dropdown-item">
+                        {/* <a  href="/ua/romantic"> */}
                         <NavLink to="/ua/romantic" className={getActiveClass}>
                           Романтичне фото
                           </NavLink>
-                        </a>
+                        {/* </a> */}
                       </li>
-                      <li>
-                        <a className="dropdown-item" href="/ua/newborns">
+                      <li className="dropdown-item">
+                        {/* <a  href="/ua/newborns"> */}
                         <NavLink to="/ua/newborns" className={getActiveClass}>
                           Новонароджені
                           </NavLink>
-                        </a>
+                        {/* </a> */}
                       </li>
-                      <li>
-                        <a className="dropdown-item" href="/ua/events">
+                      <li className="dropdown-item">
+                        {/* <a  href="/ua/events"> */}
                         <NavLink to="/ua/events" className={getActiveClass}>
                           Події
                           </NavLink>
-                        </a>
+                        {/* </a> */}
                       </li>
                     </ul>
                   </li>

@@ -8,7 +8,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
 
 import 'bootstrap/dist/js/bootstrap.min.js';
-import './shared/services/formValidation';
+import './shared/services/formValidation.js';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
