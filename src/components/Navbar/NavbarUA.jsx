@@ -48,7 +48,7 @@ const NavbarUA = () => {
                 <ul className="navbar-nav nav text-uppercase">
                   <li className="nav-item nav-link">
                     {/* <a className="nav-link" aria-current="page" href="/"> */}
-                    <NavLink to="/" className={getActiveClass}>
+                    <NavLink to="/react-photosite" className={getActiveClass}>
                       Головна
                     </NavLink>
                     {/* </a> */}
