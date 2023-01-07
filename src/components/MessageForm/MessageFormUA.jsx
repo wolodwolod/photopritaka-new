@@ -130,9 +130,9 @@ const MessageFormUA = ({ onSubmit }) => {
                   alt="Logo"
                   width="38"
                   height="24"
-                  className="d-inline-block align-text-top text-uppercase"
+                  className="d-inline-block align-text-top"
                 />
-                &nbsp;&nbsp;Надіслати
+                &nbsp;&nbsp;Надіслати повідомлення
               </button>
             </form>
           </div>
