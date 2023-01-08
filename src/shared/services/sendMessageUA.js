@@ -1,11 +1,23 @@
 import { SESClient, SendEmailCommand } from '@aws-sdk/client-ses';
+
+// import React from "react";
+// import env from "react-dotenv";
 // import * as dotenv from 'dotenv';
 // dotenv.config();
+// require('dotenv').config()
+// console.log(process.env) // remove this after you've confirmed it is working
 
-const sendMessage = (email, name, text) => {
+const sendMessage = (payload) => {
+
+  const {email, name, text} = payload;
+
+
+  // console.log(process.env.NODE_ENV)
+  // console.log(email, name, text)
+  
   const CREDENTIAL = {
-    accessKeyId: process.env.ACCESS_KEY_ID,
-    secretAccessKey: process.env.SECRET_ACCESS_KEY,
+    accessKeyId: process.env.REACT_APP_ACCESS_KEY_ID,
+    secretAccessKey: process.env.REACT_APP_SECRET_ACCESS_KEY,
   };
   //   const REGION = process.env.REGION;
   // const ses = new AWS.SES({ region: REGION, credentials: CREDENTIAL });
@@ -18,7 +30,7 @@ const sendMessage = (email, name, text) => {
   const params = {
     Destination: {
       ToAddresses: ['wolod2015@gmail.com'],
-      CcAddresses: [process.env.MAIL_ADDRESS],
+      CcAddresses: [process.env.REACT_APP_MAIL_ADDRESS],
     },
 
     Message: {
@@ -33,11 +45,11 @@ const sendMessage = (email, name, text) => {
         Data: 'Від PritakaPhoto',
       },
     },
-    Source: process.env.MAIL_ADDRESS,
+    Source: process.env.REACT_APP_MAIL_ADDRESS,
   };
 
   const sesClient = new SESClient({
-    region: process.env.REGION,
+    region: process.env.REACT_APP_REGION,
     credentials: CREDENTIAL,
   });
 
