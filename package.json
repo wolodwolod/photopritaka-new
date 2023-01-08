@@ -43,13 +43,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "react-dotenv": {
-    "whitelist": [
-      "ACCESS_KEY_ID",
-      "SECRET_ACCESS_KEY",
-      "REGION",
-      "MAIL_ADDRESS"
-    ]
   }
+  
 }

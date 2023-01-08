@@ -29,8 +29,8 @@ const sendMessage = (payload) => {
     
   const params = {
     Destination: {
-      ToAddresses: ['wolod2015@gmail.com'],
-      CcAddresses: [process.env.REACT_APP_MAIL_ADDRESS],
+      ToAddresses: [process.env.REACT_APP_TO_MAIL_ADDRESS],
+      CcAddresses: [process.env.REACT_APP_FROM_MAIL_ADDRESS],
     },
 
     Message: {
@@ -45,7 +45,7 @@ const sendMessage = (payload) => {
         Data: 'Від PritakaPhoto',
       },
     },
-    Source: process.env.REACT_APP_MAIL_ADDRESS,
+    Source: process.env.REACT_APP_FROM_MAIL_ADDRESS,
   };
 
   const sesClient = new SESClient({
