@@ -12,8 +12,9 @@ const sendMessage = (payload) => {
   const {email, name, text} = payload;
 
 
-  // console.log(process.env.NODE_ENV)
-  // console.log(email, name, text)
+  console.log(process.env.NODE_ENV)
+  console.log(email, name, text)
+  console.log(process.env.REACT_APP_REGION)
   
   const CREDENTIAL = {
     accessKeyId: process.env.REACT_APP_ACCESS_KEY_ID,
