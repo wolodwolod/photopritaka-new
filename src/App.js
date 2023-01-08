@@ -22,7 +22,7 @@ function App() {
 
       <Suspense fallback={<p>...LOADING</p>}>
         <Routes>
-          <Route path="/react-photosite/ua/main" element={<HomePageUA />} />
+          <Route path="/react-photosite" exact element={<HomePageUA />} />
           <Route path="/react-photosite/ua/photographer" element={<PhotographerUA />} />
           <Route path="/react-photosite/ua/contacts" element={<ContactsUA />} />
           <Route path="/react-photosite/ua/family" element={<FamilyUA />} />
@@ -30,7 +30,7 @@ function App() {
           <Route path="/react-photosite/ua/newborns" element={<NewbornsUA />} />
           <Route path="/react-photosite/ua/events" element={<EventsUA />} />
           <Route path="/react-photosite/ua/portrait" element={<PortraitUA />} />
-          <Route path="*" element={<Navigate to="/" replace />} />
+          <Route path="*" element={<Navigate to="/react-photosite/ua/main" replace />} />
         </Routes>
       </Suspense>
     </div>
