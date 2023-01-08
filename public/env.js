@@ -82,6 +82,7 @@ window.env = {
   "PUBLIC": "C:\\Users\\Public",
   "PWD": "C:/Users/user/OneDrive/Документы/GitHub/react-photosite",
   "REACT_APP_ACCESS_KEY_ID": "AKIASQVTSN4JKCO4BMN4",
+  "REACT_APP_EXAMPLE": "SOMETHING",
   "REACT_APP_FROM_MAIL_ADDRESS": "pritakaphoto@gmail.com",
   "REACT_APP_REGION": "eu-central-1",
   "REACT_APP_SECRET_ACCESS_KEY": "QFNlP9QzTBaTdwyis21ReWfSlSf1HrweZWe1IPWn",
