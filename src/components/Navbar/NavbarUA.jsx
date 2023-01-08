@@ -19,7 +19,7 @@ const NavbarUA = () => {
             <div className="container-fluid bold">
               
                 <div className="navbar-brand logo"> 
-                 <NavLink to="/react-photosite/ua/main" className={getActiveClass}>            
+                 <NavLink to="/react-photosite/" className={getActiveClass}>            
                 <img
                   src={camera}
                   alt="Logo"
@@ -48,7 +48,7 @@ const NavbarUA = () => {
                 <ul className="navbar-nav nav text-uppercase">
                   <li className="nav-item nav-link">
                     {/* <a className="nav-link" aria-current="page" href="/"> */}
-                    <NavLink to="/react-photosite/ua/main" className={getActiveClass}>
+                    <NavLink to="/react-photosite/" className={getActiveClass}>
                       Головна
                     </NavLink>
                     {/* </a> */}
