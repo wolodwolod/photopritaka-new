@@ -22,7 +22,7 @@ function App() {
 
       <Suspense fallback={<p>...LOADING</p>}>
         <Routes>
-          <Route path="/react-photosite" element={<HomePageUA />} />
+          <Route path="/react-photosite/ua/main" element={<HomePageUA />} />
           <Route path="/react-photosite/ua/photographer" element={<PhotographerUA />} />
           <Route path="/react-photosite/ua/contacts" element={<ContactsUA />} />
           <Route path="/react-photosite/ua/family" element={<FamilyUA />} />
