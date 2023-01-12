@@ -9,7 +9,7 @@ const sendMessage = payload => {
   // console.log(process.env.NODE_ENV);
   console.log(email, name, text);
   console.log(example);
-  console.log(REACT_APP_EXAMPLE);
+  // console.log(${{ secrets.REACT_APP_EXAMPLE }});
 
   
   const REGION = process.env.REACT_APP_REGION;
