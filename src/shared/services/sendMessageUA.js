@@ -1,4 +1,5 @@
 import { SESClient, SendEmailCommand } from '@aws-sdk/client-ses';
+import React from 'react';
 
 const sendMessage = payload => {
   const { email, name, text } = payload;
