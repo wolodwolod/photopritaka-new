@@ -4,6 +4,8 @@ on:
   push:
     branches: [main]
 
+env: REACT_APP_EXAMPLE: ${{ secrets.REACT_APP_EXAMPLE }}
+ 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
@@ -23,4 +25,4 @@ jobs:
         with:
           branch: gh-pages
           folder: build
-          # env: REACT_APP_EXAMPLE: ${{ secrets.REACT_APP_EXAMPLE }} 
+          
