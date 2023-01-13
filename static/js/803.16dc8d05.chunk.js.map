@@ -1,1 +1,0 @@
-{"version":3,"file":"static/js/803.16dc8d05.chunk.js","mappings":"0IAaE,UAXe,WACb,OACE,2BACA,0BAEE,8DAIL,C","sources":["pages/Events/EventsUA.jsx"],"sourcesContent":["\n\nconst EventsUA = () => {\n    return (\n      <main>\n      <div>\n        \n        <h2>Події</h2>\n      </div>\n    </main>\n    );\n  };\n  \n  export default EventsUA;"],"names":[],"sourceRoot":""}

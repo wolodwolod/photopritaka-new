@@ -1,1 +1,0 @@
-{"version":3,"file":"static/js/951.7c53989a.chunk.js","mappings":"2IAaA,UAXiB,WACf,OACE,2BACE,0BAEE,0EAIP,C","sources":["pages/Family/FamilyUA.jsx"],"sourcesContent":["\n\nconst FamilyUA = () => {\n  return (\n    <main>\n      <div>\n        \n        <h2>Сімейні</h2>\n      </div>\n    </main>\n  );\n};\n\nexport default FamilyUA;\n"],"names":[],"sourceRoot":""}

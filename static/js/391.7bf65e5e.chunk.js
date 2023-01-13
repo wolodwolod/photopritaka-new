@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkpritaka_photo=self.webpackChunkpritaka_photo||[]).push([[391],{4391:function(n,e,i){i.r(e);var r=i(184);e.default=function(){return(0,r.jsx)("main",{children:(0,r.jsx)("div",{children:(0,r.jsx)("h2",{children:"\u0424\u043e\u0442\u043e\u0433\u0440\u0430\u0444"})})})}}}]);
+//# sourceMappingURL=391.7bf65e5e.chunk.js.map
