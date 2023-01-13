@@ -19,7 +19,7 @@ const NavbarUA = () => {
             <div className="container-fluid bold">
               
                 <div className="navbar-brand logo"> 
-                 <NavLink to="/react-photosite/" className={getActiveClass}>            
+                 <NavLink to="/" className={getActiveClass}>            
                 <img
                   src={camera}
                   alt="Logo"
@@ -48,7 +48,7 @@ const NavbarUA = () => {
                 <ul className="navbar-nav nav text-uppercase">
                   <li className="nav-item nav-link">
                     {/* <a className="nav-link" aria-current="page" href="/"> */}
-                    <NavLink to="/react-photosite/" className={getActiveClass}>
+                    <NavLink to="/" className={getActiveClass}>
                       Головна
                     </NavLink>
                     {/* </a> */}
@@ -58,7 +58,7 @@ const NavbarUA = () => {
                       className="nav-link"
                       href="/ua/photographer"
                     > */}
-                      <NavLink to="/react-photosite/ua/photographer" className={getActiveClass}>
+                      <NavLink to="/ua/photographer" className={getActiveClass}>
                          Фотограф
                       </NavLink>
                      
@@ -66,7 +66,7 @@ const NavbarUA = () => {
                   </li>
                   <li className="nav-item nav-link">
                     {/* <a className="nav-link" href="/ua/contacts"> */}
-                    <NavLink to="/react-photosite/ua/contacts" className={getActiveClass}>
+                    <NavLink to="/ua/contacts" className={getActiveClass}>
                       Контакти
                     </NavLink>
                       
@@ -85,28 +85,28 @@ const NavbarUA = () => {
                     <ul className="dropdown-menu">
                       <li className="dropdown-item">
                         {/* <a  href="/ua/family"> */}
-                        <NavLink to="/react-photosite/ua/family" className={getActiveClass}>
+                        <NavLink to="/ua/family" className={getActiveClass}>
                           Сімейне фото
                           </NavLink>
                         {/* </a> */}
                       </li>
                       <li className="dropdown-item">
                         {/* <a  href="/ua/romantic"> */}
-                        <NavLink to="/react-photosite/ua/romantic" className={getActiveClass}>
+                        <NavLink to="/ua/romantic" className={getActiveClass}>
                           Романтичне фото
                           </NavLink>
                         {/* </a> */}
                       </li>
                       <li className="dropdown-item">
                         {/* <a  href="/ua/newborns"> */}
-                        <NavLink to="/react-photosite/ua/newborns" className={getActiveClass}>
+                        <NavLink to="/ua/newborns" className={getActiveClass}>
                           Новонароджені
                           </NavLink>
                         {/* </a> */}
                       </li>
                       <li className="dropdown-item">
                         {/* <a  href="/ua/events"> */}
-                        <NavLink to="/react-photosite/ua/events" className={getActiveClass}>
+                        <NavLink to="/ua/events" className={getActiveClass}>
                           Події
                           </NavLink>
                         {/* </a> */}

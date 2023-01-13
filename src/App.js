@@ -22,15 +22,15 @@ function App() {
 
       <Suspense fallback={<p>...LOADING</p>}>
         <Routes>
-          <Route path="/react-photosite/" exact element={<HomePageUA />} />
-          <Route path="/react-photosite/ua/photographer" element={<PhotographerUA />} />
-          <Route path="/react-photosite/ua/contacts" element={<ContactsUA />} />
-          <Route path="/react-photosite/ua/family" element={<FamilyUA />} />
-          <Route path="/react-photosite/ua/romantic" element={<RomanticUA />} />
-          <Route path="/react-photosite/ua/newborns" element={<NewbornsUA />} />
-          <Route path="/react-photosite/ua/events" element={<EventsUA />} />
-          <Route path="/react-photosite/ua/portrait" element={<PortraitUA />} />
-          <Route path="*" element={<Navigate to="/react-photosite/ua/main" replace />} />
+          <Route path="/" exact element={<HomePageUA />} />
+          <Route path="/ua/photographer" element={<PhotographerUA />} />
+          <Route path="/ua/contacts" element={<ContactsUA />} />
+          <Route path="/ua/family" element={<FamilyUA />} />
+          <Route path="/ua/romantic" element={<RomanticUA />} />
+          <Route path="/ua/newborns" element={<NewbornsUA />} />
+          <Route path="/ua/events" element={<EventsUA />} />
+          <Route path="/ua/portrait" element={<PortraitUA />} />
+          <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
       </Suspense>
     </div>
