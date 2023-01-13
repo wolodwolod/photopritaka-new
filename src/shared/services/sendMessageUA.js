@@ -1,18 +1,13 @@
 import { SESClient, SendEmailCommand } from '@aws-sdk/client-ses';
-// import React from 'react';
-// require('dotenv').config()
-// console.log(process.env) // remove this after you've confirmed it is working
 
 const sendMessage = payload => {
   const { email, name, text } = payload;
 
-  const example = process.env.REACT_APP_EXAMPLE;
-  // console.log(process.env);
-  console.log(process.env.NODE_ENV);
-  console.log(email, name, text);
-  console.log(example);
-  
-
+  // const example = process.env.REACT_APP_EXAMPLE;
+ 
+  // console.log(process.env.NODE_ENV);
+  // console.log(email, name, text);
+  // console.log(example);
   
   const REGION = process.env.REACT_APP_REGION;
 
