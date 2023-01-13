@@ -4,8 +4,7 @@ on:
   push:
     branches: [main]
 
-# env:
-# REACT_APP_EXAMPLE: ${{ secrets.REACT_APP_EXAMPLE }}
+
 
 jobs:
   build-and-deploy:
@@ -19,9 +18,14 @@ jobs:
           npm install
           npm run lint:js
           npm run build
+          env:
+        REACT_APP_EXAMPLE: ${{ secrets.REACT_APP_EXAMPLE }}
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.0
         with:
           branch: gh-pages
           folder: build
+          # env: 
+          # REACT_APP_EXAMPLE: ${{ secrets.EXAMPLE }}
+
