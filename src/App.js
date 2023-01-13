@@ -1,5 +1,6 @@
 import { lazy, Suspense } from 'react';
 import { Routes, Route, Navigate } from 'react-router-dom';
+import Loader from "../src/components/Loader";
 
 import NavbarUA from 'components/Navbar/NavbarUA';
 
@@ -20,7 +21,7 @@ function App() {
     <div className="App">
       <NavbarUA />
 
-      <Suspense fallback={<p>...LOADING</p>}>
+      <Suspense fallback={<Loader backgrColor={"white"} />}>
         <Routes>
           <Route path="/" exact element={<HomePageUA />} />
           <Route path="/ua/photographer" element={<PhotographerUA />} />
