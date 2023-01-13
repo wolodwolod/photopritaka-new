@@ -8,7 +8,7 @@ const sendMessage = payload => {
 
   const example = process.env.REACT_APP_EXAMPLE;
   // console.log(process.env);
-  // console.log(process.env.NODE_ENV);
+  console.log(process.env.NODE_ENV);
   console.log(email, name, text);
   console.log(example);
   
