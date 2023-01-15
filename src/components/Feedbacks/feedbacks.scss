@@ -1,0 +1,12 @@
+/* Отзывы */
+.rounded {
+  border: 3px solid var(--color1);
+  border-radius: 50% !important;
+  background-origin: content-box;
+}
+.line {
+  width: 100px;
+  height: 3px;
+  background-color: rgb(123, 165, 255);
+  margin: 15px auto 30px;
+}

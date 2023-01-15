@@ -1,11 +1,12 @@
-
+import AboutPhotographerUA from 'components/AboutPhotographer/AboutPhotographerUA';
+import FeedbacksUA from 'components/Feedbacks/FeedbacksUA';
 
 const PhotographerUA = () => {
   return (
     <main>
       <div>
-        
-        <h2>Фотограф</h2>
+        <AboutPhotographerUA />
+        <FeedbacksUA />
       </div>
     </main>
   );
