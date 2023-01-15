@@ -1,5 +1,5 @@
 import './about-photographer.scss'
-import photographer from '../../shared/images/Tetiana Pritaka-1.jpg';
+import photographer from '../../shared/images/common-img/Tetiana Pritaka-1.jpg';
 
 const AboutPhotographerUA = () => {
   return (

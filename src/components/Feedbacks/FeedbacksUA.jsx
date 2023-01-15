@@ -1,5 +1,5 @@
 import './feedbacks.scss';
-import Volodymyr from '../../shared/images/Volodymyr-1.jpg';
+import Volodymyr from '../../shared/images/feedbacks-img/Volodymyr-1.jpg';
 
 const FeedbacksUA = () => {
   return (
