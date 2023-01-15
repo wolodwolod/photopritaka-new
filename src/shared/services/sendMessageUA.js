@@ -24,8 +24,8 @@ const sendMessageUA = payload => {
 
   const params = {
     Destination: {
-      ToAddresses: [process.env.REACT_APP_TO_MAIL_ADDRESS],
-      CcAddresses: [process.env.REACT_APP_FROM_MAIL_ADDRESS],
+      ToAddresses: [process.env.REACT_APP_FROM_MAIL_ADDRESS]
+      // CcAddresses: [process.env.REACT_APP_FROM_MAIL_ADDRESS],
     },
 
     Message: {
