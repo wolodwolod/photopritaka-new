@@ -10,7 +10,7 @@ const FeedbacksUA = () => {
             <h2 className="text-center text-uppercase color3 mb-5">ВІДГУКИ</h2>
           </div>
         </div>
-        <div class="row justify-content-center">
+        <div className="row justify-content-center">
           <div className="col-lg-4 col-md-6 col-sm-12 justify-content-center">
             <img
               src={Volodymyr}

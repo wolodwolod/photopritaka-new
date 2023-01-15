@@ -1,6 +1,6 @@
 import { SESClient, SendEmailCommand } from '@aws-sdk/client-ses';
 
-const sendMessageUA = payload => {
+const sendFeedbackUA = payload => {
   const { email, name, text } = payload;
 
   // const example = process.env.REACT_APP_EXAMPLE;
@@ -18,8 +18,8 @@ const sendMessageUA = payload => {
   
   const HTML_CONTENTS =
     '<html>' +
-    '<h2>Повідомлення фотографу від користувача сайту PritakaPhoto</h2>' +
-    `<table style='border: 1px solid #333'><tbody><tr><td style='border: 1px solid #333; padding: 1px 5px'>Ім'я</td><td style='border: 1px solid #333; padding: 1px 5px'>${name}</td></tr><tr><td style='border: 1px solid #333; padding: 1px 5px'>Електронна адреса</td><td style='border: 1px solid #333; padding: 1px 5px'>${email}</td></tr><tr><td style='border: 1px solid #333; padding: 1px 5px'>Повідомлення</td><td style='border: 1px solid #333; padding: 1px 5px'>${text}</td></tr></tbody></table >` +
+    '<h2>Відгук від користувача сайту PritakaPhoto</h2>' +
+    `<table style='border: 1px solid #333'><tbody><tr><td style='border: 1px solid #333; padding: 1px 5px'>Ім'я</td><td style='border: 1px solid #333; padding: 1px 5px'>${name}</td></tr><tr><td style='border: 1px solid #333; padding: 1px 5px'>Електронна адреса</td><td style='border: 1px solid #333; padding: 1px 5px'>${email}</td></tr><tr><td style='border: 1px solid #333; padding: 1px 5px'>Відгук</td><td style='border: 1px solid #333; padding: 1px 5px'>${text}</td></tr></tbody></table >` +
     '</html>';
 
   const params = {
@@ -60,4 +60,4 @@ const sendMessageUA = payload => {
   run();
 };
 
-export default sendMessageUA;
+export default sendFeedbackUA;
