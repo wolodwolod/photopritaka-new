@@ -1,3 +1,0 @@
-const family_img=[
-    
-]

@@ -2,33 +2,33 @@
 // import ImageGalleryItem from 'components/ImageGalleryItem/ImageGalleryItem';
 import s from './image-gallery.module.scss';
 // import { memo } from 'react';
-import jpg1 from '../../shared/images/events-img/s/1s.jpg';
+import jpg1 from '../../shared/images/events-img/s/1.jpg';
 import jpg2 from '../../shared/images/events-img/s/2.jpg';
-import jpg3 from '../../shared/images/events-img/s/3s.jpg';
-import jpg4 from '../../shared/images/events-img/s/4s.jpg';
-import jpg5 from '../../shared/images/events-img/s/5s.jpg';
+import jpg3 from '../../shared/images/events-img/s/3.jpg';
+import jpg4 from '../../shared/images/events-img/s/4.jpg';
+import jpg5 from '../../shared/images/events-img/s/5.jpg';
 import jpg6 from '../../shared/images/events-img/s/6.jpg';
 import jpg7 from '../../shared/images/events-img/s/7.jpg';
 import jpg8 from '../../shared/images/events-img/s/8.jpg';
-import jpg9 from '../../shared/images/events-img/s/9s.jpg';
+import jpg9 from '../../shared/images/events-img/s/9.jpg';
 import jpg10 from '../../shared/images/events-img/s/10.jpg';
 import jpg11 from '../../shared/images/events-img/s/11.jpg';
-import jpg12 from '../../shared/images/events-img/s/12s.jpg';
+import jpg12 from '../../shared/images/events-img/s/12.jpg';
 import jpg13 from '../../shared/images/events-img/s/13.jpg';
-import jpg14 from '../../shared/images/events-img/s/14s.jpg';
+import jpg14 from '../../shared/images/events-img/s/14.jpg';
 import jpg15 from '../../shared/images/events-img/s/15.jpg';
 import jpg16 from '../../shared/images/events-img/s/16.jpg';
 import jpg17 from '../../shared/images/events-img/s/17.jpg';
 import jpg18 from '../../shared/images/events-img/s/18.jpg';
-import jpg19 from '../../shared/images/events-img/s/19s.jpg';
+import jpg19 from '../../shared/images/events-img/s/19.jpg';
 import jpg20 from '../../shared/images/events-img/s/20.jpg';
 import jpg21 from '../../shared/images/events-img/s/21.jpg';
 import jpg22 from '../../shared/images/events-img/s/22.jpg';
 import jpg23 from '../../shared/images/events-img/s/23.jpg';
 import jpg24 from '../../shared/images/events-img/s/24.jpg';
 import jpg25 from '../../shared/images/events-img/s/25.jpg';
-import jpg26 from '../../shared/images/events-img/s/26s.jpg';
-import jpg27 from '../../shared/images/events-img/s/27s.jpg';
+import jpg26 from '../../shared/images/events-img/s/26.jpg';
+import jpg27 from '../../shared/images/events-img/s/27.jpg';
 
 export const ImgEventsGallery = () => {
   // const EventsImages = [
