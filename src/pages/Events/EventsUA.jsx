@@ -4,19 +4,16 @@ import ImgEventsGallery from 'components/ImageGallery/ImgEventsGallery';
 
 const EventsUA = () => {
   
-  // const pathOfImg = '../../shared/images/events-img';
-  // const arrayOfEventsImg = arrayOfImg.map(item => {
-  //   return {
-  //     id: item.id,
-  //     src: pathOfImg + item.src,
-  //   };
-  // });
-  // console.log(arrayOfEventsImg);
+ 
 
   return (
     <main>
       <div>
-        <h2>Події</h2>
+      <div className="col-12">
+            <h2 className="text-center text-uppercase color3 mt-5">
+              Фотосесія подій
+            </h2>
+          </div>
         <ImgEventsGallery />
       </div>
     </main>
