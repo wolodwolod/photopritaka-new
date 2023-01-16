@@ -8,7 +8,7 @@ const AboutPhotographerUA = () => {
         <div className="row">
           <div className="col-12">
             <h2 className="text-center text-uppercase color3 mb-5">
-              Про фотографа
+              Фотограф
             </h2>
           </div>
           <div className="col-xl-9 col-lg-12">
