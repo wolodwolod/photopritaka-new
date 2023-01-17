@@ -78,227 +78,201 @@ export const ImgFamilyGallery = ({ onClick }) => {
     <section className={s.Img_gallary}>
       <div className="container">
         <div className="row">
-                      
-              <div className="col-lg-4 col-md-6 col-sm-12"
-                key={1}
-                // className={s.GalleryIitem}
-                onClick={() => {
-                  openModal(limg1);
-                }}>
-              
-                <img className={s.GalleryItem__Img} src={img1} alt="photo1" />
-              </div>
-              <div className="col-lg-4 col-md-6 col-sm-12"
-                key={2}
-                // className={s.GalleryIitem}
-                onClick={() => {
-                  openModal(limg2);
-                }}
-              >
-                <img className={s.GalleryItem__Img} src={img2} alt="photo2" />
-              </div>
-              <div className="col-lg-4 col-md-6 col-sm-12"
-                key={3}
-                // className={s.GalleryIitem}
-                onClick={() => {
-                  openModal(limg3);
-                }}
-              >
-                <img className={s.GalleryItem__Img} src={img3} alt="photo3" />
-              </div>
-              <div
-                key={4}
-                className="col-lg-4 col-md-6 col-sm-12"
-                onClick={() => {
-                  openModal(limg4);
-                }}
-              >
-                <img className={s.GalleryItem__Img} src={img4} alt="photo4" />
-              </div>
-              <div
-                key={5}
-                className="col-lg-4 col-md-6 col-sm-12"
-                onClick={() => {
-                  openModal(limg5);
-                }}
-              >
-                <img className={s.GalleryItem__Img} src={img5} alt="photo5" />
-              </div>
-              <div
-                key={6}
-                className="col-lg-4 col-md-6 col-sm-12"
-                onClick={() => {
-                  openModal(limg6);
-                }}
-              >
-                <img className={s.GalleryItem__Img} src={img6} alt="photo6" />
-              </div>
-              <div
-                key={7}
-                className="col-lg-4 col-md-6 col-sm-12"
-                onClick={() => {
-                  openModal(limg7);
-                }}
-              >
-                <img className={s.GalleryItem__Img} src={img7} alt="photo7" />
-              </div>
-              <div
-                key={8}
-                className="col-lg-4 col-md-6 col-sm-12"
-                onClick={() => {
-                  openModal(limg8);
-                }}
-              >
-                <img className={s.GalleryItem__Img} src={img8} alt="photo8" />
-              </div>
-              <div
-                key={9}
-                className="col-lg-4 col-md-6 col-sm-12"
-                onClick={() => {
-                  openModal(limg9);
-                }}
-              >
-                <img className={s.GalleryItem__Img} src={img9} alt="photo9" />
-              </div>
-              <div
-                key={10}
-                className="col-lg-4 col-md-6 col-sm-12"
-                onClick={() => {
-                  openModal(limg10);
-                }}
-              >
-                <img className={s.GalleryItem__Img} src={img10} alt="photo10" />
-              </div>
-              <div
-                key={11}
-                className="col-lg-4 col-md-6 col-sm-12"
-                onClick={() => {
-                  openModal(limg11);
-                }}
-              >
-                <img className={s.GalleryItem__Img} src={img11} alt="photo11" />
-              </div>
-              <div
-                key={12}
-                className="col-lg-4 col-md-6 col-sm-12"
-                onClick={() => {
-                  openModal(limg12);
-                }}
-              >
-                <img className={s.GalleryItem__Img} src={img12} alt="photo12" />
-              </div>
-              <div
-                key={13}
-                className="col-lg-4 col-md-6 col-sm-12"
-                onClick={() => {
-                  openModal(limg13);
-                }}
-              >
-                <img className={s.GalleryItem__Img} src={img13} alt="photo13" />
-              </div>
-              <div
-                key={14}
-                className="col-lg-4 col-md-6 col-sm-12"
-                onClick={() => {
-                  openModal(limg14);
-                }}
-              >
-                <img className={s.GalleryItem__Img} src={img14} alt="photo14" />
-              </div>
-              <div
-                key={15}
-                className="col-lg-4 col-md-6 col-sm-12"
-                onClick={() => {
-                  openModal(limg15);
-                }}
-              >
-                <img className={s.GalleryItem__Img} src={img15} alt="photo15" />
-              </div>
-              <div
-                key={16}
-                className="col-lg-4 col-md-6 col-sm-12"
-                onClick={() => {
-                  openModal(limg16);
-                }}
-              >
-                <img className={s.GalleryItem__Img} src={img16} alt="photo16" />
-              </div>
-              <div
-                key={17}
-                className="col-lg-4 col-md-6 col-sm-12"
-                onClick={() => {
-                  openModal(limg17);
-                }}
-              >
-                <img className={s.GalleryItem__Img} src={img17} alt="photo17" />
-              </div>
-              <div
-                key={18}
-                className="col-lg-4 col-md-6 col-sm-12"
-                onClick={() => {
-                  openModal(limg18);
-                }}
-              >
-                <img className={s.GalleryItem__Img} src={img18} alt="photo18" />
-              </div>
-              <div
-                key={19}
-                className="col-lg-4 col-md-6 col-sm-12"
-                onClick={() => {
-                  openModal(limg19);
-                }}
-              >
-                <img className={s.GalleryItem__Img} src={img19} alt="photo19" />
-              </div>
-              <div
-                key={20}
-                className="col-lg-4 col-md-6 col-sm-12"
-                onClick={() => {
-                  openModal(limg20);
-                }}
-              >
-                <img className={s.GalleryItem__Img} src={img20} alt="photo20" />
-              </div>
-              <div
-                key={21}
-                className="col-lg-4 col-md-6 col-sm-12"
-                onClick={() => {
-                  openModal(limg21);
-                }}
-              >
-                <img className={s.GalleryItem__Img} src={img21} alt="photo21" />
-              </div>
-              <div
-                key={22}
-                className="col-lg-4 col-md-6 col-sm-12"
-                onClick={() => {
-                  openModal(limg22);
-                }}
-              >
-                <img className={s.GalleryItem__Img} src={img22} alt="photo22" />
-              </div>
-              <div
-                key={23}
-                className="col-lg-4 col-md-6 col-sm-12"
-                onClick={() => {
-                  openModal(limg23);
-                }}
-              >
-                <img className={s.GalleryItem__Img} src={img23} alt="photo23" />
-              </div>
-            
+          <div
+            className="col-lg-4 col-md-6 col-sm-12"
+            // className={s.GalleryIitem}
+            onClick={() => {
+              openModal(limg1);
+            }}
+          >
+            <img className={s.GalleryItem__Img} src={img1} alt="photo1" />
           </div>
-
-          {modal.open && (
-            <Modal onClose={closeModal}>
-              <img
-                className={s.Modal_Img}
-                src={modal.modalImg}
-                alt={modal.alt}
-              />
-            </Modal>
-          )}
+          <div
+            className="col-lg-4 col-md-6 col-sm-12"
+            // className={s.GalleryIitem}
+            onClick={() => {
+              openModal(limg2);
+            }}
+          >
+            <img className={s.GalleryItem__Img} src={img2} alt="photo2" />
+          </div>
+          <div
+            className="col-lg-4 col-md-6 col-sm-12"
+            // className={s.GalleryIitem}
+            onClick={() => {
+              openModal(limg3);
+            }}
+          >
+            <img className={s.GalleryItem__Img} src={img3} alt="photo3" />
+          </div>
+          <div
+            className="col-lg-4 col-md-6 col-sm-12"
+            onClick={() => {
+              openModal(limg4);
+            }}
+          >
+            <img className={s.GalleryItem__Img} src={img4} alt="photo4" />
+          </div>
+          <div
+            className="col-lg-4 col-md-6 col-sm-12"
+            onClick={() => {
+              openModal(limg5);
+            }}
+          >
+            <img className={s.GalleryItem__Img} src={img5} alt="photo5" />
+          </div>
+          <div
+            className="col-lg-4 col-md-6 col-sm-12"
+            onClick={() => {
+              openModal(limg6);
+            }}
+          >
+            <img className={s.GalleryItem__Img} src={img6} alt="photo6" />
+          </div>
+          <div
+            className="col-lg-4 col-md-6 col-sm-12"
+            onClick={() => {
+              openModal(limg7);
+            }}
+          >
+            <img className={s.GalleryItem__Img} src={img7} alt="photo7" />
+          </div>
+          <div
+            className="col-lg-4 col-md-6 col-sm-12"
+            onClick={() => {
+              openModal(limg8);
+            }}
+          >
+            <img className={s.GalleryItem__Img} src={img8} alt="photo8" />
+          </div>
+          <div
+            className="col-lg-4 col-md-6 col-sm-12"
+            onClick={() => {
+              openModal(limg9);
+            }}
+          >
+            <img className={s.GalleryItem__Img} src={img9} alt="photo9" />
+          </div>
+          <div
+            className="col-lg-4 col-md-6 col-sm-12"
+            onClick={() => {
+              openModal(limg10);
+            }}
+          >
+            <img className={s.GalleryItem__Img} src={img10} alt="photo10" />
+          </div>
+          <div
+            className="col-lg-4 col-md-6 col-sm-12"
+            onClick={() => {
+              openModal(limg11);
+            }}
+          >
+            <img className={s.GalleryItem__Img} src={img11} alt="photo11" />
+          </div>
+          <div
+            className="col-lg-4 col-md-6 col-sm-12"
+            onClick={() => {
+              openModal(limg12);
+            }}
+          >
+            <img className={s.GalleryItem__Img} src={img12} alt="photo12" />
+          </div>
+          <div
+            className="col-lg-4 col-md-6 col-sm-12"
+            onClick={() => {
+              openModal(limg13);
+            }}
+          >
+            <img className={s.GalleryItem__Img} src={img13} alt="photo13" />
+          </div>
+          <div
+            className="col-lg-4 col-md-6 col-sm-12"
+            onClick={() => {
+              openModal(limg14);
+            }}
+          >
+            <img className={s.GalleryItem__Img} src={img14} alt="photo14" />
+          </div>
+          <div
+            className="col-lg-4 col-md-6 col-sm-12"
+            onClick={() => {
+              openModal(limg15);
+            }}
+          >
+            <img className={s.GalleryItem__Img} src={img15} alt="photo15" />
+          </div>
+          <div
+            className="col-lg-4 col-md-6 col-sm-12"
+            onClick={() => {
+              openModal(limg16);
+            }}
+          >
+            <img className={s.GalleryItem__Img} src={img16} alt="photo16" />
+          </div>
+          <div
+            className="col-lg-4 col-md-6 col-sm-12"
+            onClick={() => {
+              openModal(limg17);
+            }}
+          >
+            <img className={s.GalleryItem__Img} src={img17} alt="photo17" />
+          </div>
+          <div
+            className="col-lg-4 col-md-6 col-sm-12"
+            onClick={() => {
+              openModal(limg18);
+            }}
+          >
+            <img className={s.GalleryItem__Img} src={img18} alt="photo18" />
+          </div>
+          <div
+            className="col-lg-4 col-md-6 col-sm-12"
+            onClick={() => {
+              openModal(limg19);
+            }}
+          >
+            <img className={s.GalleryItem__Img} src={img19} alt="photo19" />
+          </div>
+          <div
+            className="col-lg-4 col-md-6 col-sm-12"
+            onClick={() => {
+              openModal(limg20);
+            }}
+          >
+            <img className={s.GalleryItem__Img} src={img20} alt="photo20" />
+          </div>
+          <div
+            className="col-lg-4 col-md-6 col-sm-12"
+            onClick={() => {
+              openModal(limg21);
+            }}
+          >
+            <img className={s.GalleryItem__Img} src={img21} alt="photo21" />
+          </div>
+          <div
+            className="col-lg-4 col-md-6 col-sm-12"
+            onClick={() => {
+              openModal(limg22);
+            }}
+          >
+            <img className={s.GalleryItem__Img} src={img22} alt="photo22" />
+          </div>
+          <div
+            className="col-lg-4 col-md-6 col-sm-12"
+            onClick={() => {
+              openModal(limg23);
+            }}
+          >
+            <img className={s.GalleryItem__Img} src={img23} alt="photo23" />
+          </div>
         </div>
+
+        {modal.open && (
+          <Modal onClose={closeModal}>
+            <img className={s.Modal_Img} src={modal.modalImg} alt={modal.alt} />
+          </Modal>
+        )}
+      </div>
       {/* </div> */}
     </section>
   );
