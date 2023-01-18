@@ -1,5 +1,5 @@
 // import arrayOfImg from '../../shared/images/array';
-import ImgFamilyGallery from 'components/ImageGallery/ImgFamilyGallery';
+import FamilyImgGallery from 'components/ImageGalleries/FamilyGallery';
 
 
 const FamilyUA = () => {
@@ -11,7 +11,7 @@ const FamilyUA = () => {
             Сімейна фотосесія
           </h2>
         </div>
-        <ImgFamilyGallery  />
+        <FamilyImgGallery  />
         
       </div>
     </main>

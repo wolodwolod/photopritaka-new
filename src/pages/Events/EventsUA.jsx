@@ -1,5 +1,5 @@
 // import arrayOfImg from '../../shared/images/array';
-import ImgEventsGallery from 'components/ImageGallery/ImgEventsGallery';
+import EventsGallery from 'components/ImageGalleries/EventsGallery';
 
 
 const EventsUA = () => {
@@ -11,7 +11,7 @@ const EventsUA = () => {
             Фотосесія подій
           </h2>
         </div>
-        <ImgEventsGallery  />
+        <EventsGallery  />
         
       </div>
     </main>
