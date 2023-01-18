@@ -1,1 +1,0 @@
-{"version":3,"file":"static/js/125.3dcb9dee.chunk.js","mappings":"uIAaA,UAXmB,WACjB,OACE,2BACE,0BAEE,4FAIP,C","sources":["pages/Romantic/RomanticUA.jsx"],"sourcesContent":["\n\nconst RomanticUA = () => {\n  return (\n    <main>\n      <div>\n      \n        <h2>Романтичні</h2>\n      </div>\n    </main>\n  );\n};\n\nexport default RomanticUA;\n"],"names":[],"sourceRoot":""}
