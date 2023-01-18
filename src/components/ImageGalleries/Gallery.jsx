@@ -23,15 +23,13 @@ const Gallery = ({ imgs }) => {
       lImg: null,
       tag: '',
     });
-  };
-
-  console.log(imgs);
+  };  
 
   const Imgs = ({ imgs }) => {
-    console.log(imgs);
-    return imgs.map(({ key, img, limg, tag }) => (
+    
+    return imgs.map(({ id, img, limg, tag }) => (
       <div
-        key={key}
+        key={id}
         className="col-lg-4 col-md-6 col-sm-12"
         onClick={() => {
           openModal(limg, tag);
