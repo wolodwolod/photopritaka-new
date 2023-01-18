@@ -10,6 +10,13 @@ const AllSessionsUA = () => {
         <div className="row">
           <div className="col-md-6 col-sm-12 text-uppercase">
             <div className="session session-box">
+              <Link to="/ua/portrait" relative="path">
+                <h2 className="text-center">Портрет</h2>
+              </Link>
+            </div>
+          </div>
+          <div className="col-md-6 col-sm-12 text-uppercase">
+            <div className="session session-box">
               <Link to="/ua/family" relative="path">
                 <h2 className="text-center">Сімейне фото</h2>
               </Link>
@@ -22,13 +29,7 @@ const AllSessionsUA = () => {
               </Link>
             </div>
           </div>
-          <div className="col-md-6 col-sm-12 text-uppercase">
-            <div className="session session-box">
-              <Link to="/ua/portrait" relative="path">
-                <h2 className="text-center">Портрет</h2>
-              </Link>
-            </div>
-          </div>
+
           <div className="col-md-6 col-sm-12 text-uppercase">
             <div className="session session-box">
               <Link to="/ua/newborns" relative="path">
@@ -40,7 +41,7 @@ const AllSessionsUA = () => {
             <div className="session session-box">
               <Link to="/ua/events" relative="path">
                 <h2 className="text-center">Події</h2>
-              </Link>             
+              </Link>
             </div>
           </div>
         </div>

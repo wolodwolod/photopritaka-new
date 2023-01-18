@@ -1,14 +1,15 @@
 import { NavLink } from 'react-router-dom';
 
 import './navbar.scss';
-import styles from "./navbar.module.scss";
+import styles from './navbar.module.scss';
 
 import camera from '../../shared/icons/camera2.svg';
 import iconsUKR from '../../shared/icons/icons-UKR.png';
 import iconsGB from '../../shared/icons/icons-GB.png';
 import iconsFR from '../../shared/icons/icons-FR.png';
 
-const getActiveClass = ({ isActive }) => (isActive ? styles.linkActive : styles.link);
+const getActiveClass = ({ isActive }) =>
+  isActive ? styles.linkActive : styles.link;
 
 const NavbarUA = () => {
   return (
@@ -17,21 +18,18 @@ const NavbarUA = () => {
         <div className="row">
           <nav className="navbar navbar-expand-lg nav">
             <div className="container-fluid bold">
-              
-                <div className="navbar-brand logo"> 
-                 <NavLink to="/" className={getActiveClass}>            
-                <img
-                  src={camera}
-                  alt="Logo"
-                  width="38"
-                  height="24"
-                  className="d-inline-block align-text-top"
-                />
-                PRITAKA&nbsp;<span className="yello">PHOTO</span>
+              <div className="navbar-brand logo">
+                <NavLink to="/" className={getActiveClass}>
+                  <img
+                    src={camera}
+                    alt="Logo"
+                    width="38"
+                    height="24"
+                    className="d-inline-block align-text-top"
+                  />
+                  PRITAKA&nbsp;<span className="yello">PHOTO</span>
                 </NavLink>
               </div>
-              
-              
 
               <button
                 className="navbar-toggler"
@@ -58,10 +56,10 @@ const NavbarUA = () => {
                       className="nav-link"
                       href="/ua/photographer"
                     > */}
-                      <NavLink to="/ua/photographer" className={getActiveClass}>
-                         Фотограф
-                      </NavLink>
-                     
+                    <NavLink to="/ua/photographer" className={getActiveClass}>
+                      Фотограф
+                    </NavLink>
+
                     {/* </a> */}
                   </li>
                   <li className="nav-item nav-link">
@@ -69,7 +67,7 @@ const NavbarUA = () => {
                     <NavLink to="/ua/contacts" className={getActiveClass}>
                       Контакти
                     </NavLink>
-                      
+
                     {/* </a> */}
                   </li>
                   <li className="nav-item mr-50 dropdown">
@@ -83,39 +81,40 @@ const NavbarUA = () => {
                       Фотосесії
                     </a>
                     <ul className="dropdown-menu">
+                    <li className="dropdown-item">
+                        {/* <a  href="/ua/romantic"> */}
+                        <NavLink to="/ua/portrait" className={getActiveClass}>
+                          Портрет
+                        </NavLink>
+                        {/* </a> */}
+                      </li>
                       <li className="dropdown-item">
                         {/* <a  href="/ua/family"> */}
                         <NavLink to="/ua/family" className={getActiveClass}>
                           Сімейне фото
-                          </NavLink>
+                        </NavLink>
                         {/* </a> */}
                       </li>
                       <li className="dropdown-item">
                         {/* <a  href="/ua/romantic"> */}
                         <NavLink to="/ua/romantic" className={getActiveClass}>
                           Романтичне фото
-                          </NavLink>
+                        </NavLink>
                         {/* </a> */}
                       </li>
-                      <li className="dropdown-item">
-                        {/* <a  href="/ua/romantic"> */}
-                        <NavLink to="/ua/portrait" className={getActiveClass}>
-                          Портрет
-                          </NavLink>
-                        {/* </a> */}
-                      </li>
+
                       <li className="dropdown-item">
                         {/* <a  href="/ua/newborns"> */}
                         <NavLink to="/ua/newborns" className={getActiveClass}>
                           Новонароджені
-                          </NavLink>
+                        </NavLink>
                         {/* </a> */}
                       </li>
                       <li className="dropdown-item">
                         {/* <a  href="/ua/events"> */}
                         <NavLink to="/ua/events" className={getActiveClass}>
                           Події
-                          </NavLink>
+                        </NavLink>
                         {/* </a> */}
                       </li>
                     </ul>
@@ -171,7 +170,8 @@ const NavbarUA = () => {
             </div>
           </nav>
         </div>
-      </div></header>
+      </div>
+    </header>
   );
 };
 
