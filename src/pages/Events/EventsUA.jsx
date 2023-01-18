@@ -8,7 +8,8 @@ const EventsUA = () => {
       <div>
         <div className="col-12">
           <h2 className="text-center text-uppercase color3 mt-5">
-            Фотосесія подій
+           Ми - найкращі!
+
           </h2>
         </div>
         <EventsGallery  />

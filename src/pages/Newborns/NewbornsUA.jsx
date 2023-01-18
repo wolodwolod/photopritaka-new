@@ -8,7 +8,7 @@ const NewbornsUA = () => {
       <div>
         <div className="col-12">
           <h2 className="text-center text-uppercase color3 mt-5">
-            Фотосесія новонароджених
+            Нове життя
           </h2>
         </div>
         <NewbornsGallery  />
