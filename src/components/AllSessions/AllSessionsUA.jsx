@@ -24,6 +24,13 @@ const AllSessionsUA = () => {
           </div>
           <div className="col-md-6 col-sm-12 text-uppercase">
             <div className="session session-box">
+              <Link to="/ua/portrait" relative="path">
+                <h2 className="text-center">Портрет</h2>
+              </Link>
+            </div>
+          </div>
+          <div className="col-md-6 col-sm-12 text-uppercase">
+            <div className="session session-box">
               <Link to="/ua/newborns" relative="path">
                 <h2 className="text-center">НОВОНАРОДЖЕНІ</h2>
               </Link>
@@ -32,7 +39,7 @@ const AllSessionsUA = () => {
           <div className="col-md-6 col-sm-12 text-uppercase">
             <div className="session session-box">
               <Link to="/ua/events" relative="path">
-                <h2 className="text-center">ПОДІЇ</h2>
+                <h2 className="text-center">Події</h2>
               </Link>             
             </div>
           </div>

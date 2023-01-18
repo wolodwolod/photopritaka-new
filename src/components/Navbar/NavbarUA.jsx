@@ -98,6 +98,13 @@ const NavbarUA = () => {
                         {/* </a> */}
                       </li>
                       <li className="dropdown-item">
+                        {/* <a  href="/ua/romantic"> */}
+                        <NavLink to="/ua/portrait" className={getActiveClass}>
+                          Портрет
+                          </NavLink>
+                        {/* </a> */}
+                      </li>
+                      <li className="dropdown-item">
                         {/* <a  href="/ua/newborns"> */}
                         <NavLink to="/ua/newborns" className={getActiveClass}>
                           Новонароджені

@@ -1,4 +1,4 @@
-// import arrayOfImg from '../../shared/images/array';
+
 import EventsGallery from 'components/ImageGalleries/EventsGallery';
 
 
