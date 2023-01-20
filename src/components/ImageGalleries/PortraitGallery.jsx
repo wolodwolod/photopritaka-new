@@ -69,7 +69,7 @@ import limg30 from '../../shared/images/portrait-img/l/30.jpg';
 import limg31 from '../../shared/images/portrait-img/l/31.jpg';
 import limg32 from '../../shared/images/portrait-img/l/32.jpg';
 
-import Gallery from './GalleryMasornyModal';
+import Gallery from './GalleryMasornyFancybox';
 
 const PortraitGallery = () => {
   const imgs = [
