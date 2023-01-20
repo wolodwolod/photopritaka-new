@@ -1,4 +1,4 @@
-import { useState, useCallback } from 'react';
+// import { useState, useCallback } from 'react';
 // import Masonry from 'react-masonry-css';
 import Masonry, { ResponsiveMasonry } from 'react-responsive-masonry';
 import Fancybox from '../../shared/services/fancybox';
@@ -33,7 +33,7 @@ const Gallery = ({ imgs }) => {
 
   const imgsList = imgs.map(function ({ id, img, limg, tag }) {
     return (
-      <a
+      <div
         data-fancybox="gallery"
         data-src={limg}
         key={id}
@@ -42,7 +42,7 @@ const Gallery = ({ imgs }) => {
         // }}
       >
         <img className={s.GalleryItem__Img} src={img} alt={tag} />
-      </a>
+      </div>
     );
   });
 
