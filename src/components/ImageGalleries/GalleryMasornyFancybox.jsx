@@ -5,9 +5,7 @@ import Fancybox from '../../shared/services/fancybox';
 import s from './image-gallery.module.scss';
 import './masonry.scss';
 
-const Gallery = ({ imgs }) => { 
-
-  console.log(imgs);
+const Gallery = ({ imgs }) => {   
 
   const imgsList = imgs.map(function ({ id, img, limg, tag }) {
     return (
