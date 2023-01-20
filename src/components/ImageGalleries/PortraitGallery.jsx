@@ -34,6 +34,7 @@ import img29 from '../../shared/images/portrait-img/s/29.jpg';
 import img30 from '../../shared/images/portrait-img/s/30.jpg';
 import img31 from '../../shared/images/portrait-img/s/31.jpg';
 import img32 from '../../shared/images/portrait-img/s/32.jpg';
+import img33 from '../../shared/images/portrait-img/s/33.jpg';
 
 
 import limg1 from '../../shared/images/portrait-img/l/1.jpg';
@@ -68,6 +69,7 @@ import limg29 from '../../shared/images/portrait-img/l/29.jpg';
 import limg30 from '../../shared/images/portrait-img/l/30.jpg';
 import limg31 from '../../shared/images/portrait-img/l/31.jpg';
 import limg32 from '../../shared/images/portrait-img/l/32.jpg';
+import limg33 from '../../shared/images/portrait-img/l/33.jpg';
 
 import Gallery from './GalleryMasornyFancybox';
 
@@ -105,6 +107,7 @@ const PortraitGallery = () => {
     { id: 30, img: img30, limg: limg30, tag: 'photo30' },
     { id: 31, img: img31, limg: limg31, tag: 'photo31' },
     { id: 32, img: img32, limg: limg32, tag: 'photo32' },
+    { id: 33, img: img33, limg: limg33, tag: 'photo33' },
   ];
 
   return (
