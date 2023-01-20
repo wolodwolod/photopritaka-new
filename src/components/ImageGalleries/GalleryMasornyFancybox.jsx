@@ -7,7 +7,7 @@ import './masonry.scss';
 
 const Gallery = ({ imgs }) => {   
 
-  const imgsList = imgs.map(function ({ id, img, limg, tag }) {
+  const imgList = imgs.map(function ({ id, img, limg, tag }) {
     return (
       <div
         data-fancybox="gallery"
@@ -23,7 +23,7 @@ const Gallery = ({ imgs }) => {
     <div className="container">
       <Fancybox>
         <ResponsiveMasonry columnsCountBreakPoints={{ 350: 1, 750: 2, 900: 3 }}>
-          <Masonry gutter={'10px'}>{imgsList}</Masonry>
+          <Masonry gutter={'10px'}>{imgList}</Masonry>
         </ResponsiveMasonry>
       </Fancybox>      
     </div>
