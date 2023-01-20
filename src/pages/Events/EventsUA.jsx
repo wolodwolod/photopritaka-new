@@ -1,5 +1,5 @@
 
-import EventsGallery from 'components/ImageGalleries/EventsGallery';
+import EventsGallery from 'components/ImageGalleries/EventsGallery2';
 
 
 const EventsUA = () => {

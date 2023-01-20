@@ -29,7 +29,7 @@ import limg10 from '../../shared/images/newborns-img/l/10.jpg';
 import limg11 from '../../shared/images/newborns-img/l/11.jpg';
 import limg12 from '../../shared/images/newborns-img/l/12.jpg';
 
-import Gallery from './Gallery';
+import Gallery from './GalleryMasornyFancybox';
 
 const NewbornsGallery = () => {
   

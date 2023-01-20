@@ -46,7 +46,7 @@ import limg19 from '../../shared/images/family-img/l/19.jpg';
 import limg20 from '../../shared/images/family-img/l/20.jpg';
 import limg21 from '../../shared/images/family-img/l/21.jpg';
 
-import Gallery from './Gallery';
+import Gallery from './GalleryMasornyFancybox';
 
 const FamilyGallery = () => {
   const imgs = [

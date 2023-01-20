@@ -40,7 +40,7 @@ import limg16 from '../../shared/images/romantic-img/l/16.jpg';
 import limg17 from '../../shared/images/romantic-img/l/17.jpg';
 import limg18 from '../../shared/images/romantic-img/l/18.jpg';
 
-import Gallery from './Gallery';
+import Gallery from './GalleryMasornyFancybox';
 
 const RomanticGallery = () => {
   const imgs = [

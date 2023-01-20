@@ -46,7 +46,7 @@ import limg19 from '../../shared/images/events-img/l/19.jpg';
 import limg20 from '../../shared/images/events-img/l/20.jpg';
 import limg21 from '../../shared/images/events-img/l/21.jpg';
 
-import Gallery from './GalleryMasornyFancybox';
+import Gallery2 from './GalleryMasornyFancybox';
 
 const EventsGallery = () => {
   const imgs = [
@@ -75,7 +75,7 @@ const EventsGallery = () => {
 
   return (
     <section className={s.Img_gallary}>
-      <Gallery imgs={imgs} />
+      <Gallery2 imgs={imgs} />
     </section>
   );
 };
