@@ -15,14 +15,23 @@ code {
 }
 
 /* Цвет */
-:root {
+/* :root {
   --color1: #ebf3f9;
 
   --color2: #fefeee;
   --color3: rgb(107, 208, 251);
   --color4: rgb(245, 249, 4);
   --color5: #f7f7f7;
-}
+  --grey-background-color: #e5e5e5;
+  --font-black-color: #212121;
+  --font-grey-color: #9b9faa;
+  --universal-darkblue-color: #264061;
+  --button-orange-color: #fc842d;
+  --summary-grey-color: #f0f1f3;
+  --header-grey-color: #eff1f3;
+  --horizontal-row-color: #e0e0e0;
+  --modal-background-grey-color: rgba(33, 33, 33, 0.12);
+} */
 .color1 {
   color: var(--color1);
 }

@@ -3,6 +3,8 @@ import { Routes, Route, Navigate } from 'react-router-dom';
 import Loader from "../src/components/Loader";
 
 import NavbarUA from 'components/Navbar/NavbarUA';
+import Footer from 'components/Footer/Footer';
+
 
 const HomePageUA = lazy(() => import('./pages/HomePage/HomePageUA'));
 const PhotographerUA = lazy(() =>
@@ -34,6 +36,7 @@ function App() {
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
       </Suspense>
+      <Footer />
     </div>
   );
 }
