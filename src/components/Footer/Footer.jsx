@@ -20,7 +20,7 @@ const Footer=()=>{
               <a href="" target="_blank" className="btn btn-outline-primary btn-footer">
                 <i className="icon-paper-plane"></i>
               </a> */}
-              <a href="https://www.instagram.com/tatianapritaka/" target="_blank" className="  btn-footer">
+              <a href="https://www.instagram.com/tatianapritaka/" target="_blank" rel="noreferrer" className="  btn-footer">
               <img
                     src={inst_Logo}
                     alt="Logo"
@@ -36,7 +36,7 @@ const Footer=()=>{
                     className="d-inline-block align-text-top"
                   />
               </a>
-              <a href="https://www.facebook.com/photopritaka" target="_blank" className="btn-footer">
+              <a href="https://www.facebook.com/photopritaka" target="_blank" rel="noreferrer" className="btn-footer">
               <img
                     src={fb_Logo}
                     alt="Logo"
