@@ -1,9 +1,9 @@
 import './footer.scss'
 // import '../../shared/styles/fontello.css'
-import inst_Logo from '../../shared/icons/Instagram-Logo.svg';
-import inst_Text_Logo from '../../shared/icons/Instagram-Text-Logo.svg';
-import fb_Logo from '../../shared/icons/Facebook-Logo.svg';
-import fb_Text_Logo from '../../shared/icons/Facebook-Text-Logo.svg';
+import inst_Logo from '../../shared/icons/Instagram-Logo-neg.svg';
+import inst_Text_Logo from '../../shared/icons/Instagram-Text-Logo-neg.svg';
+import fb_Logo from '../../shared/icons/Facebook-Logo-neg.svg';
+import fb_Text_Logo from '../../shared/icons/Facebook-Text-Logo-neg.svg';
 
 const Footer=()=>{
     return(
@@ -16,6 +16,8 @@ const Footer=()=>{
                     src={inst_Logo}
                     alt="Logo"
                     width="80"
+                    
+                    
                     // height="48"
                     className="d-inline-block align-text-top"
                   />
