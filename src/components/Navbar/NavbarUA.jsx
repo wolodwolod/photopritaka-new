@@ -2,18 +2,15 @@ import { NavLink } from 'react-router-dom';
 
 import './navbar.scss';
 import styles from './navbar.module.scss';
-
+import IconUA from '../Icon/IconUA';
+import IconFR from '../Icon/IconFR';
+import IconPL from '../Icon/IconPL';
+import IconEN from '../Icon/IconEN';
 
 import camera from '../../shared/icons/camera2.svg';
-import iconsUKR from '../../shared/icons/icons-UKR.png';
-import iconsGB from '../../shared/icons/icons-GB.png';
-import iconsFR from '../../shared/icons/icons-FR.png';
-
 
 const getActiveClass = ({ isActive }) =>
   isActive ? styles.linkActive : styles.link;
-
-  
 
 const NavbarUA = () => {
   return (
@@ -21,7 +18,6 @@ const NavbarUA = () => {
       <div className="container">
         <div className="row">
           <nav className="navbar navbar-expand-lg nav">
-
             <div className="container-fluid  bold">
               <div className="navbar-brand logo">
                 <NavLink to="/" className={getActiveClass}>
@@ -48,14 +44,15 @@ const NavbarUA = () => {
                 <span className="navbar-toggler-icon"></span>
               </button>
 
-              <div className="collapse navbar-collapse menu-wrapper" id="navbarNavDropdown">
+              <div
+                className="collapse navbar-collapse menu-wrapper"
+                id="navbarNavDropdown"
+              >
                 <ul className="navbar-nav nav">
                   <li className="nav-item nav-link">
-                    {/* <a className="nav-link" aria-current="page" href="/"> */}
                     <NavLink to="/" className={getActiveClass}>
                       Головна
                     </NavLink>
-                    {/* </a> */}
                   </li>
                   <li className="nav-item dropdown">
                     <a
@@ -64,111 +61,76 @@ const NavbarUA = () => {
                       role="button"
                       data-bs-toggle="dropdown"
                       aria-expanded="false"
-                      
                     >
                       Портфоліо
                     </a>
                     <ul className="dropdown-menu">
-                    <li className="dropdown-item">
-                        {/* <a  href="/ua/romantic"> */}
+                      <li className="dropdown-item">
                         <NavLink to="/ua/portrait" className={getActiveClass}>
                           Портрет
                         </NavLink>
-                        {/* </a> */}
                       </li>
                       <li className="dropdown-item">
-                        {/* <a  href="/ua/family"> */}
                         <NavLink to="/ua/family" className={getActiveClass}>
                           Сімейне фото
                         </NavLink>
-                        {/* </a> */}
                       </li>
                       <li className="dropdown-item">
-                        {/* <a  href="/ua/romantic"> */}
                         <NavLink to="/ua/romantic" className={getActiveClass}>
                           Романтичне фото
                         </NavLink>
-                        {/* </a> */}
                       </li>
 
                       <li className="dropdown-item">
-                        {/* <a  href="/ua/newborns"> */}
                         <NavLink to="/ua/newborns" className={getActiveClass}>
                           Новонароджені
                         </NavLink>
-                        {/* </a> */}
                       </li>
                       <li className="dropdown-item">
-                        {/* <a  href="/ua/events"> */}
                         <NavLink to="/ua/events" className={getActiveClass}>
                           Події
                         </NavLink>
-                        {/* </a> */}
                       </li>
                     </ul>
                   </li>
                   <li className="nav-item nav-link">
-                    {/* <a className="nav-link" href="/ua/contacts"> */}
                     <NavLink to="/ua/contacts" className={getActiveClass}>
                       Контакти
                     </NavLink>
-
-                    {/* </a> */}
                   </li>
-                  <li className="nav-item nav-link">
-                    {/* <a
-                      className="nav-link"
-                      href="/ua/photographer"
-                    > */}
+
+                  <li className="nav-item nav-link me-50">
                     <NavLink to="/ua/photographer" className={getActiveClass}>
                       Відгуки
                     </NavLink>
-
-                    {/* </a> */}
                   </li>
-                  
-                  
+
                   <li className="nav-item">
-                    <div className="dropdown">
+                    <div className="dropdown lng">
                       <a
-                        className="dropdown-toggle"
+                        className="dropdown-toggle lang"
                         href="/"
                         role="button"
                         data-bs-toggle="dropdown"
                         aria-expanded="false"
                       >
-                        <img
-                          src={iconsUKR}
-                          alt="Logo"
-                          width="35"
-                          height="30"
-                          className="d-inline-block align-text-top"
-                        />
+                        <IconUA />
                       </a>
 
                       <ul className="dropdown-menu fs-14">
                         <li>
                           <a className="dropdown-item" href="/">
-                            <img
-                              src={iconsGB}
-                              alt="Logo"
-                              width="35"
-                              height="30"
-                              className="d-inline-block align-text-center"
-                            />
-                            &nbsp;&nbsp;English
+                            <IconFR />
                           </a>
                         </li>
                         <li>
                           <a className="dropdown-item" href="/">
-                            <img
-                              src={iconsFR}
-                              alt="Logo"
-                              width="35"
-                              height="30"
-                              className="d-inline-block align-text-center"
-                            />
-                            &nbsp;&nbsp;Français
+                            <IconPL />
+                          </a>
+                        </li>
+                        <li>
+                          <a className="dropdown-item" href="/">
+                            <IconEN />
                           </a>
                         </li>
                       </ul>
