@@ -5,12 +5,17 @@
 
 /* HEADER */
 
-header {
-  // background-color: var(--color1);
-  background-color: #fffcfa;
+// header {
+//   // background-color: var(--color1);
+//   background-color: #fffcfa;
 
-  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
-    0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+//   box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
+//     0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+// }
+
+.menu-wrapper {
+  display:flex;
+  justify-content: flex-end;
 }
 
 .yello {
@@ -37,8 +42,15 @@ header {
   opacity: 1;
 }
 .nav {
+  // color: var(--font-black-color);
   padding: 10px 0;
 }
+
+.nav > li > a {
+  font-size: 18px;
+  color: var(--bs-gray-700);}
+ 
+
 .mr-50 {
   margin-right: 50px;
 }
