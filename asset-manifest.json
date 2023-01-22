@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.57022cb8.css",
-    "main.js": "/static/js/main.d667093e.js",
+    "main.js": "/static/js/main.26de42e4.js",
     "static/css/506.961d36f9.chunk.css": "/static/css/506.961d36f9.chunk.css",
     "static/js/506.817f5449.chunk.js": "/static/js/506.817f5449.chunk.js",
     "static/css/457.97e9bd1f.chunk.css": "/static/css/457.97e9bd1f.chunk.css",
@@ -50,14 +50,14 @@
     "static/media/28.jpg": "/static/media/28.0b74cca9d56241ce2ad8.jpg",
     "static/media/25.jpg": "/static/media/25.dd43b987a565846d3e7f.jpg",
     "static/media/Volodymyr-1.jpg": "/static/media/Volodymyr-1.c72a41071fb0f331abef.jpg",
-    "static/media/Instagram-Text-Logo.svg": "/static/media/Instagram-Text-Logo.1497cd017675d965778dc8ce12394e05.svg",
-    "static/media/Instagram-Logo.svg": "/static/media/Instagram-Logo.22bda4c250235f5d99c5c75e2537147e.svg",
-    "static/media/Facebook-Text-Logo.svg": "/static/media/Facebook-Text-Logo.d77df6a54dabe4be426b85b12c5e1236.svg",
+    "static/media/Instagram-Text-Logo-neg.svg": "/static/media/Instagram-Text-Logo-neg.33a41139147599341916f704a1a87053.svg",
+    "static/media/Instagram-Logo-neg.svg": "/static/media/Instagram-Logo-neg.5ab7bb2d4e50a4d27c9781428aa3efa9.svg",
+    "static/media/Facebook-Text-Logo-neg.svg": "/static/media/Facebook-Text-Logo-neg.e98679437205b8c5abf81950ff5cc138.svg",
     "index.html": "/index.html",
-    "static/media/Facebook-Logo.svg": "/static/media/Facebook-Logo.f0391d69645c7323017248ba6ecd7fa8.svg",
+    "static/media/Facebook-Logo-neg.svg": "/static/media/Facebook-Logo-neg.d0087f10efba1e48feca345c71e4292b.svg",
     "static/media/envelope.svg": "/static/media/envelope.ceed57e9483391a79813f313693eb103.svg",
     "main.57022cb8.css.map": "/static/css/main.57022cb8.css.map",
-    "main.d667093e.js.map": "/static/js/main.d667093e.js.map",
+    "main.26de42e4.js.map": "/static/js/main.26de42e4.js.map",
     "506.961d36f9.chunk.css.map": "/static/css/506.961d36f9.chunk.css.map",
     "506.817f5449.chunk.js.map": "/static/js/506.817f5449.chunk.js.map",
     "457.97e9bd1f.chunk.css.map": "/static/css/457.97e9bd1f.chunk.css.map",
@@ -74,6 +74,6 @@
   },
   "entrypoints": [
     "static/css/main.57022cb8.css",
-    "static/js/main.d667093e.js"
+    "static/js/main.26de42e4.js"
   ]
 }
