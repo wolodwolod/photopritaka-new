@@ -10,17 +10,8 @@ const Footer=()=>{
         <footer>
         <div className="container">
           <div className="row">
-            <div className="col-12 btn-footer_wrapper">
-            {/* //   <!-- <a href="" target="_blank" class="btn btn-outline-primary">
-            //     <i class="icon-youtube-play"></i>
-            //   </a> --> */}
-              {/* <a href="" target="_blank" className="btn btn-outline-primary btn-footer">
-                <i className="icon-mail-alt"></i>
-              </a>
-              <a href="" target="_blank" className="btn btn-outline-primary btn-footer">
-                <i className="icon-paper-plane"></i>
-              </a> */}
-              <a href="https://www.instagram.com/tatianapritaka/" target="_blank" rel="noreferrer" className="  btn-footer">
+            <div className="col-12 btn-footer_wrapper">         
+              <a href="https://www.instagram.com/tatianapritaka/" target="_blank" rel="noreferrer" className="btn-footer">
               <img
                     src={inst_Logo}
                     alt="Logo"
@@ -51,10 +42,7 @@ const Footer=()=>{
                     // height="24"
                     className="d-inline-block align-text-top"
                   />
-              </a>
-            {/* //   <!-- <a href="" target="_blank" class="btn btn-outline-primary">
-            //     <i class="icon-twitter"></i> -->
-            //   <!-- </a> --> */}
+              </a>          
             </div>
           </div>
         </div>

@@ -8,17 +8,17 @@ footer {
 }
 
 .btn-footer {
-  display: flex;
+  display: block;
   margin-right: 20px;
 padding: 0;
   // width: 176px;
   // height: 44px;
   font-family: var(--main-font);
   outline: none;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 17px;
+  // font-style: normal;
+  // font-weight: bold;
+  // font-size: 14px;
+  // line-height: 17px;
   text-align: center;
   letter-spacing: 0.04em;
   color: #ffffff;
@@ -36,7 +36,7 @@ padding: 0;
 //   }
 // }
 
-.btn-footer:active,
+// .btn-footer:active,
 .btn-footer:hover {
   outline: none;
   // background: var(--color3);
