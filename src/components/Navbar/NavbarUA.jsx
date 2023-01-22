@@ -2,12 +2,14 @@ import { NavLink } from 'react-router-dom';
 
 import './navbar.scss';
 import styles from './navbar.module.scss';
+
 import IconUA from '../Icon/IconUA';
 import IconFR from '../Icon/IconFR';
 import IconPL from '../Icon/IconPL';
 import IconEN from '../Icon/IconEN';
 
-import camera from '../../shared/icons/camera2.svg';
+// import camera from '../../shared/icons/camera2.svg';
+import Logo from 'components/Logo/Logo';
 
 const getActiveClass = ({ isActive }) =>
   isActive ? styles.linkActive : styles.link;
@@ -21,14 +23,16 @@ const NavbarUA = () => {
             <div className="container-fluid  bold">
               <div className="navbar-brand logo">
                 <NavLink to="/" className={getActiveClass}>
-                  <img
+                  <Logo />
+
+                  {/* <img
                     src={camera}
                     alt="Logo"
                     width="38"
                     height="24"
                     className="d-inline-block align-text-top"
                   />
-                  PRITAKA&nbsp;<span className="yello">PHOTO</span>
+                  PRITAKA&nbsp;<span className="yello">PHOTO</span> */}
                 </NavLink>
               </div>
 
