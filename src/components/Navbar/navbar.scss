@@ -57,8 +57,13 @@ header {
 }
 
 .nav > li > a {
+  font-family: var(--monserrat);
   font-size: 20px;
-  color: var(--bs-gray-600);}
+  color: var(--bs-gray-700);
+  font-weight: 300;
+}
+  
+
  
 
 .mr-50 {

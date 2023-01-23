@@ -1,17 +1,27 @@
 .Logo {
   color: var(--bs-gray-600);
+  line-height: 1.5;
+  //   font-family: var(--monserrat);
   //   font-family:var(--bs-font-sans-serif);
   //   font-family: 'Dancing Script', cursive;
 }
 
 .Logo_name {
-//   font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
-    letter-spacing: 1px;
+  //   font-family: 'Open Sans Light', sans-serif;
+  font-stretch: 50%;
+  color: var(--bs-gray-900);
+  font-weight: 300;
+  letter-spacing: 1.5px;
   font-size: 28px;
+  text-transform: uppercase;
   margin: 0;
 }
 
 .Logo_about {
+    font-family: var(--monserrat);
+    letter-spacing: 3px;
+    font-weight: 300;
+//   font-family: 'Pacifico', cursive;
+  font-style: italic;
   margin: 0;
 }
