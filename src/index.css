@@ -70,4 +70,7 @@ section {
   /* color: var(--bs-white); */
   background-color: var(--color3);
 }
+.page_title {
+  margin-top: 10px;
+}
 

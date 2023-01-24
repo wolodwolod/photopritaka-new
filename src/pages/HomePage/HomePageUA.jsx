@@ -1,8 +1,7 @@
 
 import AllSessionsUA from 'components/AllSessions/AllSessionsUA';
 import MainUA from 'components/Main/MainUA';
-import MessageFormUA from 'components/MessageForm/MessageFormUA';
-import sendMessageUA from 'shared/services/sendMessageUA';
+
 
 const HomePageUA = () => {
   
@@ -12,7 +11,7 @@ const HomePageUA = () => {
       <div>
         <MainUA />
         <AllSessionsUA />
-        <MessageFormUA onSubmit={sendMessageUA} />
+        
       </div>
     </main>
   );
