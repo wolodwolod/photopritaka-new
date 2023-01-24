@@ -7,8 +7,8 @@ import Footer from 'components/Footer/Footer';
 
 
 const HomePageUA = lazy(() => import('./pages/HomePage/HomePageUA'));
-const PhotographerUA = lazy(() =>
-  import('./pages/Photographer/PhotographerUA')
+const FeedbacksUA = lazy(() =>
+  import('./pages/Feedbacks/FeedbacksUA')
 );
 const ContactsUA = lazy(() => import('./pages/Contacts/ContactsUA'));
 const FamilyUA = lazy(() => import('./pages/Family/FamilyUA'));
@@ -26,7 +26,7 @@ function App() {
       <Suspense fallback={<Loader backgrColor={"white"} />}>
         <Routes>
           <Route path="/" exact element={<HomePageUA />} />
-          <Route path="/ua/photographer" element={<PhotographerUA />} />
+          <Route path="/ua/photographer" element={<FeedbacksUA />} />
           <Route path="/ua/contacts" element={<ContactsUA />} />
           <Route path="/ua/family" element={<FamilyUA />} />
           <Route path="/ua/romantic" element={<RomanticUA />} />

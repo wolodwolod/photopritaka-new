@@ -1,4 +1,4 @@
-import './feedbacks.scss';
+import './feedbacks-list.scss';
 import Volodymyr from '../../shared/images/feedbacks-img/Volodymyr-1.jpg';
 
 const FeedbacksUA = () => {
