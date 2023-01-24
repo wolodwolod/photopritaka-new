@@ -4,9 +4,7 @@ import sendMessageUA from 'shared/services/sendMessageUA';
 const СontactsUA = () => {
   return (
     <main>
-      <div>
-       
-        <h2>Контакти</h2>
+      <div>       
         <MessageFormUA onSubmit={sendMessageUA} />
       </div>
     </main>
