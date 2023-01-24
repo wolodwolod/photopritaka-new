@@ -1,5 +1,5 @@
 .Logo {
-  color: var(--bs-gray-600);
+  
   line-height: 1.5;
   //   font-family: var(--monserrat);
   //   font-family:var(--bs-font-sans-serif);
@@ -18,9 +18,10 @@
 }
 
 .Logo_about {
+    color: var(--bs-gray-700);
     font-family: var(--monserrat);
-    letter-spacing: 3px;
-    font-weight: 300;
+    letter-spacing: 4px;
+    font-weight: 600;
 //   font-family: 'Pacifico', cursive;
   font-style: italic;
   margin: 0;
