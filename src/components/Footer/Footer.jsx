@@ -21,13 +21,13 @@ const Footer=()=>{
                     // height="48"
                     className="d-inline-block align-text-top"
                   />
-                  <img
+                  {/* <img
                     src={inst_Text_Logo}
                     alt="Logo"
                     width="80"
                     // height="48"
                     className="d-inline-block align-text-top"
-                  />
+                  /> */}
               </a>
               <a href="https://www.facebook.com/photopritaka" target="_blank" rel="noreferrer" className="btn-footer">
               <img
@@ -37,13 +37,13 @@ const Footer=()=>{
                     // height="24"
                     className="d-inline-block align-text-top"
                   />
-                  <img
+                  {/* <img
                     src={fb_Text_Logo}
                     alt="Logo"
                     width="80"
                     // height="24"
                     className="d-inline-block align-text-top"
-                  />
+                  /> */}
               </a>          
             </div>
           </div>
