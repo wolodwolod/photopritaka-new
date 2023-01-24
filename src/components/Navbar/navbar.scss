@@ -56,16 +56,15 @@ header {
   padding: 10px 0;
 }
 
-.nav > li > a {
+.nav > li > a,
+.dropdown-item > a
+{
   // font-family: var(--monserrat);
   font-size: 20px;
   letter-spacing: 0.5px;
   color: var(--bs-gray-700);
   font-weight: 400;
-}
-  
-
- 
+} 
 
 .mr-50 {
   margin-right: 50px;
