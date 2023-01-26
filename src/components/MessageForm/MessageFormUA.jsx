@@ -40,12 +40,11 @@ const MessageFormUA = ({ onSubmit }) => {
   };
 
   return (
-    <section className="message">
+    // <section className="message">
       <div className="container">
-        <div className="row mb-5">
-          <h3>
-            Надішліть повідомлення, і фотограф надасть відповіді на всі Ваші
-            питання.
+        <div className="row">
+          <h3 className='bold mb-10'>
+            Надішліть мені Ваше повідомлення.
           </h3>
         </div>
         <div className="row">
@@ -58,7 +57,7 @@ const MessageFormUA = ({ onSubmit }) => {
             >
               <div className="mb-3">
                 <label htmlFor="validationInput1" className="form-label">
-                  Ваша електронна адреса
+                  Ваша електронна адреса або номер телефону.
                 </label>
                 <input
                   type="email"
@@ -94,7 +93,7 @@ const MessageFormUA = ({ onSubmit }) => {
               </div>
               <div className="mb-3">
                 <label htmlFor="validationTextarea1" className="form-label">
-                  Повідомлення фотографу
+                  Текст повідомлення
                 </label>
                 <textarea
                   name="formText"
@@ -104,7 +103,7 @@ const MessageFormUA = ({ onSubmit }) => {
                   onChange={handleChange}
                   placeholder="Текст"
                   title="ЗАДАЙТЕ ПИТАННЯ, ВСЕ БУДЕ ДОБРЕ"
-                  rows="5"
+                  rows="3"
                 ></textarea>
               </div>
 
@@ -123,22 +122,22 @@ const MessageFormUA = ({ onSubmit }) => {
               </div> */}
               <button
                 type="submit"
-                className="btn btn-go btn-lg text-uppercase bold"
+                className="btn btn-go btn-lg bold"
               >
                 <img
                   src={envelope}
                   alt="Logo"
-                  width="38"
-                  height="24"
+                  width="25px"
+                  height="20px"
                   className="d-inline-block align-text-top"
                 />
-                &nbsp;&nbsp;Надіслати повідомлення
+                &nbsp;&nbsp;Надіслати
               </button>
             </form>
           </div>
         </div>
       </div>
-    </section>
+    // </section>
   );
 };
 
