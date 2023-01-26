@@ -1,6 +1,6 @@
 
 import AllSessionsUA from 'components/AllSessions/AllSessionsUA';
-import MainUA from 'components/Main/MainUA';
+// import MainUA from 'components/Main/PhotographerUA';
 
 
 const HomePageUA = () => {
@@ -9,7 +9,7 @@ const HomePageUA = () => {
   return (
     <main>
       <div>
-        <MainUA />
+        {/* <MainUA /> */}
         <AllSessionsUA />
         
       </div>
