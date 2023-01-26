@@ -44,7 +44,7 @@ const MessageFormUA = ({ onSubmit }) => {
       <div className="container">
         <div className="row">
           <h4 className='bold mb-10'>
-            Надішліть мені Ваше повідомлення.
+            Надішліть мені Ваше повідомлення
           </h4>
         </div>
         <div className="row">
