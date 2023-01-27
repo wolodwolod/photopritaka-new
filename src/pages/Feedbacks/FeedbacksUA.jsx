@@ -6,8 +6,13 @@ import sendFeedbackUA from 'shared/services/sendFeedbackUA';
 const FeedbacksUA = () => {
   return (
     <main>
-      <div>
-        {/* <AboutPhotographerUA /> */}
+       <div className="container">
+        <div className="col-12 page_title">
+        <p className="page_about">Відгуки</p>
+          {/* <h2 className="text-center text-uppercase color3">
+            Це - ти, і ти - ідеал.
+          </h2> */}
+        </div>
         <FeedbacksListUA />
         <FeedbackFormUA onSubmit={sendFeedbackUA}/>
       </div>

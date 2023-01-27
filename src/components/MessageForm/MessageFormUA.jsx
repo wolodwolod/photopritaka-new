@@ -48,7 +48,7 @@ const MessageFormUA = ({ onSubmit }) => {
           </h4>
         </div>
         <div className="row">
-          <div className="col-lg-6 col-sm-12">
+          <div className="col-lg-7 col-sm-12">
             <form
               onSubmit={handleSubmit}
               className="bold text-uppercase needs-validation"
@@ -57,7 +57,7 @@ const MessageFormUA = ({ onSubmit }) => {
             >
               <div className="mb-3">
                 <label htmlFor="validationInput1" className="form-label">
-                  Ваша електронна адреса або номер телефону.
+                  Ваша електронна адреса або номер телефону
                 </label>
                 <input
                   type="email"

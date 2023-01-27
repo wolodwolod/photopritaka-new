@@ -5,12 +5,12 @@ import EventsGallery from 'components/ImageGalleries/EventsGallery2';
 const EventsUA = () => {
   return (
     <main>
-      <div>
-        <div className="col-12">
-          <h2 className="text-center text-uppercase color3 page_title">
-           Ми - найкращі!
-
-          </h2>
+      <div className="container">
+        <div className="col-12 page_title">
+        <p className="page_about">Портфоліо | Події</p>
+          {/* <h2 className="text-center text-uppercase color3">
+            Це - ти, і ти - ідеал.
+          </h2> */}
         </div>
         <EventsGallery  />
         

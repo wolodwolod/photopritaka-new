@@ -1,4 +1,4 @@
-import './contacts.scss'
+import '../pages.scss'
 
 import MessageFormUA from 'components/MessageForm/MessageFormUA';
 import sendMessageUA from 'shared/services/sendMessageUA';

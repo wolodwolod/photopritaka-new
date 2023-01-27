@@ -1,3 +1,24 @@
+.page_title{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.page_about{
+    color: var(--bs-gray-700);
+    font-family: var(--monserrat);
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 600;
+//   font-family: 'Pacifico', cursive;
+  font-style: italic;
+  margin: 0;
+  padding: 0 0 0 10px;
+}
+
+
+// CONTACTS
+
 .contacts {
     padding: 0 0 10px 0;
   }

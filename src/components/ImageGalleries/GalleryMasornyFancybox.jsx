@@ -20,7 +20,7 @@ const Gallery = ({ imgs }) => {
   });
 
   return (
-    <div className="container">
+    <div>
       <Fancybox>
         <ResponsiveMasonry columnsCountBreakPoints={{ 350: 1, 750: 2, 900: 3 }}>
           <Masonry gutter={'10px'}>{imgList}</Masonry>
