@@ -11,14 +11,14 @@ const FeedbacksListUA = () => {
           </div>
         </div> */}
 
-      <div className="feedbacks_item">
+      <div className="feedbacks_item mt-3">
         <div className="feedbacks_item-info justify-content-center">
           <img
             src={Volodymyr_Bendyk}
             alt="Володимир Бендик"
             className="rounded mx-auto d-block"
           />
-          <h5 className="text-center mb-3 mt-3">Володимир Бендик</h5>
+          <p className="text-center mb-0 mt-3">Володимир Бендик</p>
         </div>
         <div className="feedbacks_item-text">
           <p>
@@ -26,9 +26,9 @@ const FeedbacksListUA = () => {
             створити приємну атмосферу.
           </p>
           <p>
-            Світлини Тетяни - це безмежність і можливість побачити чудо в
-            звичайному. Вони не тільки розповідають про тих, кого вона
-            фотографує, але багато чого Вам розкажуть і про самого фотографа.
+            Світлини Тетяни - це можливість побачити чудо в звичайному. Вони сповнені життям і
+            багато чого розровідають не тільки про об'єкти зйомки, але і про
+            самого фотографа.
           </p>
         </div>
       </div>

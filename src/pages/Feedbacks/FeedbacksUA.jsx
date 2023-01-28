@@ -1,4 +1,6 @@
 // import AboutPhotographerUA from 'components/AboutPhotographer/AboutPhotographerUA';
+import '../pages.scss'
+
 import FeedbackFormUA from 'components/FeedbackForm/FeedbackFormUA';
 import FeedbacksListUA from 'components/FeedbacksList/FeedbacksListUA';
 import sendFeedbackUA from 'shared/services/sendFeedbackUA';

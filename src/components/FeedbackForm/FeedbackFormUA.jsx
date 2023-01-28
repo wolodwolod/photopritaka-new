@@ -41,7 +41,7 @@ const FeedbackFormUA = ({ onSubmit }) => {
 
   return (
     // <section className="message">
-      <div className="message">
+      <div className="message mt-5">
         <div className="row">
           <div className="col-12">
             <h4 className="message_title">
