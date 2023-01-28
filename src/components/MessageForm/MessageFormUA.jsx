@@ -41,10 +41,10 @@ const MessageFormUA = ({ onSubmit }) => {
 
   return (
     // <section >
-    <div className="message">
+    <div className="message_form">
       <div className="row">
         <div className="col-12">
-          <h4 className="message_title">Надішліть мені Ваше повідомлення</h4>
+          <h4 className="message_form-title">Надішліть мені Ваше повідомлення</h4>
         </div>
       </div>
       <div className="row">

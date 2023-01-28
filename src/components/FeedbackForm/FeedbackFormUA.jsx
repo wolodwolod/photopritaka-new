@@ -41,10 +41,10 @@ const FeedbackFormUA = ({ onSubmit }) => {
 
   return (
     // <section className="message">
-      <div className="message mt-5">
+      <div className="feedbacks_form mt-5">
         <div className="row">
           <div className="col-12">
-            <h4 className="message_title">
+            <h4 className="feedbacks_form-title">
             Надішліть Ваш відгук
           </h4>
           </div>
