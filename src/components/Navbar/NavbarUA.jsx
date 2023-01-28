@@ -68,7 +68,7 @@ const NavbarUA = () => {
                     >
                       Портфоліо
                     </a>
-                    <ul className="dropdown-menu">
+                    <ul className="dropdown-menu ps-2 pe-2">
                       <li className="dropdown-item">
                         <NavLink to="/ua/portrait" className={getActiveClass}>
                           Портрет

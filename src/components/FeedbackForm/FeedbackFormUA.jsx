@@ -1,7 +1,7 @@
 // <!-- FEEDBACK -->
 import React, { useState } from 'react';
 
-import './feedback-form.scss';
+import './feedback_form.scss';
 import envelope from '../../shared/icons/envelope.svg';
 // import formValidation from 'shared/services/formValidation';
 
@@ -40,15 +40,18 @@ const FeedbackFormUA = ({ onSubmit }) => {
   };
 
   return (
-    <section className="message">
-      <div className="container">
-        <div className="row mb-5">
-          <h3>
+    // <section className="message">
+      <div className="message">
+        <div className="row">
+          <div className="col-12">
+            <h4 className="message_title">
             Надішліть Ваш відгук
-          </h3>
+          </h4>
+          </div>
+          
         </div>
         <div className="row">
-          <div className="col-lg-6 col-sm-12">
+          <div className="col-lg-8 col-sm-12">
             <form
               onSubmit={handleSubmit}
               className="bold text-uppercase needs-validation"
@@ -67,11 +70,11 @@ const FeedbackFormUA = ({ onSubmit }) => {
                   id="validationInput1"
                   onChange={handleChange}
                   placeholder="name@example.com"
-                  title="ВВЕДІТЬ ЕЛЕКТРОННУ АДРЕСУ ДЛЯ ВІДПОВІДІ"
+                  title="ВВЕДІТЬ ЕЛЕКТРОННУ АДРЕСУ АБО НОМЕР ТЕЛЕФОНУ"
                   required
                 />
                 <div className="invalid-feedback">
-                  Введіть правильну адресу електронної пошти
+                  Введіть правильну адресу електронної пошти або номер телефону
                 </div>
               </div>
 
@@ -122,22 +125,22 @@ const FeedbackFormUA = ({ onSubmit }) => {
               </div> */}
               <button
                 type="submit"
-                className="btn btn-go btn-lg text-uppercase bold"
+                className="btn btn-go btn-lg bold"
               >
                 <img
                   src={envelope}
-                  alt="Logo"
-                  width="38"
-                  height="24"
+                  alt="Svg"
+                  width="25"
+                  height="20"
                   className="d-inline-block align-text-top"
                 />
-                &nbsp;&nbsp;Надіслати відгук
+                &nbsp;&nbsp;Надіслати
               </button>
             </form>
           </div>
         </div>
       </div>
-    </section>
+    // </section>
   );
 };
 

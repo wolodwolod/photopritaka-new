@@ -5,16 +5,18 @@ const HomePageUA = () => {
   return (
     <main>
       <div className="container">
-        <div className="row">
-          <div className="col-12 page_title">
-            <p className="page_about">Всі сесії</p>
-            {/* <h2 className="text-center text-uppercase color3">
+        {/* <div className="row">
+          <div className="col-12">
+            <div className="page_title">
+              <p className="page_about">Всі сесії</p>
+              {/* <h2 className="text-center text-uppercase color3">
             Це - ти, і ти - ідеал.
           </h2> */}
-          </div>
-        </div>
+        {/* </div> */}
+        {/* </div> */}
+        {/* </div> */}
+        <AllSessionsUA />
       </div>
-      <AllSessionsUA />
     </main>
   );
 };

@@ -67,11 +67,11 @@ const MessageFormUA = ({ onSubmit }) => {
                 id="validationInput1"
                 onChange={handleChange}
                 placeholder="name@example.com"
-                title="ВВЕДІТЬ ЕЛЕКТРОННУ АДРЕСУ ДЛЯ ВІДПОВІДІ"
+                title="ВВЕДІТЬ ЕЛЕКТРОННУ АДРЕСУ АБО НОМЕР ТЕЛЕФОНУ"
                 required
               />
               <div className="invalid-feedback">
-                Введіть правильну адресу електронної пошти
+                Введіть правильну адресу електронної пошти або номер телефону
               </div>
             </div>
 
@@ -123,7 +123,7 @@ const MessageFormUA = ({ onSubmit }) => {
             <button type="submit" className="btn btn-go btn-lg bold">
               <img
                 src={envelope}
-                alt="Logo"
+                alt="Svg"
                 width="25px"
                 height="20px"
                 className="d-inline-block align-text-top"

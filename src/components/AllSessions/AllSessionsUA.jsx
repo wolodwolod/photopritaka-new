@@ -5,8 +5,8 @@ const AllSessionsUA = () => {
   return (
     // <!-- ALL SESSIONS -->
 
-    <section className="all-sessions">
-      <div className="container">
+    // <section className="all-sessions">
+      <div className="all-sessions">
         <div className="row">
           <div className="col-md-6 col-sm-12 text-uppercase">
             <div className="session session-box">
@@ -46,7 +46,7 @@ const AllSessionsUA = () => {
           </div>
         </div>
       </div>
-    </section>
+    // </section>
   );
 };
 
