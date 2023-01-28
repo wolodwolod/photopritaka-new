@@ -60,7 +60,7 @@ const FeedbackFormUA = ({ onSubmit }) => {
             >
               <div className="mb-3">
                 <label htmlFor="validationInput1" className="form-label">
-                  Ваша електронна адреса
+                  Ваша електронна адреса або номер телефону
                 </label>
                 <input
                   type="email"
