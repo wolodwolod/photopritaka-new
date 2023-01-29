@@ -3,7 +3,7 @@ import '../pages.scss';
 import MessageFormUA from 'components/MessageForm/MessageFormUA';
 import sendMessageUA from 'shared/services/sendMessageUA';
 
-import photographer from '../../shared/images/common-img/TP-xl-01.jpg';
+import photographer from '../../shared/images/common-img/TP-md.jpg';
 import photographer_sm from '../../shared/images/common-img/TP-sm.jpg';
 
 import location_svg from '../../shared/icons/location.svg';
@@ -12,11 +12,7 @@ import envelope_svg from '../../shared/icons/envelope.svg';
 const СontactsUA = () => {
   return (
     <main>
-      <div className="container">
-        {/* <div className="col-12 page_title">
-          <p className="page_about">Контакти</p>
-        </div> */}
-
+      <div className="container">       
         <div className="row">
           <div className="col-lg-6 col-md-12 col-sm-12">
             <div className="first">
@@ -24,23 +20,17 @@ const СontactsUA = () => {
                 <div className="col-lg-6 col-md-5 col-sm-12">
                   <div className="contacts_photo-box">
                     <picture>
-                      <source media="(min-width: 992px)" srcSet={photographer} />
-
+                      <source
+                        media="(min-width: 992px)"
+                        srcSet={photographer}
+                      />
                       <img
                         className="contacts-img"
                         srcSet={photographer_sm}
                         alt="Тетяна Притака"
                         loading="lazy"
                       />
-
-                      
                     </picture>
-
-                    {/* <img
-                      src={photographer}
-                      alt="Тетяна Притака"
-                      className="contacts-img"
-                    /> */}
                   </div>
                 </div>
                 <div className="col-lg-6 col-md-7 col-sm-12 ">
