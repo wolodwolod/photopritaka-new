@@ -27,6 +27,12 @@ header {
 // }
 .nav-link {
   margin-right: 20px;
+//   text-decoration: none;
+//   // font-family: var(--monserrat);
+//  font-size: 20px;
+//  letter-spacing: 0.5px;
+//  color: var(--bs-gray-700);
+//  font-weight: 400;
 }
 
 .me-50 {
@@ -56,14 +62,16 @@ header {
   padding: 10px 0;
 }
 
-.nav > li > a,
-.dropdown-item > a
+// .nav > li > a,
+.dropdown > button
 {
   // font-family: var(--monserrat);
   font-size: 20px;
   letter-spacing: 0.5px;
   color: var(--bs-gray-700);
   font-weight: 400;
+  border: none;
+  background-color: #fff;
 } 
 
 .mr-50 {
@@ -106,4 +114,12 @@ header {
 // //    padding-left: 50px;
 // }
     
-
+.link {
+  // display: inline-block;
+  text-decoration: none;
+ // font-family: var(--monserrat);
+font-size: 20px;
+letter-spacing: 0.5px;
+color: var(--bs-gray-700);
+font-weight: 400;
+}

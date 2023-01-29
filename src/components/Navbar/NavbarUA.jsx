@@ -1,3 +1,4 @@
+import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 
 import './navbar.scss';
@@ -11,10 +12,27 @@ import IconEN from '../Icon/IconEN';
 // import camera from '../../shared/icons/camera2.svg';
 import Logo from 'components/Logo/Logo';
 
+
+// import classNames from 'classnames';
+
 const getActiveClass = ({ isActive }) =>
   isActive ? styles.linkActive : styles.link;
 
 const NavbarUA = () => {
+  const [portfolioActiv, setPortfolioActiv] = useState({
+    isActive: false,
+  });
+
+  const getPortfolioActive = () =>
+    portfolioActiv.isActive ? styles.linkActive : styles.link;
+
+  const removeActive = () => {
+    setPortfolioActiv({ isActive: false });
+  };
+  const addActive = () => {
+    setPortfolioActiv({ isActive: true });
+  };
+
   return (
     <header>
       <div className="container">
@@ -22,7 +40,11 @@ const NavbarUA = () => {
           <nav className="navbar navbar-expand-lg nav">
             <div className="container-fluid  bold">
               <div className="navbar-brand logo">
-                <NavLink to="/" className={getActiveClass}>
+                <NavLink
+                  to="/"
+                  className={styles.link}
+                  onClick={removeActive}
+                >
                   <Logo />
 
                   {/* <img
@@ -54,57 +76,62 @@ const NavbarUA = () => {
               >
                 <ul className="navbar-nav nav">
                   <li className="nav-item nav-link">
-                    <NavLink to="/" className={getActiveClass}>
+                    <NavLink to="/" className={getActiveClass} onClick={removeActive}>
                       Головна
                     </NavLink>
                   </li>
                   <li className="nav-item dropdown">
-                    <a
+                    <div
+                      // id="portfolio"
+                      
                       className="nav-link dropdown-toggle"
+                      // className={classNames("link","nav-link", "dropdown-toggle")}
                       href="/"
                       role="button"
                       data-bs-toggle="dropdown"
                       aria-expanded="false"
                     >
-                      Портфоліо
-                    </a>
+                      <NavLink to="" className={getPortfolioActive}>
+                        Портфоліо
+                      </NavLink>
+                    </div>
                     <ul className="dropdown-menu ps-2 pe-2">
-                      <li className="dropdown-item">
-                        <NavLink to="/ua/portrait" className={getActiveClass}>
+                      <li className="dropdown-item child">
+                        <NavLink to="/ua/portrait" className={getActiveClass} onClick={addActive}>
                           Портрет
                         </NavLink>
                       </li>
-                      <li className="dropdown-item">
-                        <NavLink to="/ua/family" className={getActiveClass}>
+                      <li className="dropdown-item child">
+                        <NavLink to="/ua/family" className={getActiveClass} onClick={addActive}>
                           Сімейне фото
                         </NavLink>
                       </li>
-                      <li className="dropdown-item">
-                        <NavLink to="/ua/romantic" className={getActiveClass}>
+                      <li className="dropdown-item child">
+                        <NavLink to="/ua/romantic" className={getActiveClass} onClick={addActive}>
                           Романтичне фото
                         </NavLink>
                       </li>
 
-                      <li className="dropdown-item">
-                        <NavLink to="/ua/newborns" className={getActiveClass}>
+                      <li className="dropdown-item child">
+                        <NavLink to="/ua/newborns" className={getActiveClass} onClick={addActive}>
                           Новонароджені
                         </NavLink>
                       </li>
-                      <li className="dropdown-item">
-                        <NavLink to="/ua/events" className={getActiveClass}>
+                      <li className="dropdown-item child">
+                        <NavLink to="/ua/events" className={getActiveClass} onClick={addActive}>
                           Події
                         </NavLink>
                       </li>
                     </ul>
                   </li>
                   <li className="nav-item nav-link">
-                    <NavLink to="/ua/contacts" className={getActiveClass}>
+                    <NavLink to="/ua/contacts" className={getActiveClass} onClick={removeActive}>
                       Контакти
                     </NavLink>
                   </li>
 
                   <li className="nav-item nav-link me-50">
-                    <NavLink to="/ua/photographer" className={getActiveClass}>
+                    <NavLink to="/ua/photographer" className={getActiveClass} onClick={removeActive}>
                       Відгуки
                     </NavLink>
                   </li>

@@ -13,6 +13,9 @@ const СontactsUA = () => {
   return (
     <main>
       <div className="container">
+        {/* <div className="col-12 contacts_title">
+          <p className="page_about contacts_about">Контакти</p>
+        </div> */}
         <div className="row">
           <div className="col-lg-6 col-md-12 col-sm-12">
             <div className="first">

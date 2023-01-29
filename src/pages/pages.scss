@@ -93,9 +93,19 @@
 }
 
 .contacts_info_svg{
-    margin-left: 5px;
+    margin-left: 1px;
 }
 .first {
   display: flex;
   height: 100%;
+}
+
+.contacts_title{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  background-color: #f0f0f0;
+  // box-shadow: 0px 1px 3px 0px rgb(0 0 0 / 20%), 0px 1px 1px 0px rgb(0 0 0 / 14%),
+  // 0px 2px 1px -1px rgb(0 0 0 / 12%);
+  
 }
