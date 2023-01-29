@@ -27,13 +27,13 @@
 }
 .feedbacks_item-info {
   padding: 20px;
-  color: #fd7e14;
+  color: var(--blue);
 }
 
 .feedbacks_item-text {
   padding: 10px;
   background-color: #fff;
-  border: #fd7e14 solid 1px;
+  border: var(--yellow) solid 1px;
   border-radius: 10px;
   // font-family: var(--monserrat);
   font-size: 18px;

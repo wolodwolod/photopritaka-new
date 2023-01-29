@@ -13,14 +13,14 @@
   /* color: var(--bs-white); */
   // background-color: var(--color1);
   // background-color: #fff;
-  border: 2px solid #fd7e14;
+  border: 2px solid var(--blue);
   border-radius: 25px;
   transition: all 0.2s ease;
 }
 .btn-go:hover {
   /* color: var(--bs-white); */
   background-color: #fff;
-  border: 3px solid #fd7e14;
+  border: 3px solid var(--yellow);
 }
 
 /* .message {

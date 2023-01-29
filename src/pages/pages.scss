@@ -32,12 +32,14 @@
   }
   
   .contacts_photo-box {
+    // margin-bottom: 10px;
     height: 100%;
     border-radius: 3px;
     // padding: 0;
   }
   
   .contacts-img {
+    // margin-bottom: 10px;
     border-radius: 3px;
     width: 100%;
     height: 100%;
@@ -48,6 +50,7 @@
 
   .contacts_info,
   .contacts_message {
+    // margin-top: 5px;
     height: 100%;
     padding: 10px;
     border-radius: 3px;
@@ -83,9 +86,16 @@
 // }
   
 .contacts_info{
+  // width: 100%;
+  // height: 100%;
     font-size: 18px;
+    // margin-bottom: 10px;
 }
 
 .contacts_info_svg{
     margin-left: 5px;
+}
+.first {
+  display: flex;
+  height: 100%;
 }
