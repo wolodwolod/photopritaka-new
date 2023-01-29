@@ -12,7 +12,7 @@ import envelope_svg from '../../shared/icons/envelope.svg';
 const СontactsUA = () => {
   return (
     <main>
-      <div className="container">       
+      <div className="container">
         <div className="row">
           <div className="col-lg-6 col-md-12 col-sm-12">
             <div className="first">
@@ -35,16 +35,6 @@ const СontactsUA = () => {
                 </div>
                 <div className="col-lg-6 col-md-7 col-sm-12 ">
                   <div className="contacts_info">
-                    <div className="contacts_info_loc">
-                      <img
-                        src={location_svg}
-                        alt="Location"
-                        width="30"
-                        // height="48"
-                        className="d-inline-block align-text-top"
-                      />
-                      <p>місто Нансі, Франція</p>
-                    </div>
                     <div className="contacts_info_mail">
                       <img
                         src={envelope_svg}
@@ -54,6 +44,16 @@ const СontactsUA = () => {
                         className="d-inline-block align-text-top contacts_info_svg"
                       />
                       <p>pritakaphoto@gmail.com</p>
+                    </div>
+                    <div className="contacts_info_loc">
+                      <img
+                        src={location_svg}
+                        alt="Location"
+                        width="30"
+                        // height="48"
+                        className="d-inline-block align-text-top"
+                      />
+                      <p>місто Нансі, Франція</p>
                     </div>
                   </div>
                 </div>
