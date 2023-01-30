@@ -1,6 +1,6 @@
 import '../pages.scss';
 
-import AllSessionsUA from 'components/AllSessions/AllSessionsUA';
+// import AllSessionsUA from 'components/AllSessions/AllSessionsUA';
 import Carousel from '../../shared/services/carousel.js';
 // import MainUA from 'components/Main/PhotographerUA';
 
