@@ -1,7 +1,11 @@
+import "@fancyapps/ui/dist/carousel.css";
+
 import React, { useRef, useEffect } from "react";
 import { Carousel as NativeCarousel } from "@fancyapps/ui/dist/carousel.esm.js";
+import { Autoplay } from "@fancyapps/ui/dist/carousel.autoplay.esm.js";
+NativeCarousel.Plugins.Autoplay = Autoplay;
 
-import "@fancyapps/ui/dist/carousel.css";
+
 
 function ReactCarousel(props) {
   const wrapper = useRef(null);
@@ -14,7 +18,11 @@ function ReactCarousel(props) {
       return { html: item.tag };
     });
 
-    const instance = new NativeCarousel(wrapper.current, opts);
+    const instance = new NativeCarousel(wrapper.current,  {
+      Autoplay: {
+        timeout: 2000,
+      },
+    });
 
     return () => {
       instance.destroy();
