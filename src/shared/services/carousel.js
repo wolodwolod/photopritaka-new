@@ -20,7 +20,7 @@ function ReactCarousel(props) {
 
     const instance = new NativeCarousel(wrapper.current,  {
       Autoplay: {
-        timeout: 2000,
+        timeout: 3000,
       },
     });
 
