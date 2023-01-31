@@ -10,11 +10,11 @@ import img5 from '../../shared/images/events-img/s/20.jpg';
 
 const HomePageUA = () => {
   const slideItems = [
-    { id: 1, img: img1, tag: 'Портфоліо | Портрет' },
-    { id: 2, img: img2, tag: 'Портфоліо | Сімейне фото' },
-    { id: 3, img: img3, tag: 'Портфоліо | Романтичне фото' },
-    { id: 4, img: img4, tag: 'Портфоліо | Новонароджені' },
-    { id: 5, img: img5, tag: 'Портфоліо | Події' },
+    { id: 1, img: img1, tag: 'Портрет' },
+    { id: 2, img: img2, tag: 'Сімейне фото' },
+    { id: 3, img: img3, tag: 'Романтичне фото' },
+    { id: 4, img: img4, tag: 'Новонароджені' },
+    { id: 5, img: img5, tag: 'Події | Урочистості  ' },
   ];
 
   return (
