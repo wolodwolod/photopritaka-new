@@ -1,4 +1,5 @@
 import '../pages.scss';
+import './home-page.scss';
 
 import Carousel from '../../shared/services/carousel.js';
 

@@ -25,7 +25,7 @@ function ReactCarousel(props) {
     return () => {
       instance.destroy();
     };
-  }, [props.items, props.options]);
+  });
 
   return (
     <div className={`carousel ${props.class || ''}`} ref={wrapper}>
@@ -33,7 +33,7 @@ function ReactCarousel(props) {
         return (
           <li
             key={item.id}           
-            className={`carousel__slide slider__small-item w-150 slide_${item.id}`}
+            className={`carousel__slide slider__small-item w-150 slide slide_${item.id}`}
           >
              <p className={`page_about page_about_${item.id}`}>{`${item.tag}`}</p>
             {/* <img
