@@ -3,7 +3,9 @@ function formValidation() {
   // "use strict";
 
   // Fetch all the forms we want to apply custom Bootstrap validation styles to
-  var forms = document.querySelectorAll('.needs-validation');
+  var forms = document.getElementsByClassName('needs-validation');
+  // console.log(forms);
+  // console.log(Array.prototype.slice.call(forms));
 
   // Loop over them and prevent submission
   Array.prototype.slice.call(forms).forEach(function (form) {

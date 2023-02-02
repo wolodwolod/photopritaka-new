@@ -3,10 +3,10 @@ import React, { useState } from 'react';
 
 import './feedback_form.scss';
 import envelope from '../../shared/icons/envelope.svg';
-// import formValidation from 'shared/services/formValidation';
+import formValidation from 'shared/services/formValidation';
 
 const FeedbackFormUA = ({ onSubmit }) => {
-  // formValidation();
+  formValidation();
   const [formMessage, setFormMessage] = useState({
     formEmail: '',
     formName: '',
@@ -60,7 +60,7 @@ const FeedbackFormUA = ({ onSubmit }) => {
             >
               <div className="mb-3">
                 <label htmlFor="validationInput1" className="form-label">
-                  Ваша електронна адреса або номер телефону
+                  Ваша електронна адреса
                 </label>
                 <input
                   type="email"
@@ -70,11 +70,11 @@ const FeedbackFormUA = ({ onSubmit }) => {
                   id="validationInput1"
                   onChange={handleChange}
                   placeholder="name@example.com"
-                  title="ВВЕДІТЬ ЕЛЕКТРОННУ АДРЕСУ АБО НОМЕР ТЕЛЕФОНУ"
+                  title="ВВЕДІТЬ ВАШУ ЕЛЕКТРОННУ АДРЕСУ"
                   required
                 />
                 <div className="invalid-feedback">
-                  Введіть правильну адресу електронної пошти або номер телефону
+                  Введіть правильну адресу електронної пошти
                 </div>
               </div>
 
@@ -93,6 +93,9 @@ const FeedbackFormUA = ({ onSubmit }) => {
                   title="ВВЕДІТЬ ІМ'Я"
                   required
                 />
+                 <div className="invalid-feedback">
+                Введіть Ваше ім'я
+              </div>
               </div>
               <div className="mb-3">
                 <label htmlFor="validationTextarea1" className="form-label">
