@@ -36,11 +36,7 @@ function ReactCarousel(props) {
             className={`carousel__slide slider__small-item w-150 slide slide_${item.id}`}
           >
              <p className={`page_about page_about_${item.id}`}>{`${item.tag}`}</p>
-            {/* <img
-              className="carousel__img"
-              src={item.img}
-              alt={`Slider ${item.tag}`}
-            /> */}
+           
           </li>
         );
       })}
