@@ -95,7 +95,7 @@ const NavbarUA = () => {
                         Портфоліо
                       </NavLink>
                     </div>
-                    <ul className="dropdown-menu ps-2 pe-2">
+                    <ul className="dropdown-menu ps-2 pe-2 portfolio-menu">
                       <li className="dropdown-item child">
                         <NavLink to="/ua/portrait" className={getActiveClass} onClick={addActive}>
                           Портрет
@@ -148,7 +148,7 @@ const NavbarUA = () => {
                         <IconUA />
                       </a>
 
-                      <ul className="dropdown-menu fs-14">
+                      <ul className="dropdown-menu fs-14 lang-menu">
                         <li>
                           <a className="dropdown-item" href="/">
                             <IconFR />
