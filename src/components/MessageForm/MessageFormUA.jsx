@@ -87,7 +87,7 @@ const MessageFormUA = ({ onSubmit }) => {
 
     setTimeout(() => {
       toDoWithTimeout();
-    }, 4000);
+    }, 5000);
   };
 
   const backToForm = () => {

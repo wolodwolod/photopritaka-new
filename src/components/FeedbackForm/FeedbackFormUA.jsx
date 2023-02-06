@@ -1,13 +1,29 @@
 // <!-- FEEDBACK -->
 import React, { useState, useEffect } from 'react';
 
+import Loader from 'components/Loader';
+
+import {
+  MessageSuccessSend,
+  MessageErrorSend,
+} from 'components/MessageForm/MessageFormContent';
 import './feedback_form.scss';
 import envelope from 'shared/icons/envelope.svg';
 import formValidation from 'shared/services/formValidation';
 import { emailRegexp, nameRegexp } from 'shared/services/patterns';
 
 const FeedbackFormUA = ({ onSubmit }) => {
+  useEffect(() => {
+    sessionStorage.setItem('sent', null);
+    sessionStorage.setItem('err', null);
+  }, []);
+
   formValidation();
+
+  const [wasSent, setWasSent] = useState(false);
+
+  const [loading, setLoading] = useState(false);
+
   const [formMessage, setFormMessage] = useState({
     formEmail: '',
     formName: '',
@@ -47,16 +63,37 @@ const FeedbackFormUA = ({ onSubmit }) => {
       text: formMessage.formText,
     });
 
-    setFormMessage({
-      formEmail: '',
-      formName: '',
-      formText: '',
-    });
+    setDisButton(true);
+    setLoading(true);
+
+    const toDoWithTimeout = () => {
+      setWasSent(true);
+      setLoading(false);
+    };
+
+    setTimeout(() => {
+      toDoWithTimeout();
+    }, 5000);
   };
 
-  return (
-    // <section className="message">
-    <div className="feedbacks_form mt-5">
+  const backToForm = () => {
+    // setLoading(true);
+    setWasSent(false);
+    sessionStorage.setItem('sent', null);
+    sessionStorage.setItem('err', null);
+    // console.log('btf')
+
+    setTimeout(() => {
+      setFormMessage({
+        formEmail: '',
+        formName: '',
+        formText: '',
+      });
+    }, 1000);
+  };
+
+  const FeedbackFormContent = (
+    <div>
       <div className="row">
         <div className="col-12">
           <h4 className="feedbacks_form-title">Надішліть Ваш відгук</h4>
@@ -154,7 +191,20 @@ const FeedbackFormUA = ({ onSubmit }) => {
         </div>
       </div>
     </div>
-    // </section>
+  );
+
+  return (
+    <div className="feedbacks_form mt-5">
+      {loading && <Loader />}
+
+      {!wasSent && FeedbackFormContent}
+      {sessionStorage.getItem('sent') === 'true' && (
+        <MessageSuccessSend backToForm={backToForm} />
+      )}
+      {sessionStorage.getItem('err') === 'true' && (
+        <MessageErrorSend backToForm={backToForm} />
+      )}
+    </div>
   );
 };
 

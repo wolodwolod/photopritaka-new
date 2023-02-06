@@ -52,8 +52,11 @@ const sendFeedbackUA = payload => {
     try {
       const data = await sesClient.send(new SendEmailCommand(params));
       console.log('Email is sent', data);
+      sessionStorage.setItem('sent', true);
+      
     } catch (err) {
       console.log('unable to send email', err);
+      sessionStorage.setItem('err', true);
     }
   };
 
