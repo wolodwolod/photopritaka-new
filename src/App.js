@@ -1,6 +1,6 @@
 import { lazy, Suspense } from 'react';
 import { Routes, Route, Navigate } from 'react-router-dom';
-import Loader from "../src/components/Loader";
+import Loader from "components/Loader";
 
 import NavbarUA from 'components/Navbar/NavbarUA';
 import Footer from 'components/Footer/Footer';

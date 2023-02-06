@@ -8,8 +8,13 @@ import photographer_sm from '../../shared/images/common-img/TP-sm.jpg';
 
 import location_svg from '../../shared/icons/location.svg';
 import envelope_svg from '../../shared/icons/envelope.svg';
+// import formValidation from 'shared/services/formValidation';
 
 const СontactsUA = () => {
+
+  
+
+  // formValidation()
   return (
     <main>
       <div className="container">
