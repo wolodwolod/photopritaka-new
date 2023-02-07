@@ -69,20 +69,13 @@ const MessageFormUA = ({ onSubmit }) => {
     setLoading(true);
 
     const toDoWithTimeout = () => {
-      // const send = sessionStorage.getItem('send') === 'true';
-      // const error = sessionStorage.getItem('err') === 'true';
-
       setWasSent(true);
-      // console.log(loading)
       setLoading(false);
-      
-      // console.log(loading)
-
-      // console.log(send);
-      // console.log(error);
-      //   setStatus({ send, error});
-      // console.log(status.send);
-      // console.log(status.error);
+      setFormMessage({
+        formEmail: '',
+        formName: '',
+        formText: '',
+      });
     };
 
     setTimeout(() => {
@@ -91,22 +84,9 @@ const MessageFormUA = ({ onSubmit }) => {
   };
 
   const backToForm = () => {
-    // setLoading(true);
     setWasSent(false);
     sessionStorage.setItem('sent', null);
     sessionStorage.setItem('err', null);
-    // console.log('btf')
-
-    setTimeout(() => {
-      setFormMessage({
-        formEmail: '',
-        formName: '',
-        formText: '',
-      });
-      // setLoading(false);
-      // console.log('btf-2')
-
-    }, 1000);
   };
 
   const MessageFormContent = (

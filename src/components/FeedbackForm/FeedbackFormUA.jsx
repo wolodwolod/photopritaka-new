@@ -69,6 +69,11 @@ const FeedbackFormUA = ({ onSubmit }) => {
     const toDoWithTimeout = () => {
       setWasSent(true);
       setLoading(false);
+      setFormMessage({
+        formEmail: '',
+        formName: '',
+        formText: '',
+      });
     };
 
     setTimeout(() => {
@@ -77,19 +82,9 @@ const FeedbackFormUA = ({ onSubmit }) => {
   };
 
   const backToForm = () => {
-    // setLoading(true);
     setWasSent(false);
     sessionStorage.setItem('sent', null);
     sessionStorage.setItem('err', null);
-    // console.log('btf')
-
-    setTimeout(() => {
-      setFormMessage({
-        formEmail: '',
-        formName: '',
-        formText: '',
-      });
-    }, 1000);
   };
 
   const FeedbackFormContent = (
