@@ -8,7 +8,6 @@ import img2 from '../../shared/images/family-img/s/21.jpg';
 import img3 from '../../shared/images/romantic-img/s/7.jpg';
 import img4 from '../../shared/images/newborns-img/s/1.jpg';
 import img5 from '../../shared/images/events-img/s/14.jpg';
-// import img5 from '../../shared/images/events-img/s/20.jpg';
 
 const HomePageUA = () => {
   const slideItems = [

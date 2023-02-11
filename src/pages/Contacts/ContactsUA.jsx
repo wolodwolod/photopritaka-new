@@ -8,19 +8,11 @@ import photographer_sm from '../../shared/images/common-img/TP-sm.jpg';
 
 import location_svg from '../../shared/icons/location.svg';
 import envelope_svg from '../../shared/icons/envelope.svg';
-// import formValidation from 'shared/services/formValidation';
 
 const СontactsUA = () => {
-
-  
-
-  // formValidation()
   return (
     <main>
       <div className="container">
-        {/* <div className="col-12 contacts_title">
-          <p className="page_about contacts_about">Контакти</p>
-        </div> */}
         <div className="row">
           <div className="col-lg-6 col-md-12 col-sm-12">
             <div className="first">
