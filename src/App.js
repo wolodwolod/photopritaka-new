@@ -2,7 +2,7 @@ import { lazy, Suspense } from 'react';
 import { Routes, Route, Navigate } from 'react-router-dom';
 import Loader from "components/Loader";
 
-import HeaderUA from 'components/Navbar/HeaderUA';
+import HeaderUA from 'components/Header/HeaderUA';
 import Footer from 'components/Footer/Footer';
 
 
