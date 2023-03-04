@@ -5,9 +5,9 @@ import './navbar.scss';
 import styles from './navbar.module.scss';
 
 import IconUA from '../Icon/IconUA';
-import IconFR from '../Icon/IconFR';
 import IconPL from '../Icon/IconPL';
-import IconEN from '../Icon/IconEN';
+// import IconFR from '../Icon/IconFR';
+// import IconEN from '../Icon/IconEN';
 
 // import camera from '../../shared/icons/camera2.svg';
 import LogoPL from 'components/Logo/LogoPL';
