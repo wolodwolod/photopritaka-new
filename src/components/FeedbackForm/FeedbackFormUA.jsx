@@ -4,8 +4,8 @@ import React, { useState, useEffect } from 'react';
 import Loader from 'components/Loader';
 
 import {
-  MessageSuccessSend,
-  MessageErrorSend,
+  MessageSuccessSendUA,
+  MessageErrorSendUA,
 } from 'components/MessageForm/MessageFormContent';
 import './feedback_form.scss';
 import envelope from 'shared/icons/envelope.svg';
@@ -194,10 +194,12 @@ const FeedbackFormUA = ({ onSubmit }) => {
 
       {!wasSent && FeedbackFormContent}
       {sessionStorage.getItem('sent') === 'true' && (
-        <MessageSuccessSend backToForm={backToForm} />
+        <MessageSuccessSendUA backToForm={backToForm} />
       )}
       {sessionStorage.getItem('err') === 'true' && (
-        <MessageErrorSend backToForm={backToForm} />
+        <MessageErrorSendUA
+        
+         backToForm={backToForm} />
       )}
     </div>
   );

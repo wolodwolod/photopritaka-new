@@ -10,7 +10,7 @@
 
 
 
-export const MessageSuccessSend = ({backToForm}) => {
+export const MessageSuccessSendUA = ({backToForm}) => {
   return (
     <div className="after_send">
       <p style={{color: 'var(--blue)'}}> Дякую. Ваше повідомлення надіслане.</p>
@@ -26,8 +26,26 @@ export const MessageSuccessSend = ({backToForm}) => {
     </div>
   );
 };
+export const MessageSuccessSendPL = ({backToForm}) => {
+  return (
+    <div className="after_send">
+      <p style={{color: 'var(--blue)'}}> Dziękuję. Twoja wiadomość została wysłana.</p>
+      {/* <p>На Вашу адресу надійде копія повідомлення.</p> */}
+      <p>Proszę czekać na odpowiedź</p>
+      <button
+              type="button"
+              className="btn btn-go btn-lg bold btn-after"
+              onClick={backToForm}
+            >              
+              Dobra
+            </button>
+    </div>
+  );
+};
 
-export const MessageErrorSend = ({backToForm}) => {
+
+
+export const MessageErrorSendUA = ({backToForm}) => {
   return (
     <div className="after_send">
       <p style={{color: '#fc842d'}}>Щось пішло не так. Повідомлення не відправлене.</p>
@@ -38,6 +56,23 @@ export const MessageErrorSend = ({backToForm}) => {
               onClick={backToForm}
             >              
               Повернутися
+            </button>
+    </div>
+  );
+};
+
+
+export const MessageErrorSendPL = ({backToForm}) => {
+  return (
+    <div className="after_send">
+      <p style={{color: '#fc842d'}}>Coś poszło nie tak. Wiadomość nie została wysłana.</p>
+      <p>Proszę sprawdzić połączenie z internetem i sprobować ponownie.</p>
+      <button
+              type="button"
+              className="btn btn-go btn-lg bold btn-after"
+              onClick={backToForm}
+            >              
+              Wrócić
             </button>
     </div>
   );

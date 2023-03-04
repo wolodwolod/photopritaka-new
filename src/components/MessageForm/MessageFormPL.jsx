@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 
 import Loader from 'components/Loader';
 
-import { MessageSuccessSendUA, MessageErrorSendUA } from './MessageFormContent';
+import { MessageSuccessSendPL, MessageErrorSendPL } from './MessageFormContent';
 
 import './message_form.scss';
 import envelope from 'shared/icons/envelope.svg';
@@ -94,7 +94,7 @@ const MessageFormUA = ({ onSubmit }) => {
       <div className="row">
         <div className="col-12">
           <h4 className="message_form-title">
-            Надішліть мені Ваше повідомлення
+          Proszę wysłać wiadomość
           </h4>
         </div>
       </div>
@@ -108,7 +108,7 @@ const MessageFormUA = ({ onSubmit }) => {
           >
             <div className="mb-3">
               <label htmlFor="validationInput1" className="form-label">
-                Ваша електронна адреса
+              Twój adres e-mail
               </label>
               <input
                 type="email"
@@ -118,17 +118,17 @@ const MessageFormUA = ({ onSubmit }) => {
                 id="validationInput1"
                 onChange={handleChange}
                 placeholder="name@example.com"
-                title="ВВЕДІТЬ ЕЛЕКТРОННУ АДРЕСУ"
+                title="WPROWADŹ ADRES E-MAIL"
                 required
               />
               <div className="invalid-feedback">
-                Введіть правильну адресу електронної пошти
+              Proszę wpisać aktualny adres e-mail
               </div>
             </div>
 
             <div className="mb-3">
               <label htmlFor="validationInput2" className="form-label">
-                Ваше ім'я
+                Imię
               </label>
               <input
                 type="text"
@@ -137,15 +137,15 @@ const MessageFormUA = ({ onSubmit }) => {
                 className="form-control"
                 id="validationInput2"
                 onChange={handleChange}
-                placeholder="Ім'я"
-                title="ВВЕДІТЬ ІМ'Я"
+                placeholder="Imię"
+                title="WPROWADŹ IMIĘ"
                 required
               />
-              <div className="invalid-feedback">Введіть Ваше ім'я</div>
+              <div className="invalid-feedback">Proszę wpisać swoje imię</div>
             </div>
             <div className="mb-3">
               <label htmlFor="validationTextarea1" className="form-label">
-                Текст повідомлення
+              Treść wiadomości
               </label>
               <textarea
                 type="text"
@@ -154,8 +154,8 @@ const MessageFormUA = ({ onSubmit }) => {
                 className="form-control"
                 id="validationTextarea1"
                 onChange={handleChange}
-                placeholder="Текст"
-                title="ЗАДАЙТЕ ПИТАННЯ, ВСЕ БУДЕ ДОБРЕ"
+                placeholder="Tekst"
+                title="ZADAJ PYTANIE, WSZYSTKO BĘDZIE DOBRZE"
                 rows="3"
               ></textarea>
             </div>
@@ -173,7 +173,7 @@ const MessageFormUA = ({ onSubmit }) => {
                 height="20px"
                 className="d-inline-block align-text-top"
               />
-              &nbsp;&nbsp;Надіслати
+              &nbsp;&nbsp;Wyślij
             </button>
           </form>
         </div>
@@ -187,10 +187,10 @@ const MessageFormUA = ({ onSubmit }) => {
 
       {!wasSent && MessageFormContent}
       {sessionStorage.getItem('sent') === 'true' && (
-        <MessageSuccessSendUA backToForm={backToForm} />
+        <MessageSuccessSendPL backToForm={backToForm} />
       )}
       {sessionStorage.getItem('err') === 'true' && (
-        <MessageErrorSendUA backToForm={backToForm} />
+        <MessageErrorSendPL backToForm={backToForm} />
       )}
     </div>
   );

@@ -1,6 +1,6 @@
 import s from './Logo.module.scss';
 
-const Logo = () => {
+const LogoUA = () => {
   return (
     <div className={s.Logo}>
       <p className={s.Logo_name}>Тетяна Притака</p>
@@ -9,4 +9,4 @@ const Logo = () => {
   );
 };
 
-export default Logo;
+export default LogoUA;

@@ -2,7 +2,7 @@ import { lazy, Suspense } from 'react';
 import { Routes, Route, Navigate } from 'react-router-dom';
 import Loader from "components/Loader";
 
-import NavbarUA from 'components/Navbar/NavbarUA';
+import HeaderUA from 'components/Navbar/HeaderUA';
 import Footer from 'components/Footer/Footer';
 
 
@@ -21,7 +21,7 @@ const PortraitUA = lazy(() => import('./pages/Portrait/PortraitUA'));
 function App() {
   return (
     <div className="App">
-      <NavbarUA />
+      <HeaderUA />
 
       <Suspense fallback={<Loader backgrColor={"white"} />}>
         <Routes>

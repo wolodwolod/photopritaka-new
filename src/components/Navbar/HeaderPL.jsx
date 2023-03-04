@@ -10,14 +10,14 @@ import IconPL from '../Icon/IconPL';
 import IconEN from '../Icon/IconEN';
 
 // import camera from '../../shared/icons/camera2.svg';
-import Logo from 'components/Logo/Logo';
+import LogoPL from 'components/Logo/LogoPL';
 
 // import classNames from 'classnames';
 
 const getActiveClass = ({ isActive }) =>
   isActive ? styles.linkActive : styles.link;
 
-const NavbarUA = () => {
+const HeaderPL = () => {
   const [portfolioActiv, setPortfolioActiv] = useState({
     isActive: false,
   });
@@ -40,7 +40,7 @@ const NavbarUA = () => {
             <div className="container-fluid  bold">
               <div className="navbar-brand logo">
                 <NavLink to="/" className={styles.link} onClick={removeActive}>
-                  <Logo />
+                  <LogoPL />
                 </NavLink>
               </div>
 
@@ -67,7 +67,7 @@ const NavbarUA = () => {
                       className={getActiveClass}
                       onClick={removeActive}
                     >
-                      Головна
+                      Główna
                     </NavLink>
                   </li>
                   <li className="nav-item dropdown">
@@ -82,7 +82,7 @@ const NavbarUA = () => {
                       aria-expanded="false"
                     >
                       <NavLink to="" className={getPortfolioActive}>
-                        Портфоліо
+                        Portfolio
                       </NavLink>
                     </div>
                     <ul className="dropdown-menu ps-2 pe-2 portfolio-menu">
@@ -92,7 +92,7 @@ const NavbarUA = () => {
                           className={getActiveClass}
                           onClick={addActive}
                         >
-                          Портрет
+                          Portret
                         </NavLink>
                       </li>
                       <li className="dropdown-item child">
@@ -101,7 +101,7 @@ const NavbarUA = () => {
                           className={getActiveClass}
                           onClick={addActive}
                         >
-                          Сімейне фото
+                          Zdjęcia rodzinne
                         </NavLink>
                       </li>
                       <li className="dropdown-item child">
@@ -110,7 +110,7 @@ const NavbarUA = () => {
                           className={getActiveClass}
                           onClick={addActive}
                         >
-                          Романтичне фото
+                          Fotografia romantyczna
                         </NavLink>
                       </li>
 
@@ -120,7 +120,7 @@ const NavbarUA = () => {
                           className={getActiveClass}
                           onClick={addActive}
                         >
-                          Новонароджені
+                          Fotografia noworodkowa
                         </NavLink>
                       </li>
                       <li className="dropdown-item child">
@@ -129,7 +129,7 @@ const NavbarUA = () => {
                           className={getActiveClass}
                           onClick={addActive}
                         >
-                          Події
+                          Wydarzenia
                         </NavLink>
                       </li>
                     </ul>
@@ -140,7 +140,7 @@ const NavbarUA = () => {
                       className={getActiveClass}
                       onClick={removeActive}
                     >
-                      Контакти
+                      Kontakt
                     </NavLink>
                   </li>
 
@@ -150,7 +150,7 @@ const NavbarUA = () => {
                       className={getActiveClass}
                       onClick={removeActive}
                     >
-                      Відгуки
+                      Opinie
                     </NavLink>
                   </li>
 
@@ -163,18 +163,18 @@ const NavbarUA = () => {
                         data-bs-toggle="dropdown"
                         aria-expanded="false"
                       >
-                        <IconUA />
+                        <IconPL />
                       </a>
 
                       <ul className="dropdown-menu fs-14 lang-menu">
                         <li>
                           <a className="dropdown-item" href="/">
-                            <IconFR />
+                            <IconUA />
                           </a>
                         </li>
                         <li>
                           <a className="dropdown-item" href="/">
-                            <IconPL />
+                            <IconFR />
                           </a>
                         </li>
                         <li>
@@ -195,4 +195,4 @@ const NavbarUA = () => {
   );
 };
 
-export default NavbarUA;
+export default HeaderPL;

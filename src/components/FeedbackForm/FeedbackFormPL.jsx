@@ -1,16 +1,18 @@
-// <!-- MESSAGE -->
+// <!-- FEEDBACK -->
 import React, { useState, useEffect } from 'react';
 
 import Loader from 'components/Loader';
 
-import { MessageSuccessSendUA, MessageErrorSendUA } from './MessageFormContent';
-
-import './message_form.scss';
+import {
+  MessageSuccessSendPL,
+  MessageErrorSendPL,
+} from 'components/MessageForm/MessageFormContent';
+import './feedback_form.scss';
 import envelope from 'shared/icons/envelope.svg';
 import formValidation from 'shared/services/formValidation';
 import { emailRegexp, nameRegexp } from 'shared/services/patterns';
 
-const MessageFormUA = ({ onSubmit }) => {
+const FeedbackFormPL = ({ onSubmit }) => {
   useEffect(() => {
     sessionStorage.setItem('sent', null);
     sessionStorage.setItem('err', null);
@@ -19,10 +21,6 @@ const MessageFormUA = ({ onSubmit }) => {
   formValidation();
 
   const [wasSent, setWasSent] = useState(false);
-  // const [status, setStatus] = useState({
-  //   send: null,
-  //   error: null,
-  // });
 
   const [loading, setLoading] = useState(false);
 
@@ -89,17 +87,15 @@ const MessageFormUA = ({ onSubmit }) => {
     sessionStorage.setItem('err', null);
   };
 
-  const MessageFormContent = (
-    <div className="message_form">
+  const FeedbackFormContent = (
+    <div>
       <div className="row">
         <div className="col-12">
-          <h4 className="message_form-title">
-            Надішліть мені Ваше повідомлення
-          </h4>
+          <h4 className="feedbacks_form-title">Wyślij swoją opinię</h4>
         </div>
       </div>
       <div className="row">
-        <div className="col-12">
+        <div className="col-lg-8 col-sm-12">
           <form
             onSubmit={handleSubmit}
             className="bold text-uppercase needs-validation"
@@ -108,7 +104,7 @@ const MessageFormUA = ({ onSubmit }) => {
           >
             <div className="mb-3">
               <label htmlFor="validationInput1" className="form-label">
-                Ваша електронна адреса
+              Twój adres e-mail
               </label>
               <input
                 type="email"
@@ -118,17 +114,17 @@ const MessageFormUA = ({ onSubmit }) => {
                 id="validationInput1"
                 onChange={handleChange}
                 placeholder="name@example.com"
-                title="ВВЕДІТЬ ЕЛЕКТРОННУ АДРЕСУ"
+                title="WPROWADŹ ADRES E-MAIL"
                 required
               />
               <div className="invalid-feedback">
-                Введіть правильну адресу електронної пошти
+              Proszę wpisać aktualny adres e-mail
               </div>
             </div>
 
             <div className="mb-3">
               <label htmlFor="validationInput2" className="form-label">
-                Ваше ім'я
+              Imię
               </label>
               <input
                 type="text"
@@ -137,29 +133,40 @@ const MessageFormUA = ({ onSubmit }) => {
                 className="form-control"
                 id="validationInput2"
                 onChange={handleChange}
-                placeholder="Ім'я"
-                title="ВВЕДІТЬ ІМ'Я"
+                placeholder="Imię"
+                title="WPROWADŹ IMIĘ"
                 required
               />
-              <div className="invalid-feedback">Введіть Ваше ім'я</div>
             </div>
             <div className="mb-3">
               <label htmlFor="validationTextarea1" className="form-label">
-                Текст повідомлення
+              Opinia
               </label>
               <textarea
-                type="text"
                 name="formText"
                 value={formMessage.formText}
                 className="form-control"
                 id="validationTextarea1"
                 onChange={handleChange}
-                placeholder="Текст"
-                title="ЗАДАЙТЕ ПИТАННЯ, ВСЕ БУДЕ ДОБРЕ"
-                rows="3"
+                placeholder="Tekst"
+                title="WYŚLIJ KOMENTARZ, WSZYSTKO BĘDZIE DOBRZE"
+                rows="5"
               ></textarea>
             </div>
 
+            {/* <!-- Checkbox --> */}
+            {/* <div className="form-check mb-4">
+                <input
+                  className="form-check-input me-2"
+                  type="checkbox"
+                  value=""
+                  id="form4Example4"
+                  checked
+                />
+                <label htmlFor="form4Example4">
+                  Надішліть мені копію цього повідомлення
+                </label>
+              </div> */}
             <button
               id="message-button"
               disabled={disButton}
@@ -169,11 +176,11 @@ const MessageFormUA = ({ onSubmit }) => {
               <img
                 src={envelope}
                 alt="Svg"
-                width="25px"
-                height="20px"
+                width="25"
+                height="20"
                 className="d-inline-block align-text-top"
               />
-              &nbsp;&nbsp;Надіслати
+              &nbsp;&nbsp;Wyślij
             </button>
           </form>
         </div>
@@ -182,18 +189,20 @@ const MessageFormUA = ({ onSubmit }) => {
   );
 
   return (
-    <div className="message-form">
+    <div className="feedbacks_form mt-5">
       {loading && <Loader />}
 
-      {!wasSent && MessageFormContent}
+      {!wasSent && FeedbackFormContent}
       {sessionStorage.getItem('sent') === 'true' && (
-        <MessageSuccessSendUA backToForm={backToForm} />
+        <MessageSuccessSendPL backToForm={backToForm} />
       )}
       {sessionStorage.getItem('err') === 'true' && (
-        <MessageErrorSendUA backToForm={backToForm} />
+        <MessageErrorSendPL
+        
+         backToForm={backToForm} />
       )}
     </div>
   );
 };
 
-export default MessageFormUA;
+export default FeedbackFormPL;
