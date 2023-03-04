@@ -1,14 +1,14 @@
 .icon {
-    width: 35px;
-    height: 25px;
-    border: 1.5px solid var(--bs-gray-600);
+    width: 40px;
+    height: 30px;
+    border: 2px solid var(--bs-gray-600);
     border-radius: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 10px;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 400;
     color: var(--bs-gray-700);
 }
@@ -17,6 +17,6 @@
     display: block;
     justify-content: center;
     align-items: center;
-    padding: 10px; 
+    padding: 0 10px; 
     margin-bottom: 0; 
 }

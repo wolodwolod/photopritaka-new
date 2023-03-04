@@ -39,7 +39,7 @@ const HeaderPL = () => {
           <nav className="navbar navbar-expand-lg nav">
             <div className="container-fluid  bold">
               <div className="navbar-brand logo">
-                <NavLink to="/" className={styles.link} onClick={removeActive}>
+                <NavLink to="/pl/home" className={styles.link} onClick={removeActive}>
                   <LogoPL />
                 </NavLink>
               </div>
@@ -63,7 +63,7 @@ const HeaderPL = () => {
                 <ul className="navbar-nav nav">
                   <li className="nav-item nav-link">
                     <NavLink
-                      to="/"
+                      to="/pl/home"
                       className={getActiveClass}
                       onClick={removeActive}
                     >
@@ -88,7 +88,7 @@ const HeaderPL = () => {
                     <ul className="dropdown-menu ps-2 pe-2 portfolio-menu">
                       <li className="dropdown-item child">
                         <NavLink
-                          to="/ua/portrait"
+                          to="/pl/portrait"
                           className={getActiveClass}
                           onClick={addActive}
                         >
@@ -97,7 +97,7 @@ const HeaderPL = () => {
                       </li>
                       <li className="dropdown-item child">
                         <NavLink
-                          to="/ua/family"
+                          to="/pl/family"
                           className={getActiveClass}
                           onClick={addActive}
                         >
@@ -106,7 +106,7 @@ const HeaderPL = () => {
                       </li>
                       <li className="dropdown-item child">
                         <NavLink
-                          to="/ua/romantic"
+                          to="/pl/romantic"
                           className={getActiveClass}
                           onClick={addActive}
                         >
@@ -116,7 +116,7 @@ const HeaderPL = () => {
 
                       <li className="dropdown-item child">
                         <NavLink
-                          to="/ua/newborns"
+                          to="/pl/newborns"
                           className={getActiveClass}
                           onClick={addActive}
                         >
@@ -125,7 +125,7 @@ const HeaderPL = () => {
                       </li>
                       <li className="dropdown-item child">
                         <NavLink
-                          to="/ua/events"
+                          to="/pl/events"
                           className={getActiveClass}
                           onClick={addActive}
                         >
@@ -136,7 +136,7 @@ const HeaderPL = () => {
                   </li>
                   <li className="nav-item nav-link">
                     <NavLink
-                      to="/ua/contacts"
+                      to="/pl/contacts"
                       className={getActiveClass}
                       onClick={removeActive}
                     >
@@ -146,7 +146,7 @@ const HeaderPL = () => {
 
                   <li className="nav-item nav-link me-50">
                     <NavLink
-                      to="/ua/photographer"
+                      to="/pl/feedbacks"
                       className={getActiveClass}
                       onClick={removeActive}
                     >
@@ -172,7 +172,7 @@ const HeaderPL = () => {
                             <IconUA />
                           </a>
                         </li>
-                        <li>
+                        {/* <li>
                           <a className="dropdown-item" href="/">
                             <IconFR />
                           </a>
@@ -181,7 +181,7 @@ const HeaderPL = () => {
                           <a className="dropdown-item" href="/">
                             <IconEN />
                           </a>
-                        </li>
+                        </li> */}
                       </ul>
                     </div>
                   </li>

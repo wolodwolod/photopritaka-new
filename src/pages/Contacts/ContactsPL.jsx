@@ -1,7 +1,7 @@
 import '../pages.scss';
 
-import MessageFormUA from 'components/MessageForm/MessageFormUA';
-import sendMessageUA from 'shared/services/sendMessageUA';
+import MessageFormPL from 'components/MessageForm/MessageFormPL';
+import sendMessagePL from 'shared/services/sendMessagePL';
 
 import photographer from '../../shared/images/common-img/TP-md.jpg';
 import photographer_sm from '../../shared/images/common-img/TP-sm.jpg';
@@ -63,7 +63,7 @@ const СontactsPL = () => {
 
           <div className="col-lg-6 col-md-12 col-sm-12 ">
             <div className="contacts_message">
-              <MessageFormUA onSubmit={sendMessageUA} />
+              <MessageFormPL onSubmit={sendMessagePL} />
             </div>
           </div>
         </div>

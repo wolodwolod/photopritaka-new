@@ -146,7 +146,7 @@ const HeaderUA = () => {
 
                   <li className="nav-item nav-link me-50">
                     <NavLink
-                      to="/ua/photographer"
+                      to="/ua/feedbacks"
                       className={getActiveClass}
                       onClick={removeActive}
                     >
@@ -168,11 +168,11 @@ const HeaderUA = () => {
 
                       <ul className="dropdown-menu fs-14 lang-menu">
                         <li>
-                          <a className="dropdown-item" href="/">
+                          <a className="dropdown-item" href="/pl/home">
                             <IconPL />
                           </a>
                         </li>
-                        <li>
+                        {/* <li>
                           <a className="dropdown-item" href="/">
                             <IconFR />
                           </a>
@@ -181,7 +181,7 @@ const HeaderUA = () => {
                           <a className="dropdown-item" href="/">
                             <IconEN />
                           </a>
-                        </li>
+                        </li> */}
                       </ul>
                     </div>
                   </li>

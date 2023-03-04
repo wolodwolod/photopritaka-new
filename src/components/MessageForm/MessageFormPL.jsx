@@ -10,7 +10,7 @@ import envelope from 'shared/icons/envelope.svg';
 import formValidation from 'shared/services/formValidation';
 import { emailRegexp, nameRegexp } from 'shared/services/patterns';
 
-const MessageFormUA = ({ onSubmit }) => {
+const MessageFormPL = ({ onSubmit }) => {
   useEffect(() => {
     sessionStorage.setItem('sent', null);
     sessionStorage.setItem('err', null);
@@ -196,4 +196,4 @@ const MessageFormUA = ({ onSubmit }) => {
   );
 };
 
-export default MessageFormUA;
+export default MessageFormPL;
