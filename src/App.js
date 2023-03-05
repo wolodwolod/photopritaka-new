@@ -50,7 +50,7 @@ function App() {
           <Route path="/" exact element={<LayoutPage />}>
             <Route element={<RouteUA />}>
               <Route index element={<HomePageUA />} />
-              <Route path="/ua/home" element={<HomePageUA />} />
+              {/* <Route path="/ua/home" element={<HomePageUA />} /> */}
               <Route path="/ua/feedbacks" element={<FeedbacksUA />} />
               <Route path="/ua/contacts" element={<ContactsUA />} />
               <Route path="/ua/family" element={<FamilyUA />} />

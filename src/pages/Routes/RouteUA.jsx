@@ -7,7 +7,10 @@ const RouteUA = () => {
 
   if (lang === 'pol') {
     return <Navigate to="/pl/home" replace={true} />;
-  }
+  } 
+  // if (lang !== 'pol') {
+  //   return <Navigate to="/ua" replace={true} />;
+  // } 
 
   return (
     <>

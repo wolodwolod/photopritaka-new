@@ -46,7 +46,7 @@ const HeaderUA = () => {
           <nav className="navbar navbar-expand-lg nav">
             <div className="container-fluid  bold">
               <div className="navbar-brand logo">
-                <NavLink to="/ua/home" className={styles.link} onClick={removeActive}>
+                <NavLink to="/" className={styles.link} onClick={removeActive}>
                   <LogoUA />
                 </NavLink>
               </div>
@@ -70,7 +70,7 @@ const HeaderUA = () => {
                 <ul className="navbar-nav nav">
                   <li className="nav-item nav-link">
                     <NavLink
-                      to="/ua/home"
+                      to="/"
                       className={getActiveClass}
                       onClick={removeActive}
                     >
