@@ -4,6 +4,8 @@ import { NavLink } from 'react-router-dom';
 import './navbar.scss';
 import styles from './navbar.module.scss';
 
+import HomeIcon from 'shared/icons/home.svg'
+
 import IconUA from '../Icon/IconUA';
 import IconPL from '../Icon/IconPL';
 // import IconFR from '../Icon/IconFR';
@@ -44,7 +46,7 @@ const HeaderUA = () => {
           <nav className="navbar navbar-expand-lg nav">
             <div className="container-fluid  bold">
               <div className="navbar-brand logo">
-                <NavLink to="/" className={styles.link} onClick={removeActive}>
+                <NavLink to="/ua/home" className={styles.link} onClick={removeActive}>
                   <LogoUA />
                 </NavLink>
               </div>
@@ -68,11 +70,17 @@ const HeaderUA = () => {
                 <ul className="navbar-nav nav">
                   <li className="nav-item nav-link">
                     <NavLink
-                      to="/"
+                      to="/ua/home"
                       className={getActiveClass}
                       onClick={removeActive}
                     >
-                      Головна
+                       <img
+                        src={HomeIcon}
+                        alt="Home"
+                        width="32"                        
+                        className="home-icon"
+                      />
+                      {/* Головна */}
                     </NavLink>
                   </li>
                   <li className="nav-item dropdown">
@@ -142,7 +150,7 @@ const HeaderUA = () => {
                   <li className="nav-item nav-link">
                     <NavLink
                       to="/ua/contacts"
-                      className={getActiveClass}
+                      className={getActiveClass} 
                       onClick={removeActive}
                     >
                       Контакти

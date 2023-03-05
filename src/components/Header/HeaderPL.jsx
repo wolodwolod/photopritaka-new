@@ -4,6 +4,8 @@ import { NavLink } from 'react-router-dom';
 import './navbar.scss';
 import styles from './navbar.module.scss';
 
+import HomeIcon from 'shared/icons/home.svg';
+
 import IconUA from '../Icon/IconUA';
 import IconPL from '../Icon/IconPL';
 // import IconFR from '../Icon/IconFR';
@@ -35,7 +37,7 @@ const HeaderPL = () => {
   const addLangToLS = () => {
     localStorage.setItem('lang', 'ukr');
     // <Navigate to="/ua/home" replace />
-  }
+  };
 
   return (
     <header>
@@ -44,7 +46,11 @@ const HeaderPL = () => {
           <nav className="navbar navbar-expand-lg nav">
             <div className="container-fluid  bold">
               <div className="navbar-brand logo">
-                <NavLink to="/pl/home" className={styles.link} onClick={removeActive}>
+                <NavLink
+                  to="/pl/home"
+                  className={styles.link}
+                  onClick={removeActive}
+                >
                   <LogoPL />
                 </NavLink>
               </div>
@@ -72,7 +78,13 @@ const HeaderPL = () => {
                       className={getActiveClass}
                       onClick={removeActive}
                     >
-                      Główna
+                      <img
+                        src={HomeIcon}
+                        alt="Home"
+                        width="32"
+                        className="home-icon"
+                      />
+                      {/* Główna */}
                     </NavLink>
                   </li>
                   <li className="nav-item dropdown">
@@ -173,7 +185,11 @@ const HeaderPL = () => {
 
                       <ul className="dropdown-menu fs-14 lang-menu">
                         <li>
-                          <a className="dropdown-item" href="/ua/home" onClick={addLangToLS}>
+                          <a
+                            className="dropdown-item"
+                            href="/ua/home"
+                            onClick={addLangToLS}
+                          >
                             <IconUA />
                           </a>
                         </li>
