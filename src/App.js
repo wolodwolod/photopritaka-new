@@ -6,7 +6,6 @@ import LayoutPage from 'routes/LayoutPage';
 import RouteUA from 'routes/RouteUA';
 import RoutePL from 'routes/RoutePL';
 
-
 const HomePageUA = lazy(() => import('pages/HomePage/HomePageUA'));
 const FeedbacksUA = lazy(() => import('pages/Feedbacks/FeedbacksUA'));
 const ContactsUA = lazy(() => import('pages/Contacts/ContactsUA'));
@@ -28,23 +27,6 @@ const PortraitPL = lazy(() => import('pages/Portrait/PortraitPL'));
 function App() {
   return (
     <div className="App">
-      {/* <HeaderUA />
-
-      <Suspense fallback={<Loader backgrColor={"white"} />}>
-        <Routes>
-          <Route path="/" exact element={<HomePageUA />} />
-          <Route path="/ua/photographer" element={<FeedbacksUA />} />
-          <Route path="/ua/contacts" element={<ContactsUA />} />
-          <Route path="/ua/family" element={<FamilyUA />} />
-          <Route path="/ua/romantic" element={<RomanticUA />} />
-          <Route path="/ua/newborns" element={<NewbornsUA />} />
-          <Route path="/ua/events" element={<EventsUA />} />
-          <Route path="/ua/portrait" element={<PortraitUA />} />
-          <Route path="*" element={<Navigate to="/" replace />} />
-        </Routes>
-      </Suspense>
-      <Footer /> */}
-
       <Suspense fallback={<Loader backgrColor={'white'} />}>
         <Routes>
           <Route path="/" exact element={<LayoutPage />}>
@@ -73,6 +55,23 @@ function App() {
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
       </Suspense>
+
+      {/* <HeaderUA />
+
+      <Suspense fallback={<Loader backgrColor={"white"} />}>
+        <Routes>
+          <Route path="/" exact element={<HomePageUA />} />
+          <Route path="/ua/photographer" element={<FeedbacksUA />} />
+          <Route path="/ua/contacts" element={<ContactsUA />} />
+          <Route path="/ua/family" element={<FamilyUA />} />
+          <Route path="/ua/romantic" element={<RomanticUA />} />
+          <Route path="/ua/newborns" element={<NewbornsUA />} />
+          <Route path="/ua/events" element={<EventsUA />} />
+          <Route path="/ua/portrait" element={<PortraitUA />} />
+          <Route path="*" element={<Navigate to="/" replace />} />
+        </Routes>
+      </Suspense>
+      <Footer /> */}
     </div>
   );
 }
