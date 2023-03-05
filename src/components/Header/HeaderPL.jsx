@@ -32,6 +32,11 @@ const HeaderPL = () => {
     setPortfolioActiv({ isActive: true });
   };
 
+  const addLangToLS = () => {
+    localStorage.setItem('lang', 'ukr');
+    // <Navigate to="/ua/home" replace />
+  }
+
   return (
     <header>
       <div className="container">
@@ -168,7 +173,7 @@ const HeaderPL = () => {
 
                       <ul className="dropdown-menu fs-14 lang-menu">
                         <li>
-                          <a className="dropdown-item" href="/">
+                          <a className="dropdown-item" href="/ua/home" onClick={addLangToLS}>
                             <IconUA />
                           </a>
                         </li>

@@ -6,8 +6,6 @@ import LayoutPage from 'pages/Routes/LayoutPage';
 import RouteUA from 'pages/Routes/RouteUA';
 import RoutePL from 'pages/Routes/RoutePL';
 
-// import HeaderUA from 'components/Header/HeaderUA';
-// import Footer from 'components/Footer/Footer';
 
 const HomePageUA = lazy(() => import('./pages/HomePage/HomePageUA'));
 const FeedbacksUA = lazy(() => import('./pages/Feedbacks/FeedbacksUA'));
@@ -47,49 +45,34 @@ function App() {
       </Suspense>
       <Footer /> */}
 
-      {/* <HeaderUA /> */}
-
       <Suspense fallback={<Loader backgrColor={'white'} />}>
-        
-          <Routes>
-            <Route path="/" exact element={<LayoutPage />}>
-              <Route element={<RouteUA />}>
-                <Route index element={<HomePageUA />} />
-                <Route path="/ua/feedbacks" element={<FeedbacksUA />} />
-                <Route path="/ua/contacts" element={<ContactsUA />} />
-                <Route path="/ua/family" element={<FamilyUA />} />
-                <Route path="/ua/romantic" element={<RomanticUA />} />
-                <Route path="/ua/newborns" element={<NewbornsUA />} />
-                <Route path="/ua/events" element={<EventsUA />} />
-                <Route path="/ua/portrait" element={<PortraitUA />} />
-              </Route>
-              <Route path="/pl" exact element={<RoutePL />}>
-                <Route path="/pl/home" element={<HomePagePL />} />
-                <Route path="/pl/feedbacks" element={<FeedbacksPL />} />
-                <Route path="/pl/contacts" element={<ContactsPL />} />
-                <Route path="/pl/family" element={<FamilyPL />} />
-                <Route path="/pl/romantic" element={<RomanticPL />} />
-                <Route path="/pl/newborns" element={<NewbornsPL />} />
-                <Route path="/pl/events" element={<EventsPL />} />
-                <Route path="/pl/portrait" element={<PortraitPL />} />
-              </Route>
+        <Routes>
+          <Route path="/" exact element={<LayoutPage />}>
+            <Route element={<RouteUA />}>
+              <Route index element={<HomePageUA />} />
+              <Route path="/ua/home" element={<HomePageUA />} />
+              <Route path="/ua/feedbacks" element={<FeedbacksUA />} />
+              <Route path="/ua/contacts" element={<ContactsUA />} />
+              <Route path="/ua/family" element={<FamilyUA />} />
+              <Route path="/ua/romantic" element={<RomanticUA />} />
+              <Route path="/ua/newborns" element={<NewbornsUA />} />
+              <Route path="/ua/events" element={<EventsUA />} />
+              <Route path="/ua/portrait" element={<PortraitUA />} />
             </Route>
-            <Route path="*" element={<Navigate to="/" replace />} />
-          </Routes>
-
-          {/* <Route path="/" exact element={<HomePageUA />} />
-          <Route path="/ua/photographer" element={<FeedbacksUA />} />
-          <Route path="/ua/contacts" element={<ContactsUA />} />
-          <Route path="/ua/family" element={<FamilyUA />} />
-          <Route path="/ua/romantic" element={<RomanticUA />} />
-          <Route path="/ua/newborns" element={<NewbornsUA />} />
-          <Route path="/ua/events" element={<EventsUA />} />
-          <Route path="/ua/portrait" element={<PortraitUA />} />
+            <Route path="/pl" exact element={<RoutePL />}>
+              <Route index path="/pl/home" element={<HomePagePL />} />
+              <Route path="/pl/feedbacks" element={<FeedbacksPL />} />
+              <Route path="/pl/contacts" element={<ContactsPL />} />
+              <Route path="/pl/family" element={<FamilyPL />} />
+              <Route path="/pl/romantic" element={<RomanticPL />} />
+              <Route path="/pl/newborns" element={<NewbornsPL />} />
+              <Route path="/pl/events" element={<EventsPL />} />
+              <Route path="/pl/portrait" element={<PortraitPL />} />
+            </Route>
+          </Route>
           <Route path="*" element={<Navigate to="/" replace />} />
-        </Routes> */}
-
+        </Routes>
       </Suspense>
-      {/* <Footer /> */}
     </div>
   );
 }
