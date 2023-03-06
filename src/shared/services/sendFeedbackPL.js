@@ -2,12 +2,6 @@ import { SESClient, SendEmailCommand } from '@aws-sdk/client-ses';
 
 const sendFeedbackPL = payload => {
   const { email, name, text } = payload;
-
-  // const example = process.env.REACT_APP_EXAMPLE;
- 
-  // console.log(process.env.NODE_ENV);
-  // console.log(email, name, text);
-  // console.log(example);
   
   const REGION = process.env.REACT_APP_REGION;
 
