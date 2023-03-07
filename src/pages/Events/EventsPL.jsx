@@ -1,4 +1,7 @@
 import EventsGallery from 'components/ImageGalleries/EventsGallery2';
+import ButtonUp from 'components/ButtonUp';
+
+import '../pages.scss';
 
 const EventsPL = () => {
   return (
@@ -9,6 +12,7 @@ const EventsPL = () => {
         </div>
         <EventsGallery />
       </div>
+      <ButtonUp />
     </main>
   );
 };

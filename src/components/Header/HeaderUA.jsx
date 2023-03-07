@@ -27,6 +27,8 @@ const HeaderUA = () => {
   const getPortfolioActive = () =>
     portfolioActiv.isActive ? styles.linkActive : styles.link;
 
+    // console.log({getPortfolioActive});
+
   const removeActive = () => {
     setPortfolioActiv({ isActive: false });
   };

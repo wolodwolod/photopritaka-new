@@ -1,4 +1,5 @@
 import EventsGallery from 'components/ImageGalleries/EventsGallery2';
+import ButtonUp from 'components/ButtonUp';
 
 const EventsUA = () => {
   return (
@@ -9,6 +10,7 @@ const EventsUA = () => {
         </div>
         <EventsGallery />
       </div>
+      <ButtonUp />
     </main>
   );
 };

@@ -1,4 +1,5 @@
 import FamilyImgGallery from 'components/ImageGalleries/FamilyGallery';
+import ButtonUp from 'components/ButtonUp';
 
 const FamilyUA = () => {
   return (
@@ -9,6 +10,7 @@ const FamilyUA = () => {
         </div>
         <FamilyImgGallery />
       </div>
+      <ButtonUp />
     </main>
   );
 };

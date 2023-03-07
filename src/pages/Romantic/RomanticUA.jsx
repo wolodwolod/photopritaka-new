@@ -1,4 +1,5 @@
 import RomanticGallery from 'components/ImageGalleries/RomanticGallery';
+import ButtonUp from 'components/ButtonUp';
 
 const RomanticUA = () => {
   return (
@@ -9,6 +10,7 @@ const RomanticUA = () => {
         </div>
         <RomanticGallery />
       </div>
+      <ButtonUp />
     </main>
   );
 };

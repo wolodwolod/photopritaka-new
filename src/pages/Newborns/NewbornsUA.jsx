@@ -1,4 +1,5 @@
 import NewbornsGallery from 'components/ImageGalleries/NewbornsGallery';
+import ButtonUp from 'components/ButtonUp';
 
 const NewbornsUA = () => {
   return (
@@ -9,6 +10,7 @@ const NewbornsUA = () => {
         </div>
         <NewbornsGallery />
       </div>
+      <ButtonUp />
     </main>
   );
 };

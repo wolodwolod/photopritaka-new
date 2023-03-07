@@ -1,4 +1,5 @@
 import FamilyImgGallery from 'components/ImageGalleries/FamilyGallery';
+import ButtonUp from 'components/ButtonUp';
 
 const FamilyPL = () => {
   return (
@@ -9,6 +10,7 @@ const FamilyPL = () => {
         </div>
         <FamilyImgGallery />
       </div>
+      <ButtonUp />
     </main>
   );
 };

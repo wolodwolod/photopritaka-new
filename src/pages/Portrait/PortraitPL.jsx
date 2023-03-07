@@ -1,5 +1,7 @@
-import PortraitGallery from 'components/ImageGalleries/PortraitGallery';
 import '../pages.scss';
+import PortraitGallery from 'components/ImageGalleries/PortraitGallery';
+import ButtonUp from 'components/ButtonUp';
+
 
 const PortraitPL = () => {
   return (
@@ -10,6 +12,7 @@ const PortraitPL = () => {
         </div>
         <PortraitGallery />
       </div>
+      <ButtonUp />
     </main>
   );
 };

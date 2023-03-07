@@ -1,5 +1,8 @@
 import PortraitGallery from 'components/ImageGalleries/PortraitGallery';
+
 import '../pages.scss';
+
+import ButtonUp from 'components/ButtonUp';
 
 const PortraitUA = () => {
   return (
@@ -10,6 +13,7 @@ const PortraitUA = () => {
         </div>
         <PortraitGallery />
       </div>
+      <ButtonUp />
     </main>
   );
 };
