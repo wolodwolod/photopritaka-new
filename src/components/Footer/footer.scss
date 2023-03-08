@@ -1,6 +1,7 @@
 /* Підвал */
 footer {
   padding: 20px 0 20px;
+  margin-top: 10px;
 }
 
 .btn-footer_wrapper {
@@ -39,12 +40,17 @@ footer {
 // }
 
 // .btn-footer:active,
+
+.social-icon {
+  stroke: var(--bs-gray-600);
+  fill: var(--bs-gray-600);
+}
+
 .btn-footer:hover .social-icon {
   stroke: #2158ca;
   fill: #2158ca;
-  border: 1.5px solid #2158ca;
-  border-radius: 20px;
-
+  // border: 1.5px solid #2158ca;
+  // border-radius: 20px;
 
   // outline: none;
   // // background: var(--color3);

@@ -16,29 +16,35 @@
 }
 
 @media screen and (max-width: 400px) {
-  .btnUp  {
+  .btnUp {
     bottom: 45px;
   }
 }
 
-
-.btnUp::before {
-  content: '';
-  width: 40px;
-  height: 40px;
-  background: transparent no-repeat center center;
-  background-size: 100% 100%;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='%23495057' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z'/%3E%3C/svg%3E");
-}
+// .btnUp::before {
+//   content: '';
+//   width: 40px;
+//   height: 40px;
+//   background: transparent no-repeat center center;
+//   background-size: 100% 100%;
+//   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='%23495057' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z'/%3E%3C/svg%3E");
+// }
 
 .btnUp_hide {
   display: none;
 }
 
+.arrowUp {
+  stroke: var(--bs-gray-600);
+  fill: var(--bs-gray-600);
+}
+
 @media (hover: hover) and (pointer: fine) {
-  .btnUp:hover {
-    background-color: #f0f0f0; /* цвет заднего фона при наведении */
-    box-shadow: 0px 1px 3px 0px rgb(0 0 0 / 20%),
-      0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 2px 1px -1px rgb(0 0 0 / 12%);
+  .btnUp:hover .arrowUp {
+    stroke: #2158ca;
+    fill: #2158ca;
+    // background-color: #f0f0f0; /* цвет заднего фона при наведении */
+    // box-shadow: 0px 1px 3px 0px rgb(0 0 0 / 20%),
+    //   0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 2px 1px -1px rgb(0 0 0 / 12%);
   }
 }

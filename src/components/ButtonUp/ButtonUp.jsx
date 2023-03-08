@@ -1,4 +1,9 @@
 import { useState } from 'react';
+
+import { HandySvg } from 'handy-svg';
+
+import arrowUp from 'shared/icons/up-arr.svg'
+
 import styles from './btnUp.module.scss';
 
 const title = {
@@ -40,7 +45,14 @@ const ButtonUp = ({ lang }) => {
       onClick={goToTop}
       className={getClassNameBtnUp()}
       title={title[lang]}
-    ></button>
+    >
+      <HandySvg
+        className={styles.arrowUp}
+        src={arrowUp}
+        width="40"
+        height="40"
+      />
+    </button>
   );
 };
 
