@@ -1,3 +1,4 @@
+import { HandySvg } from 'handy-svg';
 import './footer.scss';
 // import '../../shared/styles/fontello.css'
 import inst_Logo from '../../shared/icons/Instagram-Logo-neg.svg';
@@ -18,13 +19,19 @@ const Footer = () => {
                 rel="noreferrer"
                 className="btn-footer"
               >
-                <img
+                <HandySvg
+                  className="d-inline-block align-text-top social-icon"
+                  src={inst_Logo}
+                  width="50"
+                  height="50"
+                />
+                {/* <img
                   src={inst_Logo}
                   alt="Logo"
                   width="80"
                   // height="48"
                   className="d-inline-block align-text-top"
-                />
+                /> */}
                 {/* <img
                     src={inst_Text_Logo}
                     alt="Logo"
@@ -39,13 +46,19 @@ const Footer = () => {
                 rel="noreferrer"
                 className="btn-footer"
               >
-                <img
+                  <HandySvg
+                  className="d-inline-block align-text-top social-icon"
+                  src={fb_Logo}
+                  width="50"
+                  height="50"
+                />
+                {/* <img
                   src={fb_Logo}
                   alt="Logo"
                   width="80"
                   // height="24"
                   className="d-inline-block align-text-top"
-                />
+                /> */}
                 {/* <img
                     src={fb_Text_Logo}
                     alt="Logo"

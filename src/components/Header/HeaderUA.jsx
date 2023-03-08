@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
+import { HandySvg } from 'handy-svg';
 import { NavLink } from 'react-router-dom';
 
 import './navbar.scss';
 import styles from './navbar.module.scss';
 
-import HomeIcon from 'shared/icons/home.svg'
+import HomeIcon from 'shared/icons/home.svg';
 
 import IconUA from '../Icon/IconUA';
 import IconPL from '../Icon/IconPL';
@@ -27,7 +28,7 @@ const HeaderUA = () => {
   const getPortfolioActive = () =>
     portfolioActiv.isActive ? styles.linkActive : styles.link;
 
-    // console.log({getPortfolioActive});
+  // console.log({getPortfolioActive});
 
   const removeActive = () => {
     setPortfolioActiv({ isActive: false });
@@ -39,7 +40,7 @@ const HeaderUA = () => {
   const addLangToLS = () => {
     localStorage.setItem('lang', 'pol');
     // <Navigate to="/pl/home" replace />
-  }
+  };
 
   return (
     <header>
@@ -70,18 +71,19 @@ const HeaderUA = () => {
                 id="navbarNavDropdown"
               >
                 <ul className="navbar-nav nav">
-                  <li className="nav-item nav-link">
+                  <li className="nav-item nav-link icon-wrapper">
                     <NavLink
                       to="/"
                       className={getActiveClass}
                       onClick={removeActive}
                     >
-                       <img
-                        src={HomeIcon}
-                        alt="Home"
-                        width="32"                        
+                      <HandySvg
                         className="home-icon"
+                        src={HomeIcon}
+                        width="32"
+                        height="32"
                       />
+
                       {/* Головна */}
                     </NavLink>
                   </li>
@@ -152,7 +154,7 @@ const HeaderUA = () => {
                   <li className="nav-item nav-link">
                     <NavLink
                       to="/ua/contacts"
-                      className={getActiveClass} 
+                      className={getActiveClass}
                       onClick={removeActive}
                     >
                       Контакти
@@ -183,7 +185,11 @@ const HeaderUA = () => {
 
                       <ul className="dropdown-menu fs-14 lang-menu">
                         <li>
-                          <a className="dropdown-item" href="/pl/home" onClick={addLangToLS}>
+                          <a
+                            className="dropdown-item"
+                            href="/pl/home"
+                            onClick={addLangToLS}
+                          >
                             <IconPL />
                           </a>
                         </li>

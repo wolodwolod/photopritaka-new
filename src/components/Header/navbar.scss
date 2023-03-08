@@ -134,7 +134,12 @@ header {
 }
 
 .home-icon {
-  color: var(--bs-gray-600);
+  stroke:var(--bs-gray-600);
+  fill: var(--bs-gray-600);
+}
+.icon-wrapper:hover .home-icon {
+  stroke: #2158CA;
+  fill: #2158CA;
 }
 
 a::after {

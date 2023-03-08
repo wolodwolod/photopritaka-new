@@ -28,6 +28,10 @@
   // text-shadow: 1px 0px 0px var(--yellow);
 }
 
+.Logo:hover .Logo_name {
+  color: #2158CA;  
+}
+
 .Logo_about {
   color: var(--bs-gray-700);
   font-family: var(--monserrat);

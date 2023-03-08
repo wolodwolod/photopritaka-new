@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { HandySvg } from 'handy-svg';
 import { NavLink } from 'react-router-dom';
 
 import './navbar.scss';
@@ -72,18 +73,19 @@ const HeaderPL = () => {
                 id="navbarNavDropdown"
               >
                 <ul className="navbar-nav nav">
-                  <li className="nav-item nav-link">
+                  <li className="nav-item nav-link icon-wrapper">
                     <NavLink
                       to="/pl/home"
                       className={getActiveClass}
                       onClick={removeActive}
                     >
-                      <img
-                        src={HomeIcon}
-                        alt="Home"
-                        width="32"
+                    <HandySvg
                         className="home-icon"
+                        src={HomeIcon}
+                        width="32"
+                        height="32"
                       />
+
                       {/* Główna */}
                     </NavLink>
                   </li>
