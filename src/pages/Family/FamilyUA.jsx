@@ -10,7 +10,7 @@ const FamilyUA = () => {
         </div>
         <FamilyImgGallery />
       </div>
-      <ButtonUp />
+      <ButtonUp lang='ukr' />
     </main>
   );
 };

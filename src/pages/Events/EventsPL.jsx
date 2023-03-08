@@ -12,7 +12,7 @@ const EventsPL = () => {
         </div>
         <EventsGallery />
       </div>
-      <ButtonUp />
+      <ButtonUp lang='pol' />
     </main>
   );
 };

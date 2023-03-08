@@ -10,7 +10,7 @@ const NewbornsPL = () => {
         </div>
         <NewbornsGallery />
       </div>
-      <ButtonUp />
+      <ButtonUp lang='pol' />
     </main>
   );
 };

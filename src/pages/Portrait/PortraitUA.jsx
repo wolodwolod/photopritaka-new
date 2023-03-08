@@ -13,7 +13,7 @@ const PortraitUA = () => {
         </div>
         <PortraitGallery />
       </div>
-      <ButtonUp />
+      <ButtonUp lang='ukr' />
     </main>
   );
 };

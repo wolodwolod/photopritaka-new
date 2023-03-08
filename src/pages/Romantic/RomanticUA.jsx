@@ -10,7 +10,7 @@ const RomanticUA = () => {
         </div>
         <RomanticGallery />
       </div>
-      <ButtonUp />
+      <ButtonUp lang='ukr' />
     </main>
   );
 };

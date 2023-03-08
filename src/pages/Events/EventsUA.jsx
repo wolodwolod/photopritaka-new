@@ -10,7 +10,7 @@ const EventsUA = () => {
         </div>
         <EventsGallery />
       </div>
-      <ButtonUp />
+      <ButtonUp lang='ukr' />
     </main>
   );
 };

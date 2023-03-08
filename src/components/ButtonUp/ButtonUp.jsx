@@ -1,7 +1,12 @@
 import { useState } from 'react';
 import styles from './btnUp.module.scss';
 
-const ButtonUp = () => {
+const title = {
+  ukr:"На початок",
+  pol:"W górę"
+}
+
+const ButtonUp = ({lang}) => {
   const [btnUpShow, setBtnUpShow] = useState({
     isShow: false,
   });
@@ -34,7 +39,8 @@ const ButtonUp = () => {
     <button
       onClick={goToTop}
       className={getClassNameBtnUp()}
-      title="Go to top"
+      // title="Go to top"
+      title={title[lang]}
     ></button>
   );
 };

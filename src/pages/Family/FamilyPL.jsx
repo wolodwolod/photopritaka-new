@@ -10,7 +10,7 @@ const FamilyPL = () => {
         </div>
         <FamilyImgGallery />
       </div>
-      <ButtonUp />
+      <ButtonUp lang='pol' />
     </main>
   );
 };

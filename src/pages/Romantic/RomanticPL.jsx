@@ -10,7 +10,7 @@ const RomanticPL = () => {
         </div>
         <RomanticGallery />
       </div>
-      <ButtonUp />
+      <ButtonUp lang='pol' />
     </main>
   );
 };

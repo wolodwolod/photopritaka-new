@@ -12,7 +12,7 @@ const PortraitPL = () => {
         </div>
         <PortraitGallery />
       </div>
-      <ButtonUp />
+      <ButtonUp lang='pol' />
     </main>
   );
 };

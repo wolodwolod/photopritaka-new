@@ -10,7 +10,7 @@ const NewbornsUA = () => {
         </div>
         <NewbornsGallery />
       </div>
-      <ButtonUp />
+      <ButtonUp lang='ukr' />
     </main>
   );
 };
