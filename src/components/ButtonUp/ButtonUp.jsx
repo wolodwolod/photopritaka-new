@@ -49,8 +49,8 @@ const ButtonUp = ({ lang }) => {
       <HandySvg
         className={styles.arrowUp}
         src={arrowUp}
-        width="40"
-        height="40"
+        width="35"
+        height="35"
       />
     </button>
   );
