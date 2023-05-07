@@ -3,6 +3,8 @@ import React, { useState, useEffect } from 'react';
 
 import Loader from 'components/Loader';
 
+import * as text from './feedback_form_text';
+
 import {
   MessageSuccessSendUA,
   MessageErrorSendUA,
@@ -197,9 +199,7 @@ const FeedbackFormUA = ({ onSubmit }) => {
         <MessageSuccessSendUA backToForm={backToForm} />
       )}
       {sessionStorage.getItem('err') === 'true' && (
-        <MessageErrorSendUA
-        
-         backToForm={backToForm} />
+        <MessageErrorSendUA backToForm={backToForm} />
       )}
     </div>
   );

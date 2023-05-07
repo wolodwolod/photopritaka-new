@@ -17,40 +17,26 @@ const Footer = () => {
             <div className="btn-footer_wrapper">
               <a
                 href="https://www.instagram.com/tatianapritaka/"
-                title="INSTAGRAM"
+                title="Instagram"
                 target="_blank"
                 rel="noreferrer"
                 className="btn-footer"
               >
                 <HandySvg
                   className="d-inline-block align-text-top social-icon"
-                  src={inst_Icon}                  
+                  src={inst_Icon}
                   width="40"
                   height="40"
                 />
-                {/* <img
-                  src={inst_Logo}
-                  alt="Logo"
-                  width="80"
-                  // height="48"
-                  className="d-inline-block align-text-top"
-                /> */}
-                {/* <img
-                    src={inst_Text_Logo}
-                    alt="Logo"
-                    width="80"
-                    // height="48"
-                    className="d-inline-block align-text-top"
-                  /> */}
               </a>
               <a
                 href="https://www.facebook.com/photopritaka"
-                title="FACEBOOK"
+                title="Facebook"
                 target="_blank"
                 rel="noreferrer"
                 className="btn-footer"
               >
-                  <HandySvg
+                <HandySvg
                   className="d-inline-block align-text-top social-icon"
                   src={fb_Icon}
                   width="40"
@@ -63,13 +49,6 @@ const Footer = () => {
                   // height="24"
                   className="d-inline-block align-text-top"
                 /> */}
-                {/* <img
-                    src={fb_Text_Logo}
-                    alt="Logo"
-                    width="80"
-                    // height="24"
-                    className="d-inline-block align-text-top"
-                  /> */}
               </a>
             </div>
           </div>

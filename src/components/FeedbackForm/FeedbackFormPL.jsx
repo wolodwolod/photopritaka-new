@@ -12,6 +12,11 @@ import envelope from 'shared/icons/envelope.svg';
 import formValidation from 'shared/services/formValidation';
 import { emailRegexp, nameRegexp } from 'shared/services/patterns';
 
+
+// TEXT
+
+
+
 const FeedbackFormPL = ({ onSubmit }) => {
   useEffect(() => {
     sessionStorage.setItem('sent', null);
