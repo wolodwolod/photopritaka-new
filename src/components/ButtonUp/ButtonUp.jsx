@@ -2,7 +2,7 @@ import { useState } from 'react';
 
 import { HandySvg } from 'handy-svg';
 
-import arrowUp from 'shared/icons/up-arr.svg'
+import arrowUp from 'shared/icons/up-arr.svg';
 
 import styles from './btnUp.module.scss';
 
