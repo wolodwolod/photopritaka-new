@@ -53,7 +53,7 @@ const СontactsPL = () => {
                         // height="48"
                         className="d-inline-block align-text-top"
                       />
-                      <p>miasto Nansy, Francja</p>
+                      <p>miasto KIJÓW, UKRAINA</p>
                     </div>
                   </div>
                 </div>
