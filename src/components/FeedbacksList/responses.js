@@ -9,7 +9,7 @@ const responses = [
     responseUA:
       'Тетяна здатна підвищити настрій, прибрати скованість перед камерою, створити приємну атмосферу. \nФото Тетяни - це можливість побачити чудо в звичайному. Вони багато чого розровідають не тільки про людей на світлинах, але і про талант фотографа надіхнути незабутньою радістю кожну мить життя.',
     responsePL:
-      'Tatiana potrafi podnieść nastrój, usunąć sztywność przed kamerą i stworzyć przyjemną atmosferę.\nZdjęcia Tatiany są okazją do zobaczenia cudu w zwyczajności. Są pełne życia i wiele mówią nie tylko o fotografowanych obiektach, ale także o samym fotografie.',
+      'Tatiana jest w stanie poprawić nastrój, usunąć sztywność przed aparatem i stworzyć przyjemną atmosferę. \nZdjęcia Tatiany są okazją do zobaczenia cudu w zwyczajności. Ujawniają wiele nie tylko o ludziach na zdjęciach, ale także o talencie fotografa do uczynienia każdej chwili życia niezapomnianą.',
   },
 ];
 
