@@ -7,7 +7,7 @@ const responses = [
     nameUA: 'Володимир Бендик',
     namePL:'Włodzimierz Bendyk',
     responseUA:
-      'Тетяна здатна підвищити настрій, прибрати скованість перед камерою, створити приємну атмосферу. \nСвітлини Тетяни - це можливість побачити чудо в звичайному. Вони сповнені життям і багато чого розровідають не тільки про об\'єкти зйомки, але і про самого фотографа.',
+      'Тетяна здатна підвищити настрій, прибрати скованість перед камерою, створити приємну атмосферу. \nСвітлини Тетяни - це можливість побачити чудо в звичайному. Вони багато чого розровідають не тільки про об\'єкти зйомки, але і про талант фотографа надіхнути незабутньою радістю кожну мить життя.',
     responsePL:
       'Tatiana potrafi podnieść nastrój, usunąć sztywność przed kamerą i stworzyć przyjemną atmosferę.\nZdjęcia Tatiany są okazją do zobaczenia cudu w zwyczajności. Są pełne życia i wiele mówią nie tylko o fotografowanych obiektach, ale także o samym fotografie.',
   },
