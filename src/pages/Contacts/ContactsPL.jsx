@@ -53,7 +53,7 @@ const СontactsPL = () => {
                         // height="48"
                         className="d-inline-block align-text-top"
                       />
-                      <p>miasto KIJÓW, UKRAINA</p>
+                      <p>miasto KRAKÓW, POLSKA</p>
                     </div>
                   </div>
                 </div>
