@@ -30,9 +30,19 @@ function App() {
       <Suspense fallback={<Loader backgrColor={'white'} />}>
         <Routes>
           <Route path="/" exact element={<LayoutPage />}>
-            <Route element={<RouteUA />}>
-              <Route index element={<HomePageUA />} />
+            <Route element={<RoutePL />}>
+              <Route index element={<HomePagePL />} />
               {/* <Route path="/ua/home" element={<HomePageUA />} /> */}
+              <Route path="/pl/feedbacks" element={<FeedbacksPL                                                    />} />
+              <Route path="/pl/contacts" element={<ContactsPL />} />
+              <Route path="/pl/family" element={<FamilyPL />} />
+              <Route path="/pl/romantic" element={<RomanticPL />} />
+              <Route path="/pl/newborns" element={<NewbornsPL />} />
+              <Route path="/pl/events" element={<EventsPL />} />
+              <Route path="/pl/portrait" element={<PortraitPL />} />
+            </Route>
+            <Route path="/ua" exact element={<RouteUA />}>
+              <Route index path="/ua/home" element={<HomePageUA />} />
               <Route path="/ua/feedbacks" element={<FeedbacksUA />} />
               <Route path="/ua/contacts" element={<ContactsUA />} />
               <Route path="/ua/family" element={<FamilyUA />} />
@@ -40,16 +50,6 @@ function App() {
               <Route path="/ua/newborns" element={<NewbornsUA />} />
               <Route path="/ua/events" element={<EventsUA />} />
               <Route path="/ua/portrait" element={<PortraitUA />} />
-            </Route>
-            <Route path="/pl" exact element={<RoutePL />}>
-              <Route index path="/pl/home" element={<HomePagePL />} />
-              <Route path="/pl/feedbacks" element={<FeedbacksPL />} />
-              <Route path="/pl/contacts" element={<ContactsPL />} />
-              <Route path="/pl/family" element={<FamilyPL />} />
-              <Route path="/pl/romantic" element={<RomanticPL />} />
-              <Route path="/pl/newborns" element={<NewbornsPL />} />
-              <Route path="/pl/events" element={<EventsPL />} />
-              <Route path="/pl/portrait" element={<PortraitPL />} />
             </Route>
           </Route>
           <Route path="*" element={<Navigate to="/" replace />} />
