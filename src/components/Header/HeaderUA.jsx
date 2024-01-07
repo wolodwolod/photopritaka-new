@@ -187,7 +187,7 @@ const HeaderUA = () => {
                         <li>
                           <a
                             className="dropdown-item"
-                            href="/pl/home"
+                            href="/"
                             onClick={addLangToLS}
                           >
                             <IconPL />
