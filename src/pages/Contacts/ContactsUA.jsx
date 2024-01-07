@@ -53,7 +53,7 @@ const СontactsUA = () => {
                         // height="48"
                         className="d-inline-block align-text-top"
                       />
-                      <p>місто КИЇВ, УКРАЇНА</p>
+                      <p>місто КРАКІВ, ПОЛЬЩА</p>
                     </div>
                   </div>
                 </div>
