@@ -2,7 +2,9 @@
   // Fonts
   --main-font: 'Verdana';
   --secondary-font: 'Roboto';
-  --bs-font-sans-serif: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  --bs-font-sans-serif: system-ui, -apple-system, 'Segoe UI', Roboto,
+    'Helvetica Neue', 'Noto Sans', 'Liberation Sans', Arial, sans-serif,
+    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   --monserrat: 'Montserrat', sans-serif;
 
   // Colors
@@ -14,7 +16,9 @@
   --color3: rgb(107, 208, 251);
   --color4: rgb(245, 249, 4);
   --color5: #f7f7f7;
+  --main-background-color: #efebe9;
   --grey-background-color: #e5e5e5;
+
   --font-black-color: #212121;
   --font-grey-color: #9b9faa;
   --universal-darkblue-color: #264061;
