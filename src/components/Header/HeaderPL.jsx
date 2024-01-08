@@ -56,7 +56,7 @@ const HeaderPL = () => {
                 </NavLink>
               </div>
 
-              <button
+              {/* <button
                 className="navbar-toggler"
                 type="button"
                 data-bs-toggle="collapse"
@@ -66,7 +66,7 @@ const HeaderPL = () => {
                 aria-label="Toggle navigation"
               >
                 <span className="navbar-toggler-icon"></span>
-              </button>
+              </button> */}
 
               <div
                 className="collapse navbar-collapse menu-wrapper"
