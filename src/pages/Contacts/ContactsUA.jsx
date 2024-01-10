@@ -3,8 +3,9 @@ import '../pages.scss';
 import MessageFormUA from 'components/MessageForm/MessageFormUA';
 import sendMessageUA from 'shared/services/sendMessageUA';
 
-import photographer from '../../shared/images/common-img/TP-md.jpg';
-import photographer_sm from '../../shared/images/common-img/TP-sm.jpg';
+import photographer from '../../shared/images/common-img/TPrit.jpg';
+import photographer_sm from '../../shared/images/common-img/TPr-sm.jpg';
+
 
 import location_svg from '../../shared/icons/location.svg';
 import envelope_svg from '../../shared/icons/envelope.svg';
