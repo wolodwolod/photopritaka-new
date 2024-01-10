@@ -20,6 +20,11 @@ import img15 from '../../shared/images/romantic-img/s/15.jpg';
 import img16 from '../../shared/images/romantic-img/s/16.jpg';
 import img17 from '../../shared/images/romantic-img/s/17.jpg';
 import img18 from '../../shared/images/romantic-img/s/18.jpg';
+import img19 from '../../shared/images/romantic-img/s/19.jpg';
+import img20 from '../../shared/images/romantic-img/s/20.jpg';
+import img21 from '../../shared/images/romantic-img/s/21.jpg';
+import img22 from '../../shared/images/romantic-img/s/22.jpg';
+import img23 from '../../shared/images/romantic-img/s/23.jpg';
 
 import limg1 from '../../shared/images/romantic-img/l/1.jpg';
 import limg2 from '../../shared/images/romantic-img/l/2.jpg';
@@ -39,6 +44,11 @@ import limg15 from '../../shared/images/romantic-img/l/15.jpg';
 import limg16 from '../../shared/images/romantic-img/l/16.jpg';
 import limg17 from '../../shared/images/romantic-img/l/17.jpg';
 import limg18 from '../../shared/images/romantic-img/l/18.jpg';
+import limg19 from '../../shared/images/romantic-img/l/19.jpg';
+import limg20 from '../../shared/images/romantic-img/l/20.jpg';
+import limg21 from '../../shared/images/romantic-img/l/21.jpg';
+import limg22 from '../../shared/images/romantic-img/l/22.jpg';
+import limg23 from '../../shared/images/romantic-img/l/23.jpg';
 
 import Gallery from './GalleryMasornyFancybox';
 
@@ -62,6 +72,11 @@ const RomanticGallery = () => {
     { id: 16, img: img16, limg: limg16, tag: 'photo16' },
     { id: 17, img: img17, limg: limg17, tag: 'photo17' },
     { id: 18, img: img18, limg: limg18, tag: 'photo18' },
+    { id: 19, img: img19, limg: limg19, tag: 'photo19' },
+    { id: 20, img: img20, limg: limg20, tag: 'photo20' },
+    { id: 21, img: img21, limg: limg21, tag: 'photo21' },
+    { id: 22, img: img22, limg: limg22, tag: 'photo22' },
+    { id: 23, img: img23, limg: limg23, tag: 'photo23' },
   ];
 
   return (

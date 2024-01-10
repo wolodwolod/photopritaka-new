@@ -23,6 +23,12 @@ import img18 from '../../shared/images/events-img/s/18.jpg';
 import img19 from '../../shared/images/events-img/s/19.jpg';
 import img20 from '../../shared/images/events-img/s/20.jpg';
 import img21 from '../../shared/images/events-img/s/21.jpg';
+import img22 from '../../shared/images/events-img/s/22.jpg';
+import img23 from '../../shared/images/events-img/s/23.jpg';
+import img24 from '../../shared/images/events-img/s/24.jpg';
+import img25 from '../../shared/images/events-img/s/25.jpg';
+import img26 from '../../shared/images/events-img/s/26.jpg';
+import img27 from '../../shared/images/events-img/s/27.jpg';
 
 import limg1 from '../../shared/images/events-img/l/1.jpg';
 import limg2 from '../../shared/images/events-img/l/2.jpg';
@@ -45,6 +51,12 @@ import limg18 from '../../shared/images/events-img/l/18.jpg';
 import limg19 from '../../shared/images/events-img/l/19.jpg';
 import limg20 from '../../shared/images/events-img/l/20.jpg';
 import limg21 from '../../shared/images/events-img/l/21.jpg';
+import limg22 from '../../shared/images/events-img/l/22.jpg';
+import limg23 from '../../shared/images/events-img/l/23.jpg';
+import limg24 from '../../shared/images/events-img/l/24.jpg';
+import limg25 from '../../shared/images/events-img/l/25.jpg';
+import limg26 from '../../shared/images/events-img/l/26.jpg';
+import limg27 from '../../shared/images/events-img/l/27.jpg';
 
 import Gallery from './GalleryMasornyFancybox';
 
@@ -71,6 +83,12 @@ const EventsGallery = () => {
     { id: 19, img: img19, limg: limg19, tag: 'photo19' },
     { id: 20, img: img20, limg: limg20, tag: 'photo20' },
     { id: 21, img: img21, limg: limg21, tag: 'photo21' },
+    { id: 22, img: img22, limg: limg22, tag: 'photo22' },
+    { id: 23, img: img23, limg: limg23, tag: 'photo23' },
+    { id: 24, img: img24, limg: limg24, tag: 'photo24' },
+    { id: 25, img: img25, limg: limg25, tag: 'photo25' },
+    { id: 26, img: img26, limg: limg26, tag: 'photo26' },
+    { id: 27, img: img27, limg: limg27, tag: 'photo27' },
   ];
 
   return (

@@ -37,6 +37,11 @@ import img32 from '../../shared/images/portrait-img/s/32.jpg';
 import img33 from '../../shared/images/portrait-img/s/33.jpg';
 import img34 from '../../shared/images/portrait-img/s/34.jpg';
 import img35 from '../../shared/images/portrait-img/s/35.jpg';
+import img36 from '../../shared/images/portrait-img/s/36.jpg';
+import img37 from '../../shared/images/portrait-img/s/37.jpg';
+import img38 from '../../shared/images/portrait-img/s/38.jpg';
+import img39 from '../../shared/images/portrait-img/s/39.jpg';
+import img40 from '../../shared/images/portrait-img/s/40.jpg';
 
 
 import limg1 from '../../shared/images/portrait-img/l/1.jpg';
@@ -74,6 +79,11 @@ import limg32 from '../../shared/images/portrait-img/l/32.jpg';
 import limg33 from '../../shared/images/portrait-img/l/33.jpg';
 import limg34 from '../../shared/images/portrait-img/l/34.jpg';
 import limg35 from '../../shared/images/portrait-img/l/35.jpg';
+import limg36 from '../../shared/images/portrait-img/l/36.jpg';
+import limg37 from '../../shared/images/portrait-img/l/37.jpg';
+import limg38 from '../../shared/images/portrait-img/l/38.jpg';
+import limg39 from '../../shared/images/portrait-img/l/39.jpg';
+import limg40 from '../../shared/images/portrait-img/l/40.jpg';
 
 import Gallery from './GalleryMasornyFancybox';
 
@@ -114,6 +124,11 @@ const PortraitGallery = () => {
     { id: 33, img: img33, limg: limg33, tag: 'photo33' },
     { id: 34, img: img34, limg: limg34, tag: 'photo34' },
     { id: 35, img: img35, limg: limg35, tag: 'photo35' },
+    { id: 36, img: img36, limg: limg36, tag: 'photo36' },
+    { id: 37, img: img37, limg: limg37, tag: 'photo37' },
+    { id: 38, img: img38, limg: limg38, tag: 'photo38' },
+    { id: 39, img: img39, limg: limg39, tag: 'photo39' },
+    { id: 40, img: img40, limg: limg40, tag: 'photo40' },
   ];
 
   return (

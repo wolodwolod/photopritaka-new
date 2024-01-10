@@ -48,7 +48,7 @@ const HeaderPL = () => {
             <div className="container-fluid  bold">
               <div className="navbar-brand logo">
                 <NavLink
-                  to="/pl/home"
+                  to="/"
                   className={styles.link}
                   onClick={removeActive}
                 >
@@ -75,7 +75,7 @@ const HeaderPL = () => {
                 <ul className="navbar-nav nav">
                   <li className="nav-item nav-link icon-wrapper">
                     <NavLink
-                      to="/pl/home"
+                      to="/"
                       className={getActiveClass}
                       onClick={removeActive}
                     >
