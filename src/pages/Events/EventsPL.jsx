@@ -1,4 +1,4 @@
-import EventsGallery from 'components/ImageGalleries/EventsGallery2';
+import EventsGallery from 'components/ImageGalleries/EventsGallery';
 import ButtonUp from 'components/ButtonUp';
 
 import '../pages.scss';
