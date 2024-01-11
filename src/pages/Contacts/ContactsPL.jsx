@@ -1,20 +1,21 @@
 import '../pages.scss';
 
-import MessageFormPL from 'components/MessageForm/MessageFormPL';
-import sendMessagePL from 'shared/services/sendMessagePL';
+// import MessageFormPL from 'components/MessageForm/MessageFormPL';
+// import sendMessagePL from 'shared/services/sendMessagePL';
 
 import photographer from '../../shared/images/common-img/TPrit.jpg';
 import photographer_sm from '../../shared/images/common-img/TPr-sm.jpg';
 
 import location_svg from '../../shared/icons/location.svg';
 import envelope_svg from '../../shared/icons/envelope.svg';
+import phone_svg from '../../shared/icons/tel.svg';
 
 const СontactsPL = () => {
   return (
     <main>
       <div className="container">
         <div className="row">
-          <div className="col-lg-6 col-md-12 col-sm-12">
+          <div className="col-lg-12 col-md-12 col-sm-12">
             <div className="first">
               <div className="row">
                 <div className="col-lg-6 col-md-5 col-sm-12">
@@ -45,6 +46,17 @@ const СontactsPL = () => {
                       />
                       <p>pritakaphoto@gmail.com</p>
                     </div>
+                   
+                    <div className="contacts_info_loc">
+                      <img
+                        src={phone_svg}
+                        alt="phone"
+                        width="30"
+                        // height="48"
+                        className="d-inline-block align-text-top"
+                      />
+                      <p>+48 783 725 112</p>
+                    </div>
                     <div className="contacts_info_loc">
                       <img
                         src={location_svg}
@@ -53,7 +65,9 @@ const СontactsPL = () => {
                         // height="48"
                         className="d-inline-block align-text-top"
                       />
-                      <p>miasto KRAKÓW, POLSKA</p>
+                      <p>KRAKÓW</p>
+                      <p>Małopolskie wojewódstwo</p>
+                      <p>POLSKA</p>
                     </div>
                   </div>
                 </div>
@@ -61,11 +75,11 @@ const СontactsPL = () => {
             </div>
           </div>
 
-          <div className="col-lg-6 col-md-12 col-sm-12 ">
+          {/* <div className="col-lg-6 col-md-12 col-sm-12 ">
             <div className="contacts_message">
               <MessageFormPL onSubmit={sendMessagePL} />
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </main>
