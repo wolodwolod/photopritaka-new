@@ -1,7 +1,7 @@
 import '../pages.scss';
 
-import MessageFormUA from 'components/MessageForm/MessageFormUA';
-import sendMessageUA from 'shared/services/sendMessageUA';
+// import MessageFormUA from 'components/MessageForm/MessageFormUA';
+// import sendMessageUA from 'shared/services/sendMessageUA';
 
 import photographer from '../../shared/images/common-img/TPrit.jpg';
 import photographer_sm from '../../shared/images/common-img/TPr-sm.jpg';
@@ -9,13 +9,14 @@ import photographer_sm from '../../shared/images/common-img/TPr-sm.jpg';
 
 import location_svg from '../../shared/icons/location.svg';
 import envelope_svg from '../../shared/icons/envelope.svg';
+import phone_svg from '../../shared/icons/tel.svg';
 
 const СontactsUA = () => {
   return (
     <main>
       <div className="container">
         <div className="row">
-          <div className="col-lg-6 col-md-12 col-sm-12">
+          <div className="col-lg-12 col-md-12 col-sm-12">
             <div className="first">
               <div className="row">
                 <div className="col-lg-6 col-md-5 col-sm-12">
@@ -48,13 +49,25 @@ const СontactsUA = () => {
                     </div>
                     <div className="contacts_info_loc">
                       <img
+                        src={phone_svg}
+                        alt="phone"
+                        width="30"
+                        // height="48"
+                        className="d-inline-block align-text-top"
+                      />
+                      <p>+48 783 725 112</p>
+                    </div>
+                    <div className="contacts_info_loc">
+                      <img
                         src={location_svg}
                         alt="Location"
                         width="30"
                         // height="48"
                         className="d-inline-block align-text-top"
                       />
-                      <p>місто КРАКІВ, ПОЛЬЩА</p>
+                      <p>КРАКІВ</p>
+                      <p>Малопольське воєводство</p>
+                      <p>ПОЛЬЩА</p>
                     </div>
                   </div>
                 </div>
@@ -62,11 +75,11 @@ const СontactsUA = () => {
             </div>
           </div>
 
-          <div className="col-lg-6 col-md-12 col-sm-12 ">
+          {/* <div className="col-lg-6 col-md-12 col-sm-12 ">
             <div className="contacts_message">
               <MessageFormUA onSubmit={sendMessageUA} />
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </main>
