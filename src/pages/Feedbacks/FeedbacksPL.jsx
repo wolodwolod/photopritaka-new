@@ -1,6 +1,6 @@
 import '../pages.scss';
 
-import FeedbackFormPL from 'components/FeedbackForm/FeedbackFormPL';
+import FeedbackFormContent from 'components/FeedbackForm/FeedbackFormPL';
 import FeedbacksListPL from 'components/FeedbacksList/FeedbacksListPL';
 import sendFeedbackPL from 'shared/services/sendFeedbackUA';
 
@@ -12,7 +12,7 @@ const FeedbacksPL = () => {
           <p className="page_about">Opinie</p>
         </div>
         <FeedbacksListPL />
-        <FeedbackFormPL onSubmit={sendFeedbackPL} />
+        <FeedbackFormContent />
       </div>
     </main>
   );

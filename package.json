@@ -2,7 +2,7 @@
   "name": "pritaka-photo",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://pritaka-photo.vercel.app/",
+  "homepage": "https://photopritaka.com",
   "dependencies": {
     "@aws-sdk/client-ses": "^3.245.0",
     "@fancyapps/ui": "^4.0.31",
@@ -26,6 +26,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "deploy": "aws s3 sync build/ s3://wonderful-app",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "lint:js": "eslint src/**/*.{js,jsx}"

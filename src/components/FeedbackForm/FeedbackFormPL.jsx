@@ -105,8 +105,8 @@ const FeedbackFormPL = ({ onSubmit }) => {
         </div>
       </div>
 
-      <div className="row">
-        <div className="col-lg-8 col-sm-12">
+      {/* <div className="row">
+        <div className="col-lg-8 col-sm-12"> */}
           {/* <form
             onSubmit={handleSubmit}
             className="bold text-uppercase needs-validation"
@@ -194,8 +194,8 @@ const FeedbackFormPL = ({ onSubmit }) => {
               &nbsp;&nbsp;Wyślij
             </button> */}
           {/* </form> */}
-        </div>
-      </div>
+        {/* </div>
+      </div> */}
       
     </div>
   );
