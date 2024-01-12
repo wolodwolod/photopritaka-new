@@ -10,7 +10,7 @@ import {
   MessageErrorSendUA,
 } from 'components/MessageForm/MessageFormContent';
 import './feedback_form.scss';
-import envelope from 'shared/icons/envelope.svg';
+import envelope_svg from '../../shared/icons/envelope.svg';
 import formValidation from 'shared/services/formValidation';
 import { emailRegexp, nameRegexp } from 'shared/services/patterns';
 
@@ -94,17 +94,25 @@ const FeedbackFormUA = ({ onSubmit }) => {
       <div className="row">
         <div className="col-12">
           <h4 className="feedbacks_form-title">Надішліть Ваш відгук</h4>
+          <img
+            src={envelope_svg}
+            alt="E-Mail"
+            width="30"
+            // height="48"
+            className="d-inline-block align-text-top contacts_info_svg"
+          />
+          <h4 className="feedbacks_form-title">photopritaka@gmail.com</h4>
         </div>
       </div>
       <div className="row">
         <div className="col-lg-8 col-sm-12">
-          <form
+          {/* <form
             onSubmit={handleSubmit}
             className="bold text-uppercase needs-validation"
             id="message-form"
             noValidate
-          >
-            <div className="mb-3">
+          > */}
+          {/* <div className="mb-3">
               <label htmlFor="validationInput1" className="form-label">
                 Ваша електронна адреса
               </label>
@@ -154,10 +162,10 @@ const FeedbackFormUA = ({ onSubmit }) => {
                 title="НАДІШЛІТЬ ВІДГУК, ВСЕ БУДЕ ДОБРЕ"
                 rows="5"
               ></textarea>
-            </div>
+            </div> */}
 
-            {/* <!-- Checkbox --> */}
-            {/* <div className="form-check mb-4">
+          {/* <!-- Checkbox --> */}
+          {/* <div className="form-check mb-4">
                 <input
                   className="form-check-input me-2"
                   type="checkbox"
@@ -169,7 +177,7 @@ const FeedbackFormUA = ({ onSubmit }) => {
                   Надішліть мені копію цього повідомлення
                 </label>
               </div> */}
-            <button
+          {/* <button
               id="message-button"
               disabled={disButton}
               type="submit"
@@ -183,8 +191,8 @@ const FeedbackFormUA = ({ onSubmit }) => {
                 className="d-inline-block align-text-top"
               />
               &nbsp;&nbsp;Надіслати
-            </button>
-          </form>
+            </button> */}
+          {/* </form> */}
         </div>
       </div>
     </div>

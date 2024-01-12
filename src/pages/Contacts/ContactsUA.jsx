@@ -19,7 +19,7 @@ const СontactsUA = () => {
           <div className="col-lg-12 col-md-12 col-sm-12">
             <div className="first">
               <div className="row">
-                <div className="col-lg-6 col-md-5 col-sm-12">
+                <div className="col-lg-4 col-md-4 col-sm-12">
                   <div className="contacts_photo-box">
                     <picture>
                       <source
@@ -35,7 +35,7 @@ const СontactsUA = () => {
                     </picture>
                   </div>
                 </div>
-                <div className="col-lg-6 col-md-7 col-sm-12 ">
+                <div className="col-lg-8 col-md-8 col-sm-12 ">
                   <div className="contacts_info">
                     <div className="contacts_info_mail">
                       <img
@@ -45,7 +45,7 @@ const СontactsUA = () => {
                         // height="48"
                         className="d-inline-block align-text-top contacts_info_svg"
                       />
-                      <p>pritakaphoto@gmail.com</p>
+                      <p>photopritaka@gmail.com</p>
                     </div>
                     <div className="contacts_info_loc">
                       <img

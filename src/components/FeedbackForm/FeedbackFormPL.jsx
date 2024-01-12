@@ -8,14 +8,11 @@ import {
   MessageErrorSendPL,
 } from 'components/MessageForm/MessageFormContent';
 import './feedback_form.scss';
-import envelope from 'shared/icons/envelope.svg';
+import envelope_svg from '../../shared/icons/envelope.svg';
 import formValidation from 'shared/services/formValidation';
 import { emailRegexp, nameRegexp } from 'shared/services/patterns';
 
-
 // TEXT
-
-
 
 const FeedbackFormPL = ({ onSubmit }) => {
   useEffect(() => {
@@ -97,19 +94,28 @@ const FeedbackFormPL = ({ onSubmit }) => {
       <div className="row">
         <div className="col-12">
           <h4 className="feedbacks_form-title">Wyślij swoją opinię</h4>
+          <img
+                        src={envelope_svg}
+                        alt="E-Mail"
+                        width="30"
+                        // height="48"
+                        className="d-inline-block align-text-top contacts_info_svg"
+                      />
+          <h4 className="feedbacks_form-title">photopritaka@gmail.com</h4>
         </div>
       </div>
+
       <div className="row">
         <div className="col-lg-8 col-sm-12">
-          <form
+          {/* <form
             onSubmit={handleSubmit}
             className="bold text-uppercase needs-validation"
             id="message-form"
             noValidate
-          >
-            <div className="mb-3">
+          > */}
+            {/* <div className="mb-3">
               <label htmlFor="validationInput1" className="form-label">
-              Twój adres e-mail
+                Twój adres e-mail
               </label>
               <input
                 type="email"
@@ -123,13 +129,13 @@ const FeedbackFormPL = ({ onSubmit }) => {
                 required
               />
               <div className="invalid-feedback">
-              Proszę wpisać aktualny adres e-mail
+                Proszę wpisać aktualny adres e-mail
               </div>
             </div>
 
             <div className="mb-3">
               <label htmlFor="validationInput2" className="form-label">
-              Imię
+                Imię
               </label>
               <input
                 type="text"
@@ -142,10 +148,10 @@ const FeedbackFormPL = ({ onSubmit }) => {
                 title="WPROWADŹ IMIĘ"
                 required
               />
-            </div>
-            <div className="mb-3">
+            </div> */}
+            {/* <div className="mb-3">
               <label htmlFor="validationTextarea1" className="form-label">
-              Opinia
+                Opinia
               </label>
               <textarea
                 name="formText"
@@ -157,7 +163,7 @@ const FeedbackFormPL = ({ onSubmit }) => {
                 title="WYŚLIJ KOMENTARZ, WSZYSTKO BĘDZIE DOBRZE"
                 rows="5"
               ></textarea>
-            </div>
+            </div> */}
 
             {/* <!-- Checkbox --> */}
             {/* <div className="form-check mb-4">
@@ -172,7 +178,7 @@ const FeedbackFormPL = ({ onSubmit }) => {
                   Надішліть мені копію цього повідомлення
                 </label>
               </div> */}
-            <button
+            {/* <button
               id="message-button"
               disabled={disButton}
               type="submit"
@@ -186,10 +192,11 @@ const FeedbackFormPL = ({ onSubmit }) => {
                 className="d-inline-block align-text-top"
               />
               &nbsp;&nbsp;Wyślij
-            </button>
-          </form>
+            </button> */}
+          {/* </form> */}
         </div>
       </div>
+      
     </div>
   );
 
@@ -202,9 +209,7 @@ const FeedbackFormPL = ({ onSubmit }) => {
         <MessageSuccessSendPL backToForm={backToForm} />
       )}
       {sessionStorage.getItem('err') === 'true' && (
-        <MessageErrorSendPL
-        
-         backToForm={backToForm} />
+        <MessageErrorSendPL backToForm={backToForm} />
       )}
     </div>
   );
