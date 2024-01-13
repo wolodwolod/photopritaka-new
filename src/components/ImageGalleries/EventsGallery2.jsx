@@ -49,6 +49,13 @@ import limg21 from '../../shared/images/events-img/l/21.jpg';
 import Gallery2 from './GalleryMasornyFancybox';
 
 const EventsGallery = () => {
+  // let imgs = [];
+  // for (let i = 1; i <= 12; i += 1) {
+  //   let obj = { id: `${i}`, img: `img${i}`, limg: `limg${i}`, tag: `events photo ${i}` };
+  //   console.log(obj);
+  //   imgs.push(obj);
+  // };
+
   const imgs = [
     { id: 1, img: img1, limg: limg1, tag: 'photo1' },
     { id: 2, img: img2, limg: limg2, tag: 'photo2' },

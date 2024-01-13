@@ -32,7 +32,6 @@ import limg12 from '../../shared/images/newborns-img/l/12.jpg';
 import Gallery from './GalleryMasornyFancybox';
 
 const NewbornsGallery = () => {
-  
   const imgs = [
     { id: 1, img: img1, limg: limg1, tag: 'photo1' },
     { id: 2, img: img2, limg: limg2, tag: 'photo2' },
