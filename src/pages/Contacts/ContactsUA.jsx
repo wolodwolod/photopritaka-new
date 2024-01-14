@@ -10,6 +10,7 @@ import photographer_sm from '../../shared/images/common-img/TPr-sm.jpg';
 import location_svg from '../../shared/icons/location.svg';
 import envelope_svg from '../../shared/icons/envelope.svg';
 import phone_svg from '../../shared/icons/tel.svg';
+import whatsapp_svg from '../../shared/icons/whatsapp.svg';
 
 const СontactsUA = () => {
   return (
@@ -37,7 +38,10 @@ const СontactsUA = () => {
                 </div>
                 <div className="col-lg-8 col-md-8 col-sm-12 ">
                   <div className="contacts_info">
-                    <div className="contacts_info_mail">
+                  <a
+                      className="contacts_info_mail"
+                      href="mailto:photopritaka@gmail.com"
+                    >
                       <img
                         src={envelope_svg}
                         alt="E-Mail"
@@ -46,17 +50,22 @@ const СontactsUA = () => {
                         className="d-inline-block align-text-top contacts_info_svg"
                       />
                       <p>photopritaka@gmail.com</p>
-                    </div>
-                    <div className="contacts_info_loc">
+                    </a>
+                    <a className="contacts_info_loc" href="tel:48783725112">
                       <img
                         src={phone_svg}
                         alt="phone"
                         width="30"
-                        // height="48"
+                        className="d-inline-block align-text-top"
+                      />
+                      <img
+                        src={whatsapp_svg}
+                        alt="whatsapp"
+                        width="24"
                         className="d-inline-block align-text-top"
                       />
                       <p>+48 783 725 112</p>
-                    </div>
+                    </a>
                     <div className="contacts_info_loc">
                       <img
                         src={location_svg}
