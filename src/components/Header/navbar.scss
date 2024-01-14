@@ -1,7 +1,7 @@
 /* HEADER */
 
 header {
-  padding: 10px 0;
+  padding-top: 10px;
   // background-color: var(--color1);
   // background-color: #fffcfa;
 
@@ -136,14 +136,24 @@ header {
 }
 
 .home-icon {
-  stroke:var(--bs-gray-600);
+  stroke: var(--bs-gray-600);
   fill: var(--bs-gray-600);
 }
 .icon-wrapper:hover .home-icon {
-  stroke: #2158CA;
-  fill: #2158CA;
+  stroke: #2158ca;
+  fill: #2158ca;
 }
 
 a::after {
   color: var(--bs-gray-600);
+}
+
+// .navbar-menu__lang {
+//   display: flex;
+// }
+
+@media screen and (max-width: 992px) {
+  .navbar_link__9Wpqp {
+    font-weight: 700 !important;
+  }
 }

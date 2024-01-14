@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
-import { HandySvg } from 'handy-svg';
+// import { HandySvg } from 'handy-svg';
 import { NavLink } from 'react-router-dom';
 
 import './navbar.scss';
 import styles from './navbar.module.scss';
 
-import HomeIcon from 'shared/icons/home.svg';
+// import HomeIcon from 'shared/icons/home.svg';
 
 import IconUA from '../Icon/IconUA';
 import IconPL from '../Icon/IconPL';
@@ -71,7 +71,7 @@ const HeaderUA = () => {
                 id="navbarNavDropdown"
               >
                 <ul className="navbar-nav nav">
-                  <li className="nav-item nav-link icon-wrapper">
+                  {/* <li className="nav-item nav-link icon-wrapper">
                     <NavLink
                       to="/ua/home"
                       className={getActiveClass}
@@ -82,11 +82,9 @@ const HeaderUA = () => {
                         src={HomeIcon}
                         width="32"
                         height="32"
-                      />
-
-                      {/* Головна */}
+                      />                     
                     </NavLink>
-                  </li>
+                  </li> */}
                   <li className="nav-item dropdown">
                     <div
                       // id="portfolio"

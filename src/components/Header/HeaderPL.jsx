@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
-import { HandySvg } from 'handy-svg';
+// import { HandySvg } from 'handy-svg';
 import { NavLink } from 'react-router-dom';
 
 import './navbar.scss';
 import styles from './navbar.module.scss';
 
-import HomeIcon from 'shared/icons/home.svg';
+// import HomeIcon from 'shared/icons/home.svg';
 
 import IconUA from '../Icon/IconUA';
 import IconPL from '../Icon/IconPL';
@@ -47,11 +47,7 @@ const HeaderPL = () => {
           <nav className="navbar navbar-expand-lg nav">
             <div className="container-fluid  bold">
               <div className="navbar-brand logo">
-                <NavLink
-                  to="/"
-                  className={styles.link}
-                  onClick={removeActive}
-                >
+                <NavLink to="/" className={styles.link} onClick={removeActive}>
                   <LogoPL />
                 </NavLink>
               </div>
@@ -73,22 +69,20 @@ const HeaderPL = () => {
                 id="navbarNavDropdown"
               >
                 <ul className="navbar-nav nav">
-                  <li className="nav-item nav-link icon-wrapper">
+                  {/* <li className="nav-item nav-link icon-wrapper">
                     <NavLink
                       to="/"
                       className={getActiveClass}
                       onClick={removeActive}
                     >
-                    <HandySvg
+                      <HandySvg
                         className="home-icon"
                         src={HomeIcon}
                         width="32"
                         height="32"
                       />
-
-                      {/* Główna */}
                     </NavLink>
-                  </li>
+                  </li> */}
                   <li className="nav-item dropdown">
                     <div
                       // id="portfolio"
