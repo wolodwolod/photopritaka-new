@@ -95,6 +95,14 @@
 .contacts_info_svg {
   margin-left: 1px;
 }
+
+@media screen and (max-width: 992px) {
+  .contacts_info_mail {
+    font-size: 22px;
+    font-weight: 700 !important;
+  }
+}
+
 .first {
   display: flex;
   height: 100%;

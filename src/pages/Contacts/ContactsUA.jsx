@@ -51,7 +51,7 @@ const СontactsUA = () => {
                       />
                       <p>photopritaka@gmail.com</p>
                     </a>
-                    <a className="contacts_info_loc" href="tel:48783725112">
+                    <a className="contacts_info_mail" href="tel:48783725112">
                       <img
                         src={phone_svg}
                         alt="phone"

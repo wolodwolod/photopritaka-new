@@ -15,6 +15,13 @@ import img9 from '../../shared/images/newborns-img/s/9.jpg';
 import img10 from '../../shared/images/newborns-img/s/10.jpg';
 import img11 from '../../shared/images/newborns-img/s/11.jpg';
 import img12 from '../../shared/images/newborns-img/s/12.jpg';
+import img13 from '../../shared/images/newborns-img/s/13.jpg';
+import img14 from '../../shared/images/newborns-img/s/14.jpg';
+import img15 from '../../shared/images/newborns-img/s/15.jpg';
+import img16 from '../../shared/images/newborns-img/s/16.jpg';
+import img17 from '../../shared/images/newborns-img/s/17.jpg';
+import img18 from '../../shared/images/newborns-img/s/18.jpg';
+import img19 from '../../shared/images/newborns-img/s/19.jpg';
 
 import limg1 from '../../shared/images/newborns-img/l/1.jpg';
 import limg2 from '../../shared/images/newborns-img/l/2.jpg';
@@ -28,6 +35,13 @@ import limg9 from '../../shared/images/newborns-img/l/9.jpg';
 import limg10 from '../../shared/images/newborns-img/l/10.jpg';
 import limg11 from '../../shared/images/newborns-img/l/11.jpg';
 import limg12 from '../../shared/images/newborns-img/l/12.jpg';
+import limg13 from '../../shared/images/newborns-img/l/13.jpg';
+import limg14 from '../../shared/images/newborns-img/l/14.jpg';
+import limg15 from '../../shared/images/newborns-img/l/15.jpg';
+import limg16 from '../../shared/images/newborns-img/l/16.jpg';
+import limg17 from '../../shared/images/newborns-img/l/17.jpg';
+import limg18 from '../../shared/images/newborns-img/l/18.jpg';
+import limg19 from '../../shared/images/newborns-img/l/19.jpg';
 
 import Gallery from './GalleryMasornyFancybox';
 
@@ -45,6 +59,13 @@ const NewbornsGallery = () => {
     { id: 10, img: img10, limg: limg10, tag: 'photo10' },
     { id: 11, img: img11, limg: limg11, tag: 'photo11' },
     { id: 12, img: img12, limg: limg12, tag: 'photo12' },
+    { id: 13, img: img13, limg: limg13, tag: 'photo13' },
+    { id: 14, img: img14, limg: limg14, tag: 'photo14' },
+    { id: 15, img: img15, limg: limg15, tag: 'photo15' },
+    { id: 16, img: img16, limg: limg16, tag: 'photo16' },
+    { id: 17, img: img17, limg: limg17, tag: 'photo17' },
+    { id: 18, img: img18, limg: limg18, tag: 'photo18' },
+    { id: 19, img: img19, limg: limg19, tag: 'photo19' },
   ];
 
   return (
