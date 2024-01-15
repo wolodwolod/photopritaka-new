@@ -93,27 +93,29 @@ const FeedbackFormPL = ({ onSubmit }) => {
     <div>
       <div className="row">
         <div className="col-12">
-          <h4 className="feedbacks_form-title">Wyślij swoją opinię</h4>
-          <img
-                        src={envelope_svg}
-                        alt="E-Mail"
-                        width="30"
-                        // height="48"
-                        className="d-inline-block align-text-top contacts_info_svg"
-                      />
-          <h4 className="feedbacks_form-title">photopritaka@gmail.com</h4>
+          <a href="mailto:photopritaka@gmail.com">
+            <h4 className="feedbacks_form-title">Wyślij swoją opinię</h4>
+            <img
+              src={envelope_svg}
+              alt="E-Mail"
+              width="30"
+              // height="48"
+              className="d-inline-block align-text-top contacts_info_svg"
+            />
+            <h4 className="feedbacks_form-title">photopritaka@gmail.com</h4>
+          </a>
         </div>
       </div>
 
       {/* <div className="row">
         <div className="col-lg-8 col-sm-12"> */}
-          {/* <form
+      {/* <form
             onSubmit={handleSubmit}
             className="bold text-uppercase needs-validation"
             id="message-form"
             noValidate
           > */}
-            {/* <div className="mb-3">
+      {/* <div className="mb-3">
               <label htmlFor="validationInput1" className="form-label">
                 Twój adres e-mail
               </label>
@@ -149,7 +151,7 @@ const FeedbackFormPL = ({ onSubmit }) => {
                 required
               />
             </div> */}
-            {/* <div className="mb-3">
+      {/* <div className="mb-3">
               <label htmlFor="validationTextarea1" className="form-label">
                 Opinia
               </label>
@@ -165,8 +167,8 @@ const FeedbackFormPL = ({ onSubmit }) => {
               ></textarea>
             </div> */}
 
-            {/* <!-- Checkbox --> */}
-            {/* <div className="form-check mb-4">
+      {/* <!-- Checkbox --> */}
+      {/* <div className="form-check mb-4">
                 <input
                   className="form-check-input me-2"
                   type="checkbox"
@@ -178,7 +180,7 @@ const FeedbackFormPL = ({ onSubmit }) => {
                   Надішліть мені копію цього повідомлення
                 </label>
               </div> */}
-            {/* <button
+      {/* <button
               id="message-button"
               disabled={disButton}
               type="submit"
@@ -193,10 +195,9 @@ const FeedbackFormPL = ({ onSubmit }) => {
               />
               &nbsp;&nbsp;Wyślij
             </button> */}
-          {/* </form> */}
-        {/* </div>
+      {/* </form> */}
+      {/* </div>
       </div> */}
-      
     </div>
   );
 
