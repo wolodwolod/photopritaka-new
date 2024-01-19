@@ -1,5 +1,6 @@
 import RomanticGallery from 'components/ImageGalleries/RomanticGallery';
 import ButtonUp from 'components/ButtonUp';
+import '../pages.scss';
 
 const RomanticPL = () => {
   return (

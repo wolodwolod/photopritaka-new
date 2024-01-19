@@ -52,12 +52,12 @@ const СontactsUA = () => {
                       <p>photopritaka@gmail.com</p>
                     </a>
                     <a className="contacts_info_mail" href="tel:48783725112">
-                      <img
+                      {/* <img
                         src={phone_svg}
                         alt="phone"
                         width="30"
                         className="d-inline-block align-text-top"
-                      />
+                      /> */}
                       <img
                         src={whatsapp_svg}
                         alt="whatsapp"

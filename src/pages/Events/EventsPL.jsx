@@ -2,6 +2,7 @@ import EventsGallery from 'components/ImageGalleries/EventsGallery';
 import ButtonUp from 'components/ButtonUp';
 
 import '../pages.scss';
+import './events.scss';
 
 const EventsPL = () => {
   return (

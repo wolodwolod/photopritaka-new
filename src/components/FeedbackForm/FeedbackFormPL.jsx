@@ -93,16 +93,16 @@ const FeedbackFormPL = ({ onSubmit }) => {
     <div>
       <div className="row">
         <div className="col-12">
-          <a href="mailto:photopritaka@gmail.com">
+          <a className="feedbacks-send" href="mailto:photopritaka@gmail.com">
             <h4 className="feedbacks_form-title">Wyślij swoją opinię</h4>
             <img
               src={envelope_svg}
               alt="E-Mail"
-              width="30"
+              width="24"
               // height="48"
               className="d-inline-block align-text-top contacts_info_svg"
             />
-            <h4 className="feedbacks_form-title">photopritaka@gmail.com</h4>
+            <h3 className="feedbacks_form-mail">photopritaka@gmail.com</h3>
           </a>
         </div>
       </div>
@@ -202,7 +202,7 @@ const FeedbackFormPL = ({ onSubmit }) => {
   );
 
   return (
-    <div className="feedbacks_form mt-5">
+    <div className="feedbacks_form mt-4">
       {loading && <Loader />}
 
       {!wasSent && FeedbackFormContent}

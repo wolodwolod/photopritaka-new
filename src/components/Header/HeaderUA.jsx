@@ -184,7 +184,7 @@ const HeaderUA = () => {
                       <ul className="dropdown-menu fs-14 lang-menu">
                         <li>
                           <a
-                            className="dropdown-item"
+                            className="dropdown-item lang-item"
                             href="/"
                             onClick={addLangToLS}
                           >

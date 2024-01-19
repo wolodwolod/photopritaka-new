@@ -1,5 +1,6 @@
 import EventsGallery from 'components/ImageGalleries/EventsGallery2';
 import ButtonUp from 'components/ButtonUp';
+import '../pages.scss';
 
 const EventsUA = () => {
   return (

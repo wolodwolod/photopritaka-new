@@ -1,5 +1,6 @@
 import NewbornsGallery from 'components/ImageGalleries/NewbornsGallery';
 import ButtonUp from 'components/ButtonUp';
+import '../pages.scss';
 
 const NewbornsPL = () => {
   return (

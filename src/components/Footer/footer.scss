@@ -1,6 +1,6 @@
 /* Підвал */
 footer {
-  padding: 20px 0 20px;
+  padding: 10px 0 20px;
   margin-top: 10px;
 }
 
@@ -41,21 +41,23 @@ footer {
 
 // .btn-footer:active,
 
-.social-icon {
+.icon-instagram,
+.icon-facebook {
   stroke: var(--bs-gray-600);
   fill: var(--bs-gray-600);
+  transition: 1s;
 }
 
-.btn-footer:hover .social-icon {
-  stroke: #2158ca;
-  fill: #2158ca;
-  // border: 1.5px solid #2158ca;
-  // border-radius: 20px;
+// .btn-footer:hover .social-icon {
+//   stroke: blue;
+//   fill: blue;  
+// }
 
-  // outline: none;
-  // // background: var(--color3);
-  // // color: var(--color3);
-  // border: 1.5px solid var(--blue);
-  // box-sizing: border-box;
-  // box-shadow: none;
+.btn-footer:hover .icon-instagram {
+  stroke: var(--hover-main);
+  fill: var(--hover-main);  
+}
+.btn-footer:hover .icon-facebook {
+  stroke: var(--hover-second);
+  fill: var(--hover-second);  
 }

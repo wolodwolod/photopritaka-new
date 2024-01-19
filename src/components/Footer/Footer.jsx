@@ -15,6 +15,7 @@ const Footer = () => {
         <div className="row">
           <div className="col-12 ">
             <div className="btn-footer_wrapper">
+              {/* Instagram */}
               <a
                 href="https://www.instagram.com/tatianapritaka/"
                 title="Instagram"
@@ -23,12 +24,13 @@ const Footer = () => {
                 className="btn-footer"
               >
                 <HandySvg
-                  className="d-inline-block align-text-top social-icon"
+                  className="d-inline-block align-text-top icon-instagram"
                   src={inst_Icon}
                   width="40"
                   height="40"
                 />
               </a>
+              {/* Facebook */}
               <a
                 href="https://www.facebook.com/photopritaka"
                 title="Facebook"
@@ -37,7 +39,7 @@ const Footer = () => {
                 className="btn-footer"
               >
                 <HandySvg
-                  className="d-inline-block align-text-top social-icon"
+                  className="d-inline-block align-text-top icon-facebook"
                   src={fb_Icon}
                   width="40"
                   height="40"

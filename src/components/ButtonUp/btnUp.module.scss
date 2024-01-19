@@ -37,12 +37,13 @@
 .arrowUp {
   stroke: var(--bs-gray-600);
   fill: var(--bs-gray-600);
+  transition: 1s;
 }
 
 @media (hover: hover) and (pointer: fine) {
   .btnUp:hover .arrowUp {
-    stroke: #2158ca;
-    fill: #2158ca;
+    stroke: red;
+    fill: red;
     // background-color: #f0f0f0; /* цвет заднего фона при наведении */
     // box-shadow: 0px 1px 3px 0px rgb(0 0 0 / 20%),
     //   0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 2px 1px -1px rgb(0 0 0 / 12%);

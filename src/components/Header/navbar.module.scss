@@ -10,6 +10,11 @@
   letter-spacing: 0.5px;
   color: var(--bs-gray-700);
   font-weight: 400;
+  transition: 1s;
+}
+
+.link:hover {
+  color: var(--hover-main);
 }
 
 .linkActive {
@@ -24,6 +29,11 @@
   color: var(--bs-gray-700);
   font-weight: 400;
   position: relative;
+  transition: 1s;
+}
+
+.linkActive:hover {
+color: var(--hover-main);
 }
 
 .linkActive::after {

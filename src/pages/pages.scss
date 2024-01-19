@@ -103,6 +103,13 @@
   }
 }
 
+.contacts_info_mail {
+  transition: 1s;
+}
+.contacts_info_mail:hover {
+  color: var(--hover-main);
+}
+
 .first {
   display: flex;
   height: 100%;
@@ -140,7 +147,7 @@
   justify-content: center;
 
   width: 100% !important;
-  height: 360px;
+  height: 340px;
   margin-right: 6px;
 
   // background-color: #eee;

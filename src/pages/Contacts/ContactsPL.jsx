@@ -8,7 +8,7 @@ import photographer_sm from '../../shared/images/common-img/TPr-sm.jpg';
 
 import location_svg from '../../shared/icons/location.svg';
 import envelope_svg from '../../shared/icons/envelope.svg';
-import phone_svg from '../../shared/icons/tel.svg';
+// import phone_svg from '../../shared/icons/tel.svg';
 import whatsapp_svg from '../../shared/icons/whatsapp.svg';
 
 const СontactsPL = () => {
@@ -51,12 +51,12 @@ const СontactsPL = () => {
                       <p>photopritaka@gmail.com</p>
                     </a>
                     <a className="contacts_info_mail" href="tel:48783725112">
-                      <img
+                      {/* <img
                         src={phone_svg}
                         alt="phone"
-                        width="30"
+                        width="18"
                         className="d-inline-block align-text-top"
-                      />
+                      /> */}
                       <img
                         src={whatsapp_svg}
                         alt="whatsapp"

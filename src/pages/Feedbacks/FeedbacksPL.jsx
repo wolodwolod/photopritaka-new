@@ -2,7 +2,7 @@ import '../pages.scss';
 
 import FeedbackFormContent from 'components/FeedbackForm/FeedbackFormPL';
 import FeedbacksListPL from 'components/FeedbacksList/FeedbacksListPL';
-import sendFeedbackPL from 'shared/services/sendFeedbackUA';
+// import sendFeedbackPL from 'shared/services/sendFeedbackUA';
 
 const FeedbacksPL = () => {
   return (

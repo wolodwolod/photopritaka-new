@@ -20,24 +20,32 @@
   // color: #4b5085;
   color: #000;
   // color: var(--bs-gray-900);
-  font-weight: 400;
+  font-weight: 300;
   letter-spacing: 1.5px;
-  font-size: 22px;
+  font-size: 20px;
   text-transform: uppercase;
+  transition: 1s;
   // text-shadow: 1px -2px 0px #dbd0ba;
   // text-shadow: 1px 0px 0px var(--yellow);
 }
 
+@media screen and (min-width: 330px) {
+  .Logo_name {
+    font-weight: 300;
+    letter-spacing: 1.5px;
+    font-size: 22px;
+  }
+}
 @media screen and (min-width: 400px) {
   .Logo_name {
     font-weight: 300;
     letter-spacing: 1.5px;
-    font-size: 28px;
+    font-size: 26px;
   }
 }
 
 .Logo:hover .Logo_name {
-  color: #2158ca;
+  color: var(--hover-main);
 }
 
 .Logo_about {

@@ -10,7 +10,7 @@ const FeedbacksListUA = () => {
           <div className="col-md-2 col-sm-12">
             <div className="feedbacks_item-info justify-content-center">
               <img src={img} alt={nameUA} className="rounded mx-auto d-block" />
-              <p className="text-center mb-0 mt-3">{nameUA}</p>
+              <p className="text-center mb-0 mt-1">{nameUA}</p>
             </div>
           </div>
           <div className="col-md-10 col-sm-12">

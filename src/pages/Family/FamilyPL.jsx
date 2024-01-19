@@ -1,5 +1,6 @@
 import FamilyImgGallery from 'components/ImageGalleries/FamilyGallery';
 import ButtonUp from 'components/ButtonUp';
+import '../pages.scss';
 
 const FamilyPL = () => {
   return (
