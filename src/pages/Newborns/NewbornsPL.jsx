@@ -5,13 +5,15 @@ import '../pages.scss';
 const NewbornsPL = () => {
   return (
     <main>
-      <div className="container">
-        <div className="col-12 page_title">
+      <section className="page_title">
+        <div className="container">
           <p className="page_about">Portfolio | Fotografia noworodkowa</p>
         </div>
+      </section>
+      <div className="container">
         <NewbornsGallery />
       </div>
-      <ButtonUp lang='pol' />
+      <ButtonUp lang="pol" />
     </main>
   );
 };

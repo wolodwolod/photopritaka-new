@@ -5,13 +5,15 @@ import '../pages.scss';
 const RomanticUA = () => {
   return (
     <main>
-      <div className="container">
-        <div className="col-12 page_title">
+      <section className="page_title">
+        <div className="container">
           <p className="page_about">Портфоліо | Романтичне фото</p>
         </div>
+      </section>
+      <div className="container">
         <RomanticGallery />
       </div>
-      <ButtonUp lang='ukr' />
+      <ButtonUp lang="ukr" />
     </main>
   );
 };

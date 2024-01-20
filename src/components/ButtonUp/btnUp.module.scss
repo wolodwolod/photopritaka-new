@@ -3,7 +3,7 @@
   background-color: #fff;
   right: 10px;
   bottom: 115px;
-  border: 2px solid #495057;
+  border: 2px solid var(--font-brown);
   border-radius: 50%;
   cursor: pointer;
   display: flex;
@@ -13,6 +13,7 @@
   height: 55px;
   box-shadow: 0px 1px 3px 0px rgb(0 0 0 / 20%), 0px 1px 1px 0px rgb(0 0 0 / 14%),
     0px 2px 1px -1px rgb(0 0 0 / 12%);
+    transition: 0.5s;
 }
 
 @media screen and (max-width: 400px) {
@@ -35,9 +36,9 @@
 }
 
 .arrowUp {
-  stroke: var(--bs-gray-600);
-  fill: var(--bs-gray-600);
-  transition: 1s;
+  stroke: var(--font-brown);
+  fill: var(--font-brown);
+  transition: 0.5s;
 }
 
 @media (hover: hover) and (pointer: fine) {
@@ -48,4 +49,8 @@
     // box-shadow: 0px 1px 3px 0px rgb(0 0 0 / 20%),
     //   0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 2px 1px -1px rgb(0 0 0 / 12%);
   }
+}
+
+.btnUp:hover {
+  border: 2px solid var(--hover-main); 
 }

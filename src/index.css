@@ -9,6 +9,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
   /* background-color:rgb(254, 254, 249) */
   background-color:var(--main-background-color);
+  /* background-color: var(--bs-light); */
+}
+
+main {
+   background-color:var(--main-background-color);
 }
 
 code {
@@ -51,9 +56,9 @@ code {
 } */
 
 /* Common */
-section {
+/* section {
   padding: 80px 0;
-}
+} */
 
 .fs-14 {
   font-size: 14px;

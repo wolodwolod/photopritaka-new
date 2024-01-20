@@ -7,13 +7,15 @@ import ButtonUp from 'components/ButtonUp';
 const PortraitUA = () => {
   return (
     <main>
-      <div className="container">
-        <div className="col-12 page_title">
+      <section className="page_title">
+        <div className="container">
           <p className="page_about">Портфоліо | Портрет</p>
         </div>
+      </section>
+      <div className="container">
         <PortraitGallery />
       </div>
-      <ButtonUp lang='ukr' />
+      <ButtonUp lang="ukr" />
     </main>
   );
 };

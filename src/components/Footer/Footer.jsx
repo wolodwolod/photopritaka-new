@@ -26,8 +26,8 @@ const Footer = () => {
                 <HandySvg
                   className="d-inline-block align-text-top icon-instagram"
                   src={inst_Icon}
-                  width="40"
-                  height="40"
+                  width="35"
+                  height="35"
                 />
               </a>
               {/* Facebook */}
@@ -41,8 +41,8 @@ const Footer = () => {
                 <HandySvg
                   className="d-inline-block align-text-top icon-facebook"
                   src={fb_Icon}
-                  width="40"
-                  height="40"
+                  width="35"
+                  height="35"
                 />
                 {/* <img
                   src={fb_Logo}

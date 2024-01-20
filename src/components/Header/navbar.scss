@@ -40,7 +40,7 @@ header {
 }
 .logo {
   // background-color: var(--color3);
-  padding: 8px 14px 8px 10px;
+  padding: 0px 14px 0px 10px !important;
   font-size: 20px;
   align-items: end;
   // opacity: 0.5;
@@ -52,7 +52,7 @@ header {
 // }
 .nav {
   // color: var(--font-black-color);
-  padding: 10px;
+  padding:  0 10px 10px 10px;
 }
 
 // .nav > li > a,
@@ -128,15 +128,13 @@ header {
   //   0px 2px 1px -1px rgb(0 0 0 / 12%);
 }
 
-.link {
-  // display: inline-block;
-  text-decoration: none;
-  // font-family: var(--monserrat);
-  font-size: 20px;
-  letter-spacing: 0.5px;
-  color: var(--bs-gray-700);
-  font-weight: 400;
-}
+// .link {
+//   text-decoration: none;  
+//   font-size: 20px;
+//   letter-spacing: 0.5px;
+//   color: var(--bs-gray-700);
+//   font-weight: 400;
+// }
 
 .home-icon {
   stroke: var(--bs-gray-600);

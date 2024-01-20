@@ -5,13 +5,15 @@ import '../pages.scss';
 const RomanticPL = () => {
   return (
     <main>
-      <div className="container">
-        <div className="col-12 page_title">
+      <section className="page_title">
+        <div className="container">
           <p className="page_about">Portfolio | Fotografia romantyczna</p>
         </div>
+      </section>
+      <div className="container">
         <RomanticGallery />
       </div>
-      <ButtonUp lang='pol' />
+      <ButtonUp lang="pol" />
     </main>
   );
 };

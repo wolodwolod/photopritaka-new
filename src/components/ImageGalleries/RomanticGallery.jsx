@@ -49,6 +49,7 @@ import limg19 from '../../shared/images/romantic-img/l/19.jpg';
 import limg20 from '../../shared/images/romantic-img/l/20.jpg';
 import limg21 from '../../shared/images/romantic-img/l/21.jpg';
 import limg22 from '../../shared/images/romantic-img/l/22.jpg';
+import limg23 from '../../shared/images/romantic-img/l/23.jpg';
 import limg24 from '../../shared/images/romantic-img/l/24.jpg';
 
 import Gallery from './GalleryMasornyFancybox';
@@ -77,6 +78,7 @@ const RomanticGallery = () => {
     { id: 20, img: img20, limg: limg20, tag: 'photo20' },
     { id: 21, img: img21, limg: limg21, tag: 'photo21' },
     { id: 22, img: img22, limg: limg22, tag: 'photo22' },
+    { id: 23, img: img23, limg: limg23, tag: 'photo23' },
     { id: 24, img: img24, limg: limg24, tag: 'photo24' },
   ];
 
