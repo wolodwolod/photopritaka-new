@@ -18,7 +18,7 @@
   margin: 0;
   font-stretch: 50%;
   // color: #4b5085;
-  color: #000;
+  color: var(--font-brown);
   // color: var(--bs-gray-900);
   font-weight: 300;
   letter-spacing: 1.5px;
@@ -49,7 +49,7 @@
 }
 
 .Logo_about {
-  color: var(--bs-gray-700);
+  color: var(--font-brown);
   font-family: var(--monserrat);
   letter-spacing: 3px;
   font-weight: 600;
