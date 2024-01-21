@@ -43,6 +43,7 @@ import img38 from '../../shared/images/portrait-img/s/38.jpg';
 import img39 from '../../shared/images/portrait-img/s/39.jpg';
 import img40 from '../../shared/images/portrait-img/s/40.jpg';
 import img41 from '../../shared/images/portrait-img/s/41.jpg';
+import img42 from '../../shared/images/portrait-img/s/42.jpg';
 
 
 import limg1 from '../../shared/images/portrait-img/l/1.jpg';
@@ -86,6 +87,7 @@ import limg38 from '../../shared/images/portrait-img/l/38.jpg';
 import limg39 from '../../shared/images/portrait-img/l/39.jpg';
 import limg40 from '../../shared/images/portrait-img/l/40.jpg';
 import limg41 from '../../shared/images/portrait-img/l/41.jpg';
+import limg42 from '../../shared/images/portrait-img/l/42.jpg';
 
 import Gallery from './GalleryMasornyFancybox';
 
@@ -132,6 +134,7 @@ const PortraitGallery = () => {
     { id: 39, img: img39, limg: limg39, tag: 'photo39' },
     { id: 40, img: img40, limg: limg40, tag: 'photo40' },
     { id: 41, img: img41, limg: limg41, tag: 'photo41' },
+    { id: 42, img: img42, limg: limg42, tag: 'photo42' },
   ];
 
   return (
