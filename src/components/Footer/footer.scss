@@ -5,42 +5,49 @@ footer {
   background-color: var(--second-background-color);
 }
 
-.btn-footer_wrapper {
+.footer_wrapper {
   display: flex;
-  justify-content: flex-start;
-  // background-color: #f0f0f0;
+  justify-content: space-between;
+}
+
+.footer_icon-wrapper {
+  display: flex;
+  justify-content: flex-start; 
+}
+
+.footer_copyright-wrapper {
+  display: flex;
+}
+
+.footer_copyright-wrapper p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.f_copyright-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // padding-top: 1px;
+  margin-right: 5px;
+}
+
+.f_p-wrapper {
+  color: var(--font-brown) ;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
 }
 
 .btn-footer {
-  display: block;
-  // margin-right: 20px;
-  padding: 0 20px;
-  // width: 176px;
-  // height: 44px;
-  // font-family: var(--main-font);
-  outline: none;
-  // font-style: normal;
-  // font-weight: bold;
-  // font-size: 14px;
-  // line-height: 17px;
+  display: block;  
+  padding: 0 20px; 
+  outline: none; 
   text-align: center;
-  letter-spacing: 0.04em;
-  // color: #ffffff;
-  background: inherit;
-  // box-shadow: 0px 4px 10px var(--font-grey-color);
-  // border: 0.5px solid #495057;
-  // border-radius: 20px;
+  letter-spacing: 0.04em; 
+  background: inherit; 
   cursor: pointer;
 }
-
-// .button:first-child {
-//   margin-bottom: 20px;
-//   @include mq(tablet) {
-//     margin-bottom: 0;
-//   }
-// }
-
-// .btn-footer:active,
 
 .icon-instagram,
 .icon-facebook {
@@ -49,15 +56,11 @@ footer {
   transition: 1s;
 }
 
-// .btn-footer:hover .social-icon {
-//   stroke: blue;
-//   fill: blue;  
-// }
-
 .btn-footer:hover .icon-instagram {
   stroke: var(--hover-main);
   fill: var(--hover-main);  
 }
+
 .btn-footer:hover .icon-facebook {
   stroke: var(--hover-second);
   fill: var(--hover-second);  

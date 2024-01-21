@@ -201,7 +201,7 @@ const FeedbackFormUA = ({ onSubmit }) => {
   );
 
   return (
-    <div className="feedbacks_form mt-5">
+    <div className="feedbacks_form mt-4">
       {loading && <Loader />}
 
       {!wasSent && FeedbackFormContent}

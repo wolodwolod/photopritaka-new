@@ -7,10 +7,12 @@ import FeedbacksListPL from 'components/FeedbacksList/FeedbacksListPL';
 const FeedbacksPL = () => {
   return (
     <main>
-      <div className="container">
-        <div className="col-12 page_title">
+      <section className="page_title">
+        <div className="container">
           <p className="page_about">Opinie</p>
         </div>
+      </section>
+      <div className="container">
         <FeedbacksListPL />
         <FeedbackFormContent />
       </div>
