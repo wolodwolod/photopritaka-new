@@ -1,4 +1,22 @@
 /* @import-normalize;  */
+@font-face {
+  font-family: "CopperplateGothic";  
+  src: url("./shared/font/Copperplate\ Gothic\ 32\ BC.otf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal;
+   }
+@font-face {
+  font-family: "CopperplateGothicBold";  
+  src: url("./shared/font/copperplategothic_bold.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: bold;
+   }
+@font-face {
+  font-family: "CopperplateGothicCyrillic";  
+  src: url("./shared/font/Copperplate\ Cyrillic\ Regular.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal;
+   }
 
 body {
   margin: 0;

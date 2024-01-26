@@ -15,10 +15,11 @@
 
 .Logo_name {
   //   font-family: 'Open Sans Light', sans-serif;
+  font-family: "CopperplateGothicBold";
   margin: 0;
   font-stretch: 50%;
   // color: #4b5085;
-  color: var(--font-brown);
+  color: var(--font-brown-light-1);
   // color: var(--bs-gray-900);
   font-weight: 300;
   letter-spacing: 1.5px;
@@ -49,12 +50,13 @@
 }
 
 .Logo_about {
-  color: var(--font-brown);
-  font-family: var(--monserrat);
+  font-family: "CopperplateGothic";
+  // font-family: var(--monserrat);
+  color: var(--font-brown);  
   font-size: 18px;
   letter-spacing: 3px;
   font-weight: 600;
   //   font-family: 'Pacifico', cursive;
-  font-style: italic;
+  // font-style: italic;
   margin: 0;
 }
