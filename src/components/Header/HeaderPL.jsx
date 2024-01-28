@@ -114,7 +114,7 @@ const HeaderPL = () => {
                           className={getActiveClass}
                           onClick={addActive}
                         >
-                          Fotografia rodzinna
+                          Zdięcia rodzinne
                         </NavLink>
                       </li>
                       <li className="dropdown-item child">
