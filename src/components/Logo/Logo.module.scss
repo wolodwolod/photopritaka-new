@@ -31,11 +31,26 @@
   // text-shadow: 1px 0px 0px var(--yellow);
 }
 
+.Logo_about {
+  font-family: "CopperplateCyrLight";
+  // font-family: var(--monserrat);
+  color: var(--font-brown);  
+  font-size: 16px;
+  letter-spacing: 3px;
+  font-weight: 600;
+  //   font-family: 'Pacifico', cursive;
+  // font-style: italic;
+  margin: 0;
+}
+
 @media screen and (min-width: 330px) {
   .Logo_name {
     font-weight: 300;
     letter-spacing: 1.5px;
     font-size: 22px;
+  }
+  .Logo_about {
+    font-size: 18px;
   }
 }
 @media screen and (min-width: 400px) {
@@ -44,6 +59,9 @@
     letter-spacing: 1.5px;
     font-size: 24px;
   }
+  .Logo_about {
+    font-size: 20px;
+  }
 }
 
 .Logo:hover .Logo_name {
@@ -51,14 +69,4 @@
   opacity: .7;
 }
 
-.Logo_about {
-  font-family: "CopperplateCyrLight";
-  // font-family: var(--monserrat);
-  color: var(--font-brown);  
-  font-size: 18px;
-  letter-spacing: 3px;
-  font-weight: 600;
-  //   font-family: 'Pacifico', cursive;
-  // font-style: italic;
-  margin: 0;
-}
+
