@@ -10,7 +10,8 @@
 .page_about {
   color: var(--font-brown-light);
   // color: var(--bs-gray-600);
-  font-family: var(--monserrat);
+  // font-family: var(--monserrat);
+  font-family: 'CopperplateGothic';
   font-size: 18px;
   letter-spacing: 3px;
   font-weight: 600;
@@ -89,12 +90,14 @@
   // height: 100%;
   font-size: 18px;
   // margin-bottom: 10px;
-  box-shadow: 0px 1px 3px 0px rgb(0 0 0 / 20%), 0px 1px 1px 0px rgb(0 0 0 / 14%),
+  box-shadow: 0px 1px 3px 0px rgb(0 0 0 / 20%), 0px 1px 1px 0px rgb(0 0 0 / 14%);
   //       0px 2px 1px -1px rgb(0 0 0 / 12%);
 }
 
 .contacts_info_svg {
   margin-left: 1px;
+  height: 30px;
+  fill: var(--font-brown);
 }
 
 @media screen and (max-width: 992px) {
@@ -111,6 +114,11 @@
   color: var(--hover-main);
 }
 
+.contacts_info_mail:hover .contacts_info_svg {
+  fill: var(--font-brown-light-2);
+  // stroke: var(--font-brown-light-2);
+}
+
 .first {
   display: flex;
   height: 100%;
@@ -124,8 +132,6 @@
   // box-shadow: 0px 1px 3px 0px rgb(0 0 0 / 20%), 0px 1px 1px 0px rgb(0 0 0 / 14%),
   // 0px 2px 1px -1px rgb(0 0 0 / 12%);
 }
-
-
 
 // CAROUSEL
 
@@ -272,6 +278,14 @@
   font-size: 30px;
 }
 
+.page_about_1,
+.page_about_2,
+.page_about_3,
+.page_about_4,
+.page_about_5 {
+  font-family: var(--monserrat);
+  font-style: italic;
+}
 
 @media screen and (max-width: 767px) {
   .page_about_1,
@@ -283,4 +297,3 @@
     // white-space:pre-wrap;
   }
 }
-

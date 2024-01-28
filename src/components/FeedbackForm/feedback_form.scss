@@ -44,6 +44,7 @@
 
 .feedbacks-send {
   display: flex;
+  // height: 30px;
   align-items:center;
   text-decoration: none;
   color: var(--font-brown);
@@ -59,10 +60,20 @@
 .feedbacks-send:hover .feedbacks_form-mail {
   color: var(--hover-main);
 }
+.feedbacks-send:hover .contacts_info_svg {
+  fill: var(--font-brown-light-2);
+  // stroke: var(--font-brown-light-2);
+}
 
 .contacts_info_svg {
   margin-right: 10px;
+  height: 30px;
 }
+
+// .contacts_info_svg:hover {
+//   fill: var(--font-brown-light-2);
+//   // stroke: var(--font-brown-light-2);
+// }
 
 .btn-go {
   display: block;

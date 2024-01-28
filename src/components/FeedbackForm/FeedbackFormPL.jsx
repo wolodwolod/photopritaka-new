@@ -1,6 +1,6 @@
 // <!-- FEEDBACK -->
 import React, { useState, useEffect } from 'react';
-
+import { HandySvg } from 'handy-svg';
 import Loader from 'components/Loader';
 
 import {
@@ -95,7 +95,7 @@ const FeedbackFormPL = ({ onSubmit }) => {
         <div className="col-12">
           <a className="feedbacks-send" href="mailto:photopritaka@gmail.com">
             <h4 className="feedbacks_form-title">Wyślij swoją opinię</h4>
-            <img
+            <HandySvg
               src={envelope_svg}
               alt="E-Mail"
               width="24"

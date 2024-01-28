@@ -15,16 +15,17 @@
 
 .Logo_name {
   //   font-family: 'Open Sans Light', sans-serif;
-  font-family: "CopperplateGothicBold";
+  font-family: "CopperplateGothicBoldCyr";
   margin: 0;
   font-stretch: 50%;
   // color: #4b5085;
-  color: var(--font-brown-light-1);
+  color: var(--font-brown-light-2);
   // color: var(--bs-gray-900);
   font-weight: 300;
   letter-spacing: 1.5px;
-  font-size: 18px;
-  text-transform: uppercase;
+  font-size: 20px;
+  opacity: .7;
+  // text-transform: uppercase;
   transition: 0.5s;
   // text-shadow: 1px -2px 0px #dbd0ba;
   // text-shadow: 1px 0px 0px var(--yellow);
@@ -34,7 +35,7 @@
   .Logo_name {
     font-weight: 300;
     letter-spacing: 1.5px;
-    font-size: 20px;
+    font-size: 22px;
   }
 }
 @media screen and (min-width: 400px) {
@@ -47,10 +48,11 @@
 
 .Logo:hover .Logo_name {
   color: var(--hover-main);
+  opacity: .7;
 }
 
 .Logo_about {
-  font-family: "CopperplateGothic";
+  font-family: "CopperplateCyrLight";
   // font-family: var(--monserrat);
   color: var(--font-brown);  
   font-size: 18px;

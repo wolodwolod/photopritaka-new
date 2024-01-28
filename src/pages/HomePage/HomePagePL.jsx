@@ -12,7 +12,7 @@ import img5 from 'shared/images/events-img/s/11.jpg';
 const HomePagePL = () => {
   const slideItems = [
     { id: 1, img: img1, tag: 'Portret' },
-    { id: 2, img: img2, tag: 'Zdjęcia rodzinne' },
+    { id: 2, img: img2, tag: 'Fotografia rodzinna' },
     { id: 3, img: img3, tag: 'Fotografia romantyczna' },
     { id: 4, img: img4, tag: 'Fotografia noworodkowa' },
     { id: 5, img: img5, tag: 'Wydarzenia' },

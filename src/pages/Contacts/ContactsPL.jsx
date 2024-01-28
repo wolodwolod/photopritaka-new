@@ -5,7 +5,7 @@ import '../pages.scss';
 
 import photographer from '../../shared/images/common-img/TPrit.jpg';
 import photographer_sm from '../../shared/images/common-img/TPr-sm.jpg';
-
+import { HandySvg } from 'handy-svg';
 import location_svg from '../../shared/icons/location.svg';
 import envelope_svg from '../../shared/icons/envelope.svg';
 // import phone_svg from '../../shared/icons/tel.svg';
@@ -41,7 +41,7 @@ const СontactsPL = () => {
                       className="contacts_info_mail"
                       href="mailto:photopritaka@gmail.com"
                     >
-                      <img
+                      <HandySvg
                         src={envelope_svg}
                         alt="E-Mail"
                         width="25"
