@@ -1,10 +1,10 @@
 .LogoBox {
   display: flex;
   background-image: url( '../../shared/icons/photo-outline.svg' );
-  background-size: 200px 100px;
-  background-position: 40%;
+  background-size: 120px;
+  background-position: 42% 5%;
   background-repeat: no-repeat;
-  padding: 18px 0;
+  padding: 20px 0;
 }
 
 // .Logo_Img {
@@ -41,10 +41,10 @@
   font-family: "CopperplateCyrLight";
   // font-family: var(--monserrat);
   color: #bc5418;  
-  font-size: 22px;
+  font-size: 20px;
   // text-transform: uppercase;
   // justify-content: space-between;
-  letter-spacing: 11.3px;
+  letter-spacing: 10.6px;
   font-weight: 600;
   //   font-family: 'Pacifico', cursive;
   // font-style: italic;
@@ -59,8 +59,8 @@
     // opacity: .9;
   }
   .Logo_about {
-    font-size: 24px;
-    letter-spacing: 12.2px;
+    font-size: 22px;
+    letter-spacing: 11.4px;
   }
 }
 @media screen and (min-width: 992px) {
@@ -71,8 +71,8 @@
     // opacity: .8;
   }
   .Logo_about {
-    font-size: 26px;
-    letter-spacing: 12.9px;
+    font-size: 24px;
+    letter-spacing: 12.2px;
   }
 }
 
