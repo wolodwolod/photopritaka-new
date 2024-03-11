@@ -7,7 +7,7 @@ const EventsUA = () => {
     <main>
       <section className="page_title">
         <div className="container">
-          <p className="page_about">Портфоліо | Події</p>
+          <h3 className="page_about">Портфоліо | Події</h3>
         </div>
       </section>
       <div className="container">

@@ -9,7 +9,7 @@ const FeedbacksPL = () => {
     <main>
       <section className="page_title">
         <div className="container">
-          <p className="page_about">Opinie</p>
+          <h3 className="page_about">Opinie</h3>
         </div>
       </section>
       <div className="container">

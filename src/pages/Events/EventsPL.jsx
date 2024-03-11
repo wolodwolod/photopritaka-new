@@ -9,7 +9,7 @@ const EventsPL = () => {
     <main>
       <section className="page_title">
         <div className="container">
-          <p className="page_about">Portfolio | Wydarzenia</p>
+          <h3 className="page_about">Portfolio | Wydarzenia</h3>
         </div>
       </section>
       <div className="container">

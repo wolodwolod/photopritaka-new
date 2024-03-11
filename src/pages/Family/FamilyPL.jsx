@@ -7,7 +7,7 @@ const FamilyPL = () => {
     <main>
       <section className="page_title">
         <div className="container">
-          <p className="page_about">Portfolio | Zdięcia rodzinne</p>
+          <h3 className="page_about">Portfolio | Zdięcia rodzinne</h3>
         </div>
       </section>
       <div className="container">

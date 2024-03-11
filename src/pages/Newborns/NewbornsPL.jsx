@@ -7,7 +7,7 @@ const NewbornsPL = () => {
     <main>
       <section className="page_title">
         <div className="container">
-          <p className="page_about">Portfolio | Fotografia noworodkowa</p>
+          <h3 className="page_about">Portfolio | Fotografia noworodkowa</h3>
         </div>
       </section>
       <div className="container">

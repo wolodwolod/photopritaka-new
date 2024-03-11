@@ -7,7 +7,7 @@ const RomanticPL = () => {
     <main>
       <section className="page_title">
         <div className="container">
-          <p className="page_about">Portfolio | Fotografia romantyczna</p>
+          <h3 className="page_about">Portfolio | Fotografia romantyczna</h3>
         </div>
       </section>
       <div className="container">

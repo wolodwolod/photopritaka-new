@@ -7,7 +7,7 @@ const PortraitPL = () => {
     <main>
       <section className="page_title">
         <div className="container">
-          <p className="page_about">Portfolio | Portret</p>
+          <h3 className="page_about">Portfolio | Portret</h3>
         </div>
       </section>
       <div className="container">

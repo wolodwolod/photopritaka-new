@@ -7,7 +7,7 @@ const FamilyUA = () => {
     <main>
       <section className="page_title">
         <div className="container">
-          <p className="page_about">Портфоліо | Сімейне фото</p>
+          <h3 className="page_about">Портфоліо | Сімейне фото</h3>
         </div>
       </section>
       <div className="container">

@@ -1,10 +1,15 @@
 .LogoBox {
   display: flex;
+  background-image: url( '../../shared/icons/photo-outline.svg' );
+  background-size: 200px 100px;
+  background-position: 40%;
+  background-repeat: no-repeat;
+  padding: 18px 0;
 }
 
-.Logo_Img {
-  max-height: 67px;
-}
+// .Logo_Img {
+//   max-height: 67px;
+// }
 
 .Logo {
   line-height: 1.2;
@@ -23,8 +28,8 @@
   // color: var(--bs-gray-900);
   font-weight: 300;
   letter-spacing: 1.5px;
-  font-size: 20px;
-  // opacity: .9;
+  font-size: 22px;
+  opacity: 1;
   // text-transform: uppercase;
   transition: 0.5s;
   // text-shadow: 1px -2px 0px #dbd0ba;
@@ -32,11 +37,14 @@
 }
 
 .Logo_about {
+  // display: flex;
   font-family: "CopperplateCyrLight";
   // font-family: var(--monserrat);
-  color: var(--font-brown);  
-  font-size: 16px;
-  letter-spacing: 3px;
+  color: #bc5418;  
+  font-size: 22px;
+  // text-transform: uppercase;
+  // justify-content: space-between;
+  letter-spacing: 11.3px;
   font-weight: 600;
   //   font-family: 'Pacifico', cursive;
   // font-style: italic;
@@ -47,22 +55,24 @@
   .Logo_name {
     font-weight: 300;
     letter-spacing: 1.5px;
-    font-size: 22px;
-    opacity: .8;
+    font-size: 24px;
+    // opacity: .9;
   }
   .Logo_about {
-    font-size: 18px;
+    font-size: 24px;
+    letter-spacing: 12.2px;
   }
 }
 @media screen and (min-width: 992px) {
   .Logo_name {
     font-weight: 300;
     letter-spacing: 1.5px;
-    font-size: 24px;
-    opacity: .7;
+    font-size: 26px;
+    // opacity: .8;
   }
   .Logo_about {
-    font-size: 20px;
+    font-size: 26px;
+    letter-spacing: 12.9px;
   }
 }
 
@@ -70,5 +80,11 @@
   color: var(--hover-main);
   opacity: .7;
 }
+
+// .Logo_about_Wrapper {
+//   background-color:#fff;
+//   border: 1.5px solid var(--font-brown-light-2);
+//   border-radius: 5px;
+// }
 
 

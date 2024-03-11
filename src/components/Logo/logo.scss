@@ -1,0 +1,45 @@
+.logo_name {    
+    font-family: "CopperplateGothicBoldCyr";
+    margin: 0;
+    font-stretch: 50%;  
+    color: var(--font-brown-light-2); 
+    
+    font-weight: 300;   
+    font-size: 22px;
+    opacity: 1;
+    // text-transform: uppercase;
+    transition: 0.5s; 
+  }
+  
+.logo_name_pl {   
+    letter-spacing: 1.5px;   
+  }
+.logo_name_ua {    
+    letter-spacing: 2px;    
+  }
+
+  @media screen and (min-width: 575px) {
+    .logo_name {
+      font-weight: 300;
+    //   letter-spacing: 1.5px;
+      font-size: 24px;
+      // opacity: .9;
+    }
+    .Logo_about {
+      font-size: 24px;
+      letter-spacing: 12.2px;
+    }
+  }
+  @media screen and (min-width: 992px) {
+    .logo_name {
+      font-weight: 300;
+    //   letter-spacing: 1.5px;
+      font-size: 26px;
+      // opacity: .8;
+    }
+    .Logo_about {
+      font-size: 26px;
+      letter-spacing: 12.9px;
+    }
+  }
+  

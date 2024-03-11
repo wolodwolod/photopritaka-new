@@ -41,6 +41,7 @@ header {
 .logo {
   // background-color: var(--color3);
   padding: 0px 5px 0px 10px !important;
+  margin-right: 0 !important;
   font-size: 20px;
   align-items: end;
   // opacity: 0.5;
@@ -75,7 +76,7 @@ header {
   height: auto;
  
   margin-bottom: 5px;
-  background-color: var(--main-background-color) !important;
+  // background-color: var(--main-background-color) !important;
 }
 
 .lang-item {

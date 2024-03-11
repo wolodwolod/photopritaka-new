@@ -9,7 +9,7 @@ const PortraitUA = () => {
     <main>
       <section className="page_title">
         <div className="container">
-          <p className="page_about">Портфоліо | Портрет</p>
+          <h3 className="page_about">Портфоліо | Портрет</h3>
         </div>
       </section>
       <div className="container">

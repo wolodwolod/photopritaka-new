@@ -3,9 +3,10 @@
 .feedbacks_form {
   // background-color: var(--color1);
 
-  background-color: #f0f0f0;
-  padding: 10px;
-  border-radius: 3px;
+  background-color: #fff;
+  padding: 10px;  
+  border: 1.5px solid var(--font-brown-light-2);
+  border-radius: 5px;
   // background-color: #f0f0f0;
   // background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../../shared/images/common-img/main-1.jpg");
   // background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../../shared/images/common-img/main-1.jpg");
@@ -47,7 +48,7 @@
   // height: 30px;
   align-items:center;
   text-decoration: none;
-  color: var(--font-brown);
+  color: var(--font-brown);  
 }
 
 @media screen and (max-width: 575px) {

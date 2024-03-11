@@ -2,7 +2,7 @@
 footer {
   padding: 5px 0;
   margin-top: 10px;
-  background-color: var(--second-background-color);
+  background-color: var(--bs-light);;
 }
 
 .footer_wrapper {
@@ -52,8 +52,8 @@ footer {
 
 .icon-instagram,
 .icon-facebook {
-  stroke: var(--font-brown-light);
-  fill: var(--font-brown-light);
+  stroke: var(--font-brown);
+  fill: var(--font-brown);
   transition: 1s;
 }
 

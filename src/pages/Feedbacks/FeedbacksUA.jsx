@@ -9,7 +9,7 @@ const FeedbacksUA = () => {
     <main>
       <section className="page_title">
         <div className="container">
-          <p className="page_about">Відгуки</p>
+          <h3 className="page_about">Відгуки</h3>
         </div>
       </section>
       <div className="container">

@@ -22,12 +22,13 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   /* background-color:rgb(254, 254, 249) */
-  background-color:var(--main-background-color);
-  /* background-color: var(--bs-light); */
+  /* background-color:var(--second-background-color); */
+  background-color: var(--bs-light);
 }
 
 main {
-   background-color:var(--main-background-color);
+   /* background-color:var(--second-background-color); */
+   background-color: var(--bs-light);
 }
 
 code {

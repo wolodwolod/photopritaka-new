@@ -29,6 +29,7 @@ import img24 from '../../shared/images/events-img/s/24.jpg';
 import img25 from '../../shared/images/events-img/s/25.jpg';
 import img26 from '../../shared/images/events-img/s/26.jpg';
 import img27 from '../../shared/images/events-img/s/27.jpg';
+import img28 from '../../shared/images/events-img/s/28.jpg';
 
 import limg1 from '../../shared/images/events-img/l/1.jpg';
 import limg2 from '../../shared/images/events-img/l/2.jpg';
@@ -57,6 +58,7 @@ import limg24 from '../../shared/images/events-img/l/24.jpg';
 import limg25 from '../../shared/images/events-img/l/25.jpg';
 import limg26 from '../../shared/images/events-img/l/26.jpg';
 import limg27 from '../../shared/images/events-img/l/27.jpg';
+import limg28 from '../../shared/images/events-img/l/28.jpg';
 
 import Gallery from './GalleryMasornyFancybox';
 
@@ -89,6 +91,7 @@ const EventsGallery = () => {
     { id: 25, img: img25, limg: limg25, tag: 'photo25' },
     { id: 26, img: img26, limg: limg26, tag: 'photo26' },
     { id: 27, img: img27, limg: limg27, tag: 'photo27' },
+    { id: 28, img: img28, limg: limg28, tag: 'photo28' },
   ];
 
   return (
